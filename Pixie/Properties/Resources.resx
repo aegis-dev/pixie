@@ -118,6 +118,288 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="font_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_39.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_49.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_53.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_54.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_55.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_56" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_56.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_57" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_57.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_58.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_59" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_59.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_61.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_62" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_62.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_63" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_63.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_65" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_65.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_66" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_66.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_67" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_67.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_68" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_68.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_69" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_69.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_70" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_70.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_71.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_72" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_72.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_73" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_73.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_74" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_74.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_75" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_75.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_76" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_76.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_77" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_77.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_78" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_78.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_79" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_79.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_81" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_81.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_82" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_82.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_83" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_83.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_84" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_84.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_85" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_85.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_86" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_86.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_87" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_87.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_88.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_89" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_89.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_90.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_91" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_91.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_92" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_92.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_93" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_93.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_94" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\internal\assets\font\3x5\font_94.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="fragment_shader" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Internal\Assets\screen_shader.frag;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>

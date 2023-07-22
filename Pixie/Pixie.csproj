@@ -8,23 +8,214 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Internal\Assets\font\3x5\font_1.png" />
+    <None Remove="Internal\Assets\font\3x5\font_10.png" />
+    <None Remove="Internal\Assets\font\3x5\font_11.png" />
+    <None Remove="Internal\Assets\font\3x5\font_12.png" />
+    <None Remove="Internal\Assets\font\3x5\font_13.png" />
+    <None Remove="Internal\Assets\font\3x5\font_14.png" />
+    <None Remove="Internal\Assets\font\3x5\font_15.png" />
+    <None Remove="Internal\Assets\font\3x5\font_16.png" />
+    <None Remove="Internal\Assets\font\3x5\font_17.png" />
+    <None Remove="Internal\Assets\font\3x5\font_18.png" />
+    <None Remove="Internal\Assets\font\3x5\font_19.png" />
+    <None Remove="Internal\Assets\font\3x5\font_2.png" />
+    <None Remove="Internal\Assets\font\3x5\font_20.png" />
+    <None Remove="Internal\Assets\font\3x5\font_21.png" />
+    <None Remove="Internal\Assets\font\3x5\font_22.png" />
+    <None Remove="Internal\Assets\font\3x5\font_23.png" />
+    <None Remove="Internal\Assets\font\3x5\font_24.png" />
+    <None Remove="Internal\Assets\font\3x5\font_25.png" />
+    <None Remove="Internal\Assets\font\3x5\font_26.png" />
+    <None Remove="Internal\Assets\font\3x5\font_27.png" />
+    <None Remove="Internal\Assets\font\3x5\font_28.png" />
+    <None Remove="Internal\Assets\font\3x5\font_29.png" />
+    <None Remove="Internal\Assets\font\3x5\font_3.png" />
+    <None Remove="Internal\Assets\font\3x5\font_30.png" />
+    <None Remove="Internal\Assets\font\3x5\font_31.png" />
+    <None Remove="Internal\Assets\font\3x5\font_32.png" />
+    <None Remove="Internal\Assets\font\3x5\font_33.png" />
+    <None Remove="Internal\Assets\font\3x5\font_34.png" />
+    <None Remove="Internal\Assets\font\3x5\font_35.png" />
+    <None Remove="Internal\Assets\font\3x5\font_36.png" />
+    <None Remove="Internal\Assets\font\3x5\font_37.png" />
+    <None Remove="Internal\Assets\font\3x5\font_38.png" />
+    <None Remove="Internal\Assets\font\3x5\font_39.png" />
+    <None Remove="Internal\Assets\font\3x5\font_4.png" />
+    <None Remove="Internal\Assets\font\3x5\font_40.png" />
+    <None Remove="Internal\Assets\font\3x5\font_41.png" />
+    <None Remove="Internal\Assets\font\3x5\font_42.png" />
+    <None Remove="Internal\Assets\font\3x5\font_43.png" />
+    <None Remove="Internal\Assets\font\3x5\font_44.png" />
+    <None Remove="Internal\Assets\font\3x5\font_45.png" />
+    <None Remove="Internal\Assets\font\3x5\font_46.png" />
+    <None Remove="Internal\Assets\font\3x5\font_47.png" />
+    <None Remove="Internal\Assets\font\3x5\font_48.png" />
+    <None Remove="Internal\Assets\font\3x5\font_49.png" />
+    <None Remove="Internal\Assets\font\3x5\font_5.png" />
+    <None Remove="Internal\Assets\font\3x5\font_50.png" />
+    <None Remove="Internal\Assets\font\3x5\font_51.png" />
+    <None Remove="Internal\Assets\font\3x5\font_52.png" />
+    <None Remove="Internal\Assets\font\3x5\font_53.png" />
+    <None Remove="Internal\Assets\font\3x5\font_54.png" />
+    <None Remove="Internal\Assets\font\3x5\font_55.png" />
+    <None Remove="Internal\Assets\font\3x5\font_56.png" />
+    <None Remove="Internal\Assets\font\3x5\font_57.png" />
+    <None Remove="Internal\Assets\font\3x5\font_58.png" />
+    <None Remove="Internal\Assets\font\3x5\font_59.png" />
+    <None Remove="Internal\Assets\font\3x5\font_6.png" />
+    <None Remove="Internal\Assets\font\3x5\font_60.png" />
+    <None Remove="Internal\Assets\font\3x5\font_61.png" />
+    <None Remove="Internal\Assets\font\3x5\font_62.png" />
+    <None Remove="Internal\Assets\font\3x5\font_63.png" />
+    <None Remove="Internal\Assets\font\3x5\font_64.png" />
+    <None Remove="Internal\Assets\font\3x5\font_65.png" />
+    <None Remove="Internal\Assets\font\3x5\font_66.png" />
+    <None Remove="Internal\Assets\font\3x5\font_67.png" />
+    <None Remove="Internal\Assets\font\3x5\font_68.png" />
+    <None Remove="Internal\Assets\font\3x5\font_69.png" />
+    <None Remove="Internal\Assets\font\3x5\font_7.png" />
+    <None Remove="Internal\Assets\font\3x5\font_70.png" />
+    <None Remove="Internal\Assets\font\3x5\font_71.png" />
+    <None Remove="Internal\Assets\font\3x5\font_72.png" />
+    <None Remove="Internal\Assets\font\3x5\font_73.png" />
+    <None Remove="Internal\Assets\font\3x5\font_74.png" />
+    <None Remove="Internal\Assets\font\3x5\font_75.png" />
+    <None Remove="Internal\Assets\font\3x5\font_76.png" />
+    <None Remove="Internal\Assets\font\3x5\font_77.png" />
+    <None Remove="Internal\Assets\font\3x5\font_78.png" />
+    <None Remove="Internal\Assets\font\3x5\font_79.png" />
+    <None Remove="Internal\Assets\font\3x5\font_8.png" />
+    <None Remove="Internal\Assets\font\3x5\font_80.png" />
+    <None Remove="Internal\Assets\font\3x5\font_81.png" />
+    <None Remove="Internal\Assets\font\3x5\font_82.png" />
+    <None Remove="Internal\Assets\font\3x5\font_83.png" />
+    <None Remove="Internal\Assets\font\3x5\font_84.png" />
+    <None Remove="Internal\Assets\font\3x5\font_85.png" />
+    <None Remove="Internal\Assets\font\3x5\font_86.png" />
+    <None Remove="Internal\Assets\font\3x5\font_87.png" />
+    <None Remove="Internal\Assets\font\3x5\font_88.png" />
+    <None Remove="Internal\Assets\font\3x5\font_89.png" />
+    <None Remove="Internal\Assets\font\3x5\font_9.png" />
+    <None Remove="Internal\Assets\font\3x5\font_90.png" />
+    <None Remove="Internal\Assets\font\3x5\font_91.png" />
+    <None Remove="Internal\Assets\font\3x5\font_92.png" />
+    <None Remove="Internal\Assets\font\3x5\font_93.png" />
+    <None Remove="Internal\Assets\font\3x5\font_94.png" />
     <None Remove="Internal\Assets\screen_shader.frag" />
     <None Remove="Internal\Assets\screen_shader.vert" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Internal\Assets\screen_shader.frag">
+    <Resource Include="Internal\Assets\screen_shader.frag">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Internal\Assets\screen_shader.vert">
+    </Resource>
+    <Resource Include="Internal\Assets\screen_shader.vert">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
+    </Resource>
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Silk.NET" Version="2.17.1" />
     <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
     <PackageReference Include="System.Resources.Extensions" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Internal\Assets\font\3x5\font_1.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_10.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_11.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_12.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_13.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_14.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_15.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_16.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_17.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_18.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_19.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_2.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_20.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_21.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_22.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_23.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_24.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_25.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_26.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_27.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_28.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_29.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_3.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_30.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_31.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_32.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_33.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_34.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_35.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_36.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_37.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_38.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_39.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_4.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_40.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_41.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_42.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_43.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_44.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_45.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_46.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_47.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_48.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_49.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_5.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_50.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_51.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_52.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_53.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_54.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_55.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_56.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_57.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_58.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_59.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_6.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_60.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_61.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_62.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_63.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_64.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_65.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_66.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_67.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_68.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_69.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_7.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_70.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_71.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_72.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_73.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_74.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_75.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_76.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_77.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_78.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_79.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_8.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_80.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_81.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_82.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_83.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_84.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_85.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_86.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_87.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_88.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_89.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_9.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_90.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_91.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_92.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_93.png" />
+    <Resource Include="Internal\Assets\font\3x5\font_94.png" />
   </ItemGroup>
 
   <ItemGroup>
