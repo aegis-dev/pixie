@@ -60,7 +60,7 @@ namespace Pixie
 
         internal Texture LoadPaletteTexture(in DataManager dataManager)
         {
-            List<Color> palette = Palette.GetPalette();
+            IReadOnlyList<Color> palette = Palette.GetPalette();
 
             List<byte> paletteTextureData = new List<byte>();
             foreach(Color color in palette)
@@ -120,7 +120,7 @@ namespace Pixie
             Point(x, y, (byte)((byte)color + ((byte)brightness * (byte)PixieColor.Count)));
         }
 
-        public void Point(long x, long y, PixieColor color, List<PointLight> lights)
+        public void Point(long x, long y, PixieColor color, IReadOnlyList<PointLight> lights)
         {
             Brightness brightness = Brightness;
             foreach (PointLight light in lights)
@@ -442,7 +442,7 @@ namespace Pixie
             }
         }
 
-        public void Sprite(in Sprite sprite, long x, long y, bool flip, List<PointLight> lights)
+        public void Sprite(in Sprite sprite, long x, long y, bool flip, IReadOnlyList<PointLight> lights)
         {
             uint spriteWidth = sprite.Width;
             uint spriteHeight = sprite.Height;

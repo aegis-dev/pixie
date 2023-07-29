@@ -5,7 +5,6 @@ using Silk.NET.Maths;
 using Window = Silk.NET.Windowing.Window;
 
 using Pixie.Internal;
-using Silk.NET.SDL;
 
 namespace Pixie
 {
