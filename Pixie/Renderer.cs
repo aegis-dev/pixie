@@ -387,6 +387,11 @@ namespace Pixie
 
         public void Sprite(in Sprite sprite, long x, long y, bool flip)
         {
+            if (sprite is null)
+            {
+                throw new ArgumentNullException(nameof(sprite));
+            }
+
             uint spriteWidth = sprite.Width;
             uint spriteHeight = sprite.Height;
             for (uint spriteX = 0; spriteX < spriteWidth; ++spriteX)

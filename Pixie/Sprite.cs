@@ -1,7 +1,5 @@
 ﻿using Pixie.Internal;
-using Pixie.Properties;
 using System.Drawing;
-using System.Drawing.Imaging;
 
 namespace Pixie
 {
@@ -9,16 +7,16 @@ namespace Pixie
     {
         public uint Width { get; }
         public uint Height { get; }
-        public List<List<PixieColor>> Pixels { get; }
+        public IReadOnlyList<IReadOnlyList<PixieColor>> Pixels { get; }
 
-        private Sprite(uint width, uint height, List<List<PixieColor>> pixels) 
+        public Sprite(uint width, uint height, IReadOnlyList<IReadOnlyList<PixieColor>> pixels) 
         { 
             this.Width = width;
             this.Height = height;
             this.Pixels = pixels;
         }
 
-        public static unsafe Sprite FromIndexedPNG(in Bitmap bitmap)
+        public static Sprite FromBitmapPNG(in Bitmap bitmap)
         {
             List<List<PixieColor>> pixels = new List<List<PixieColor>>();
 

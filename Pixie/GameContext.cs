@@ -121,7 +121,16 @@ namespace Pixie
 
         private void OnUpdate(double deltaTime)
         {
-            Scene scene = _scene.OnUpdate(_renderer, _input, (float)deltaTime);
+            GameState state = new GameState();
+            Scene scene = _scene.OnUpdate(state, _renderer, _input, (float)deltaTime);
+
+            if (state.ShouldShutDown())
+            {
+                _scene.OnDestroy();
+                _window.Close();
+                return;
+            }
+
             if (scene != null)
             {
                 if (_scene != null)

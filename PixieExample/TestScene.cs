@@ -7,7 +7,7 @@ namespace PixieExample
     internal class TestScene : Scene
     {
         private Random random = new Random();
-        private Sprite sprite = Sprite.FromIndexedPNG(Resources.test);
+        private SpriteSheet spriteSheet = SpriteSheet.FromBitmapPNG(Resources.test, 8, 8);
 
         public override void OnStart(Renderer renderer)
         {
@@ -15,8 +15,13 @@ namespace PixieExample
             renderer.CameraY = 64;
         }
 
-        public override Scene OnUpdate(Renderer renderer, Input input, float deltaTime)
+        public override Scene OnUpdate(GameState state, Renderer renderer, Input input, float deltaTime)
         {
+            if (input.KeyPressed(Key.Escape))
+            {
+                state.ShutDown();
+            }
+
             return null;
         }
 
@@ -28,6 +33,9 @@ namespace PixieExample
             {
                 renderer.Point(x - 1, 0, (byte)x);
             }
+
+            Sprite sprite = spriteSheet.GetSpriteAtIndex(3);
+            renderer.Sprite(sprite, 0, 64, false);
 
             renderer.Circle(renderer.CameraX + input.MouseX, renderer.CameraY + input.MouseY, 5, PixieColor.Red);
 
