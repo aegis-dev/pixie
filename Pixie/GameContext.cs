@@ -5,19 +5,20 @@ using Silk.NET.Maths;
 using Window = Silk.NET.Windowing.Window;
 
 using Pixie.Internal;
+using Silk.NET.SDL;
 
 namespace Pixie
 {
     public class GameContext
     {
         private readonly IWindow _window;
-        private IInputContext _input;
         private GL _gl;
 
         private uint _bufferWidth;
         private uint _bufferHeight;
         private DataManager _dataManager;
         private Renderer _renderer;
+        private Input _input;
         private Scene _scene;
 
         public GameContext(uint bufferWidth, uint bufferHeight, string title, bool fullscrean)
@@ -64,7 +65,6 @@ namespace Pixie
         private void OnLoad()
         {
             _gl = GL.GetApi(_window);
-            _input = _window.CreateInput();
 
             if (_window.WindowState == WindowState.Fullscreen)
             {
@@ -102,6 +102,13 @@ namespace Pixie
                 new FrameBuffer(_dataManager, _bufferWidth, _bufferHeight), 
                 new GLRenderer(_gl)
             );
+            _input = new Input(
+                _window.CreateInput(), 
+                _bufferWidth, 
+                _bufferHeight, 
+                displayWidth, 
+                displayHeight
+            );
 
             _scene.OnStart(_renderer);
         }
@@ -114,10 +121,7 @@ namespace Pixie
 
         private void OnUpdate(double deltaTime)
         {
-            IKeyboard keyboard = _input.Keyboards.Count > 0 ? _input.Keyboards[0] : null;
-            IMouse mouse = _input.Mice.Count > 0 ? _input.Mice[0] : null;
-
-            Scene scene = _scene.OnUpdate(_renderer, keyboard, mouse, (float)deltaTime);
+            Scene scene = _scene.OnUpdate(_renderer, _input, (float)deltaTime);
             if (scene != null)
             {
                 if (_scene != null)
@@ -133,8 +137,10 @@ namespace Pixie
             } 
             else
             {
-                _scene.OnRender(_renderer, (float)deltaTime);
+                _scene.OnRender(_renderer, _input, (float)deltaTime);
             }
+
+            _input.UpdateLastStates();
         }
 
         private void OnRender(double deltaTime)
