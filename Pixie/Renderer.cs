@@ -11,6 +11,16 @@ namespace Pixie
         public long CameraX { get; set; }
         public long CameraY { get; set; }
         public Brightness Brightness { get; set; }
+        public uint FrameBufferWidth
+        {
+            get { return _frameBuffer.Width; }
+        }
+
+        public uint FrameBufferHeight
+        {
+            get { return _frameBuffer.Height; }
+        }
+
 
         private readonly DataManager _dataManager;
         private readonly long _cameraOriginX;
