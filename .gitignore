@@ -402,8 +402,6 @@ FodyWeavers.xsd
 /**/packages/
 /**/bin/
 /**/obj/
-_site
 
-docs/api/.manifest
-
-docs/api/*.yml
+docfx/api/.manifest
+docfx/api/*.yml
