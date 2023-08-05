@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 
 namespace Pixie.Internal
 {
-    public static class VertexAttributes
+    internal static class VertexAttributes
     {
         public const uint AttributesCount = 2;
         public const uint PositionAttributeId = 0;
@@ -16,7 +16,7 @@ namespace Pixie.Internal
     }
 
     [StructLayout(LayoutKind.Sequential, Pack = 1)]
-    public struct VertexData
+    internal struct VertexData
     {
         public const uint PositionOffset = 0;
         public const uint TextureCoordOffset = sizeof(float) * 3;

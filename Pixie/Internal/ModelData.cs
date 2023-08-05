@@ -1,6 +1,6 @@
 ﻿namespace Pixie.Internal
 {
-    public struct ModelData
+    internal struct ModelData
     {
         public readonly VertexData[] VertexData;
         public readonly int[] Indices;

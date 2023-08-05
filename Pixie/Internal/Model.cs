@@ -1,6 +1,6 @@
 ﻿namespace Pixie.Internal
 {
-    public class Model
+    internal class Model
     {
         public uint VaoID { get; }
         public ModelData ModelData { get; }

@@ -4,7 +4,7 @@ using System.Drawing.Imaging;
 
 namespace Pixie.Internal
 {
-    public class DataManager
+    internal class DataManager
     {
         private readonly GL _gl;
 

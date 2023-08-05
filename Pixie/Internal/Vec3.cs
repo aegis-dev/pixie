@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 namespace Pixie.Internal
 {
     [StructLayout(LayoutKind.Sequential, Pack = 1)]
-    public struct Vec3
+    internal struct Vec3
     {
         public float X;
         public float Y;

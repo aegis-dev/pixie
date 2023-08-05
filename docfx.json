@@ -1,0 +1,56 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "Pixie/**.csproj"
+          ]
+        }
+      ],
+      "dest": "docs/api",
+      "includePrivateMembers": false,
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false,
+      "noRestore": false,
+      "namespaceLayout": "flattened",
+      "memberLayout": "samePage",
+      "allowCompilationErrors": false
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "docs/api/**.yml",
+          "docs/api/index.md"
+        ]
+      },
+      {
+        "files": [
+          "docs/examples/**.md",
+          "docs/examples/**/toc.yml",
+          "docs/toc.yml",
+          "docs/*.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "docs/images/**"
+        ]
+      }
+    ],
+    "output": "docs/_site",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "default",
+      "modern"
+    ],
+    "postProcessors": [],
+    "keepFileLink": false,
+    "disableGitFeatures": false
+  }
+}

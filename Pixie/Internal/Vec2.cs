@@ -3,7 +3,7 @@
 namespace Pixie.Internal
 {
     [StructLayout(LayoutKind.Sequential, Pack = 1)]
-    public struct Vec2
+    internal struct Vec2
     {
         public float X;
         public float Y;

@@ -2,7 +2,7 @@
 
 namespace Pixie.Internal
 {
-    public enum ImageMode
+    internal enum ImageMode
     {
         RED = GLEnum.Red,
         RGB = GLEnum.Rgb,

@@ -2,7 +2,7 @@
 
 namespace Pixie.Internal
 {
-    public class Texture
+    internal class Texture
     {
         public uint Width { get; }
         public uint Height { get; }
