@@ -405,3 +405,5 @@ FodyWeavers.xsd
 
 docfx/api/.manifest
 docfx/api/*.yml
+
+docs/manifest.json
