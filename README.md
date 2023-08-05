@@ -7,6 +7,7 @@ Pixie is heavily inspired by Pico8 where simplicity is everything.
 https://github.com/aegis-dev/pixie_project_template
 
 # Documentation
+https://aegis-dev.github.io/pixie/docfx/
 
 # Building documentation
 ```
