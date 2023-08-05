@@ -21,7 +21,6 @@ namespace Pixie.Internal
         public const uint PositionOffset = 0;
         public const uint TextureCoordOffset = sizeof(float) * 3;
 
-        // Every attribute should be 4 x 4 bytes alligned
         public Vec3 Position;
         public Vec2 TextureCoord;
 

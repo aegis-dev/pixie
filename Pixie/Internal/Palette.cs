@@ -4,27 +4,27 @@ namespace Pixie.Internal
 {
     internal static class Palette
     {
-        // https://lospec.com/palette-list/retrocal-8
-        // Sorter variant https://coolors.co/2f142f-2a584f-774448-c6505a-74a33f-6eb8a8-ee9c5d-fcffc0
-        internal static readonly Color Purple = Color.FromArgb(0x2f142f);
-        internal static readonly Color Green = Color.FromArgb(0x2a584f);
-        internal static readonly Color Brown = Color.FromArgb(0x774448);
-        internal static readonly Color Red = Color.FromArgb(0xc6505a);
-        internal static readonly Color Salad = Color.FromArgb(0x74a33f);
-        internal static readonly Color Teal = Color.FromArgb(0x6eb8a8);
-        internal static readonly Color Yellow = Color.FromArgb(0xee9c5d);
-        internal static readonly Color White = Color.FromArgb(0xfcffc0);
+        // Original Pixie-8 palette
+        // https://coolors.co/2b292d-596694-32c9fa-99ff24-ff3f0a-ff8c17-fff124-fff9e8
+        internal static readonly Color Black = Color.FromArgb(0x2B292D);
+        internal static readonly Color Violet = Color.FromArgb(0x596694);
+        internal static readonly Color Blue = Color.FromArgb(0x32C9FA);
+        internal static readonly Color Green = Color.FromArgb(0x99FF24);
+        internal static readonly Color Red = Color.FromArgb(0xFF3F0A);
+        internal static readonly Color Orange = Color.FromArgb(0xFF8C17);
+        internal static readonly Color Yellow = Color.FromArgb(0xFFF124);
+        internal static readonly Color White = Color.FromArgb(0xFFF9E8);
 
         private static List<Color> GetMainColors()
         {
             return new List<Color>()
             {
-                Purple,
+                Black,
+                Violet,
+                Blue,
                 Green,
-                Brown,
                 Red,
-                Salad,
-                Teal,
+                Orange,
                 Yellow,
                 White,
             };
@@ -32,29 +32,29 @@ namespace Pixie.Internal
 
         internal static PixieColor ColorFromRgb(Color color)
         {
-            if (color.R == Purple.R && color.G == Purple.G && color.B == Purple.B)
+            if (color.R == Black.R && color.G == Black.G && color.B == Black.B)
             {
-                return PixieColor.Purple;
+                return PixieColor.Black;
+            }
+            if (color.R == Violet.R && color.G == Violet.G && color.B == Violet.B)
+            {
+                return PixieColor.Violet;
+            }
+            if (color.R == Blue.R && color.G == Blue.G && color.B == Blue.B)
+            {
+                return PixieColor.Blue;
             }
             if (color.R == Green.R && color.G == Green.G && color.B == Green.B)
             {
                 return PixieColor.Green;
             }
-            if (color.R == Brown.R && color.G == Brown.G && color.B == Brown.B)
-            {
-                return PixieColor.Brown;
-            }
             if (color.R == Red.R && color.G == Red.G && color.B == Red.B)
             {
                 return PixieColor.Red;
             }
-            if (color.R == Salad.R && color.G == Salad.G && color.B == Salad.B)
+            if (color.R == Orange.R && color.G == Orange.G && color.B == Orange.B)
             {
-                return PixieColor.Salad;
-            }
-            if (color.R == Teal.R && color.G == Teal.G && color.B == Teal.B)
-            {
-                return PixieColor.Teal;
+                return PixieColor.Orange;
             }
             if (color.R == Yellow.R && color.G == Yellow.G && color.B == Yellow.B)
             {

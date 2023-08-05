@@ -3,12 +3,12 @@
     public enum PixieColor
     {
         None = 0,
-        Purple,
+        Black,
+        Violet,
+        Blue,
         Green,
-        Brown,
         Red,
-        Salad,
-        Teal,
+        Orange,
         Yellow,
         White,
         Count = White

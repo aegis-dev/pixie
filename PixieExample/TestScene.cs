@@ -7,8 +7,8 @@ namespace PixieExample
 {
     internal class TestScene : Scene
     {
-        private Random _random = new Random();
-        private SpriteSheet _spriteSheet = SpriteSheet.FromBitmapPNG(Resources.test, 8, 8);
+        private readonly Random _random = new Random();
+        private readonly SpriteSheet _spriteSheet = SpriteSheet.FromBitmapPNG(Resources.test, 8, 8);
 
         private Canvas _canvas;
 
@@ -57,32 +57,26 @@ namespace PixieExample
         {
             renderer.ClearFrameBuffer();
 
-            //for (int x = 1; x <= 32; ++x)
-            //{
-            //    renderer.Point(x - 1, 0, (byte)x);
-            //}
+            for (int x = 1; x <= 32; ++x)
+            {
+                renderer.Point(x - 1, 0, (byte)x);
+            }
 
-            //Sprite sprite = _spriteSheet.GetSpriteAtIndex(3);
-            //renderer.Sprite(sprite, 0, 64, false);
+            IReadOnlySprite? sprite = _spriteSheet.GetSpriteAtIndex(3);
+            renderer.Sprite(sprite, 0, 64, false);
+            renderer.Sprite(sprite, 20, 20, true);
             //renderer.Circle(0, 64, 3, PixieColor.Red);
 
-            //renderer.Circle(renderer.CameraX + input.MouseX, renderer.CameraY + input.MouseY, 5, PixieColor.Red);
+            renderer.Circle(renderer.CameraX + input.MouseX, renderer.CameraY + input.MouseY, 3, PixieColor.Blue);
 
             ////renderer.CircleFilled(64, 64, 9, PixieColor.Red);
             ////renderer.RectangleFilled(10, 10, 32, 33, PixieColor.Red);
             ////renderer.RectangleFilled(64, 65, 32, 33, PixieColor.Green);
 
-            ////renderer.Sprite(sprite, 64, 64, false);
-            ////renderer.Sprite(sprite, 20, 20, true);
-
-            //renderer.Text("Hello World!\nWelcome!", 64, 64, PixieColor.Red);
-
-            //if (input.KeyPressed(Key.Space))
-            //{
-            //    Console.WriteLine("Space");
-            //}
-
             _canvas.Render(renderer);
+
+            renderer.Text("Hello World!\nWelcome!", 64, 64, PixieColor.White);
+
         }
 
         public override void OnDestroy()

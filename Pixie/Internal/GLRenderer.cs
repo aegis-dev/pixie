@@ -20,8 +20,7 @@ namespace Pixie.Internal
             );
 
             _gl.Disable(EnableCap.DepthTest);
-            //_gl.Disable(EnableCap.Blend);
-            //_gl.BlendFunc(BlendingFactor.SrcAlpha, BlendingFactor.OneMinusSrcAlpha);
+            _gl.Disable(EnableCap.Blend);
             _gl.ClearColor(Color.Black);
         }
 
@@ -59,6 +58,7 @@ namespace Pixie.Internal
                 _gl.EnableVertexAttribArray(attributeId);
             }
 
+            // TODO: technically we can iterate over list of textures and bind them one by one like we do with vertex attributes
             _gl.ActiveTexture(texture.TextureUnit);
             _gl.BindTexture(GLEnum.Texture2D, texture.TextureID);
 

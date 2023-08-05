@@ -59,8 +59,8 @@ namespace Pixie
         {
             Texture bufferTexture = _frameBuffer.RenderToTexture(_dataManager);
 
-            //TODO: not needed, right?
-            _glRenderer.ClearScreen();
+            // Not needed, but left it just in case
+            //_glRenderer.ClearScreen();
 
             _glRenderer.Begin();
             _glRenderer.SetUniformInt(UniformBackgroundColorIndexLocation, _backgroundColorIndex);
@@ -395,7 +395,7 @@ namespace Pixie
             }
         }
 
-        public void Sprite(in Sprite sprite, long x, long y, bool flip)
+        public void Sprite(in IReadOnlySprite? sprite, long x, long y, bool flip)
         {
             if (sprite is null)
             {
@@ -408,7 +408,7 @@ namespace Pixie
             {
                 for (uint spriteY = 0; spriteY < spriteHeight; ++spriteY)
                 {
-                    PixieColor color = sprite.ColorAt(spriteX, spriteY);
+                    PixieColor color = sprite.GetColorAt(spriteX, spriteY);
                     if (color == PixieColor.None)
                     {
                         continue;
@@ -426,15 +426,20 @@ namespace Pixie
             }
         }
 
-        public void Sprite(in Sprite sprite, long x, long y, bool flip, Brightness brightness)
+        public void Sprite(in IReadOnlySprite? sprite, long x, long y, bool flip, Brightness brightness)
         {
+            if (sprite is null)
+            {
+                throw new ArgumentNullException(nameof(sprite));
+            }
+
             uint spriteWidth = sprite.Width;
             uint spriteHeight = sprite.Height;
             for (uint spriteX = 0; spriteX < spriteWidth; ++spriteX)
             {
                 for (uint spriteY = 0; spriteY < spriteHeight; ++spriteY)
                 {
-                    PixieColor color = sprite.ColorAt(spriteX, spriteY);
+                    PixieColor color = sprite.GetColorAt(spriteX, spriteY);
                     if (color == PixieColor.None)
                     {
                         continue;
@@ -452,15 +457,20 @@ namespace Pixie
             }
         }
 
-        public void Sprite(in Sprite sprite, long x, long y, bool flip, IReadOnlyList<PointLight> lights)
+        public void Sprite(in IReadOnlySprite? sprite, long x, long y, bool flip, IReadOnlyList<PointLight> lights)
         {
+            if (sprite is null)
+            {
+                throw new ArgumentNullException(nameof(sprite));
+            }
+
             uint spriteWidth = sprite.Width;
             uint spriteHeight = sprite.Height;
             for (uint spriteX = 0; spriteX < spriteWidth; ++spriteX)
             {
                 for (uint spriteY = 0; spriteY < spriteHeight; ++spriteY)
                 {
-                    PixieColor color = sprite.ColorAt(spriteX, spriteY);
+                    PixieColor color = sprite.GetColorAt(spriteX, spriteY);
                     if (color == PixieColor.None)
                     {
                         continue;
@@ -516,7 +526,7 @@ namespace Pixie
                 {
                     for (uint glyphY = 0; glyphY < glyphHeight; ++glyphY)
                     {
-                        if (glyph.ColorAt(glyphX, glyphY) == PixieColor.None)
+                        if (glyph.GetColorAt(glyphX, glyphY) == PixieColor.None)
                         {
                             continue;
                         }

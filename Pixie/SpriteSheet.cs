@@ -56,7 +56,7 @@ namespace Pixie
                         List<PixieColor> pixelColumn = new List<PixieColor>();
                         for (uint y = 0; y < spriteHeight; ++y)
                         {
-                            PixieColor pixel = spriteSheetRaw.ColorAt(spriteOffsetX + x, spriteOffsetY + y);
+                            PixieColor pixel = spriteSheetRaw.GetColorAt(spriteOffsetX + x, spriteOffsetY + y);
                             pixelColumn.Add(pixel);
                         }
                         pixels.Add(pixelColumn);
@@ -69,7 +69,7 @@ namespace Pixie
             return new SpriteSheet(sprites);
         }
 
-        public Sprite GetSpriteAtIndex(uint index)
+        public Sprite? GetSpriteAtIndex(uint index)
         {
             if (index >= _sprites.Count)
             {

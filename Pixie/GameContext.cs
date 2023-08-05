@@ -13,8 +13,8 @@ namespace Pixie
         private readonly IWindow _window;
         private GL _gl;
 
-        private uint _bufferWidth;
-        private uint _bufferHeight;
+        private readonly uint _bufferWidth;
+        private readonly uint _bufferHeight;
         private DataManager _dataManager;
         private Renderer _renderer;
         private Input _input;
@@ -121,7 +121,7 @@ namespace Pixie
         private void OnUpdate(double deltaTime)
         {
             GameState state = new GameState();
-            Scene scene = _scene.OnUpdate(state, _renderer, _input, (float)deltaTime);
+            Scene? scene = _scene.OnUpdate(state, _renderer, _input, (float)deltaTime);
 
             if (state.ShouldShutDown())
             {
@@ -138,7 +138,7 @@ namespace Pixie
                 }
                 _renderer.CameraX = 0;
                 _renderer.CameraY = 0;
-                _renderer.SetBackgroundColor(PixieColor.Purple);
+                _renderer.SetBackgroundColor(PixieColor.Black);
 
                 _scene = scene;
                 _scene.OnStart(_renderer);
