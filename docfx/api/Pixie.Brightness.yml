@@ -1,0 +1,130 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pixie.Brightness
+  commentId: T:Pixie.Brightness
+  id: Brightness
+  parent: Pixie
+  children:
+  - Pixie.Brightness.Dark
+  - Pixie.Brightness.Dim
+  - Pixie.Brightness.Normal
+  - Pixie.Brightness.VeryDark
+  langs:
+  - csharp
+  - vb
+  name: Brightness
+  nameWithType: Brightness
+  fullName: Pixie.Brightness
+  type: Enum
+  source:
+    id: Brightness
+    path: C:\Users\egidi\Documents\Projects\pixie\Pixie\Brightness.cs
+    startLine: 2
+  assemblies:
+  - Pixie
+  namespace: Pixie
+  syntax:
+    content: public enum Brightness
+    content.vb: Public Enum Brightness
+- uid: Pixie.Brightness.Normal
+  commentId: F:Pixie.Brightness.Normal
+  id: Normal
+  parent: Pixie.Brightness
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: Brightness.Normal
+  fullName: Pixie.Brightness.Normal
+  type: Field
+  source:
+    id: Normal
+    path: C:\Users\egidi\Documents\Projects\pixie\Pixie\Brightness.cs
+    startLine: 4
+  assemblies:
+  - Pixie
+  namespace: Pixie
+  syntax:
+    content: Normal = 0
+    return:
+      type: Pixie.Brightness
+- uid: Pixie.Brightness.Dim
+  commentId: F:Pixie.Brightness.Dim
+  id: Dim
+  parent: Pixie.Brightness
+  langs:
+  - csharp
+  - vb
+  name: Dim
+  nameWithType: Brightness.Dim
+  fullName: Pixie.Brightness.Dim
+  type: Field
+  source:
+    id: Dim
+    path: C:\Users\egidi\Documents\Projects\pixie\Pixie\Brightness.cs
+    startLine: 5
+  assemblies:
+  - Pixie
+  namespace: Pixie
+  syntax:
+    content: Dim = 1
+    return:
+      type: Pixie.Brightness
+- uid: Pixie.Brightness.Dark
+  commentId: F:Pixie.Brightness.Dark
+  id: Dark
+  parent: Pixie.Brightness
+  langs:
+  - csharp
+  - vb
+  name: Dark
+  nameWithType: Brightness.Dark
+  fullName: Pixie.Brightness.Dark
+  type: Field
+  source:
+    id: Dark
+    path: C:\Users\egidi\Documents\Projects\pixie\Pixie\Brightness.cs
+    startLine: 6
+  assemblies:
+  - Pixie
+  namespace: Pixie
+  syntax:
+    content: Dark = 2
+    return:
+      type: Pixie.Brightness
+- uid: Pixie.Brightness.VeryDark
+  commentId: F:Pixie.Brightness.VeryDark
+  id: VeryDark
+  parent: Pixie.Brightness
+  langs:
+  - csharp
+  - vb
+  name: VeryDark
+  nameWithType: Brightness.VeryDark
+  fullName: Pixie.Brightness.VeryDark
+  type: Field
+  source:
+    id: VeryDark
+    path: C:\Users\egidi\Documents\Projects\pixie\Pixie\Brightness.cs
+    startLine: 7
+  assemblies:
+  - Pixie
+  namespace: Pixie
+  syntax:
+    content: VeryDark = 3
+    return:
+      type: Pixie.Brightness
+references:
+- uid: Pixie
+  commentId: N:Pixie
+  href: Pixie.html
+  name: Pixie
+  nameWithType: Pixie
+  fullName: Pixie
+- uid: Pixie.Brightness
+  commentId: T:Pixie.Brightness
+  parent: Pixie
+  href: Pixie.Brightness.html
+  name: Brightness
+  nameWithType: Brightness
+  fullName: Pixie.Brightness

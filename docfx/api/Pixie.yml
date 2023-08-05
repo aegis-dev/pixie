@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pixie
+  commentId: N:Pixie
+  id: Pixie
+  children:
+  - Pixie.Brightness
+  - Pixie.BrightnessUtils
+  - Pixie.GameContext
+  - Pixie.GameState
+  - Pixie.IReadOnlySprite
+  - Pixie.Input
+  - Pixie.Input.State
+  - Pixie.PixieColor
+  - Pixie.PointLight
+  - Pixie.Renderer
+  - Pixie.Scene
+  - Pixie.Sprite
+  - Pixie.SpriteSheet
+  langs:
+  - csharp
+  - vb
+  name: Pixie
+  nameWithType: Pixie
+  fullName: Pixie
+  type: Namespace
+  assemblies:
+  - Pixie
+references:
+- uid: Pixie.Brightness
+  commentId: T:Pixie.Brightness
+  parent: Pixie
+  href: Pixie.Brightness.html
+  name: Brightness
+  nameWithType: Brightness
+  fullName: Pixie.Brightness
+- uid: Pixie.BrightnessUtils
+  commentId: T:Pixie.BrightnessUtils
+  href: Pixie.BrightnessUtils.html
+  name: BrightnessUtils
+  nameWithType: BrightnessUtils
+  fullName: Pixie.BrightnessUtils
+- uid: Pixie.GameContext
+  commentId: T:Pixie.GameContext
+  href: Pixie.GameContext.html
+  name: GameContext
+  nameWithType: GameContext
+  fullName: Pixie.GameContext
+- uid: Pixie.GameState
+  commentId: T:Pixie.GameState
+  parent: Pixie
+  href: Pixie.GameState.html
+  name: GameState
+  nameWithType: GameState
+  fullName: Pixie.GameState
+- uid: Pixie.Input
+  commentId: T:Pixie.Input
+  parent: Pixie
+  href: Pixie.Input.html
+  name: Input
+  nameWithType: Input
+  fullName: Pixie.Input
+- uid: Pixie.Input.State
+  commentId: T:Pixie.Input.State
+  parent: Pixie
+  href: Pixie.Input.html
+  name: Input.State
+  nameWithType: Input.State
+  fullName: Pixie.Input.State
+  spec.csharp:
+  - uid: Pixie.Input
+    name: Input
+    href: Pixie.Input.html
+  - name: .
+  - uid: Pixie.Input.State
+    name: State
+    href: Pixie.Input.State.html
+  spec.vb:
+  - uid: Pixie.Input
+    name: Input
+    href: Pixie.Input.html
+  - name: .
+  - uid: Pixie.Input.State
+    name: State
+    href: Pixie.Input.State.html
+- uid: Pixie.IReadOnlySprite
+  commentId: T:Pixie.IReadOnlySprite
+  parent: Pixie
+  href: Pixie.IReadOnlySprite.html
+  name: IReadOnlySprite
+  nameWithType: IReadOnlySprite
+  fullName: Pixie.IReadOnlySprite
+- uid: Pixie.PixieColor
+  commentId: T:Pixie.PixieColor
+  parent: Pixie
+  href: Pixie.PixieColor.html
+  name: PixieColor
+  nameWithType: PixieColor
+  fullName: Pixie.PixieColor
+- uid: Pixie.PointLight
+  commentId: T:Pixie.PointLight
+  href: Pixie.PointLight.html
+  name: PointLight
+  nameWithType: PointLight
+  fullName: Pixie.PointLight
+- uid: Pixie.Renderer
+  commentId: T:Pixie.Renderer
+  parent: Pixie
+  href: Pixie.Renderer.html
+  name: Renderer
+  nameWithType: Renderer
+  fullName: Pixie.Renderer
+- uid: Pixie.Scene
+  commentId: T:Pixie.Scene
+  parent: Pixie
+  href: Pixie.Scene.html
+  name: Scene
+  nameWithType: Scene
+  fullName: Pixie.Scene
+- uid: Pixie.Sprite
+  commentId: T:Pixie.Sprite
+  parent: Pixie
+  href: Pixie.Sprite.html
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Pixie.Sprite
+- uid: Pixie.SpriteSheet
+  commentId: T:Pixie.SpriteSheet
+  parent: Pixie
+  href: Pixie.SpriteSheet.html
+  name: SpriteSheet
+  nameWithType: SpriteSheet
+  fullName: Pixie.SpriteSheet
+- uid: Pixie
+  commentId: N:Pixie
+  href: Pixie.html
+  name: Pixie
+  nameWithType: Pixie
+  fullName: Pixie

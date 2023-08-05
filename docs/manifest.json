@@ -1,0 +1,262 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/egidi/Documents/Projects/pixie",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/Pixie.Brightness.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/Pixie.Brightness.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/Pixie.BrightnessUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/Pixie.BrightnessUtils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/Pixie.GameContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/Pixie.GameContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/Pixie.GameState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/Pixie.GameState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/Pixie.IReadOnlySprite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/Pixie.IReadOnlySprite.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/Pixie.Input.State.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/Pixie.Input.State.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/Pixie.Input.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/Pixie.Input.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/Pixie.PixieColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/Pixie.PixieColor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/Pixie.PointLight.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/Pixie.PointLight.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/Pixie.Renderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/Pixie.Renderer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/Pixie.Scene.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/Pixie.Scene.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/Pixie.Sprite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/Pixie.Sprite.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/Pixie.SpriteSheet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/Pixie.SpriteSheet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/Pixie.UI.Canvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/Pixie.UI.Canvas.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/Pixie.UI.CanvasElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/Pixie.UI.CanvasElement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/Pixie.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/Pixie.UI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/Pixie.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/Pixie.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docfx/api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docfx/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/toc.html"
+        },
+        ".json": {
+          "relative_path": "docfx/api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docfx/examples/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/examples/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docfx/examples/scene.md",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/examples/scene.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docfx/examples/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/examples/toc.html"
+        },
+        ".json": {
+          "relative_path": "docfx/examples/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docfx/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docfx/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/toc.html"
+        },
+        ".json": {
+          "relative_path": "docfx/toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

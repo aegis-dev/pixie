@@ -1,0 +1,268 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pixie.PixieColor
+  commentId: T:Pixie.PixieColor
+  id: PixieColor
+  parent: Pixie
+  children:
+  - Pixie.PixieColor.Black
+  - Pixie.PixieColor.Blue
+  - Pixie.PixieColor.Count
+  - Pixie.PixieColor.Green
+  - Pixie.PixieColor.None
+  - Pixie.PixieColor.Orange
+  - Pixie.PixieColor.Red
+  - Pixie.PixieColor.Violet
+  - Pixie.PixieColor.White
+  - Pixie.PixieColor.Yellow
+  langs:
+  - csharp
+  - vb
+  name: PixieColor
+  nameWithType: PixieColor
+  fullName: Pixie.PixieColor
+  type: Enum
+  source:
+    id: PixieColor
+    path: C:\Users\egidi\Documents\Projects\pixie\Pixie\PixieColor.cs
+    startLine: 2
+  assemblies:
+  - Pixie
+  namespace: Pixie
+  syntax:
+    content: public enum PixieColor
+    content.vb: Public Enum PixieColor
+- uid: Pixie.PixieColor.None
+  commentId: F:Pixie.PixieColor.None
+  id: None
+  parent: Pixie.PixieColor
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: PixieColor.None
+  fullName: Pixie.PixieColor.None
+  type: Field
+  source:
+    id: None
+    path: C:\Users\egidi\Documents\Projects\pixie\Pixie\PixieColor.cs
+    startLine: 4
+  assemblies:
+  - Pixie
+  namespace: Pixie
+  syntax:
+    content: None = 0
+    return:
+      type: Pixie.PixieColor
+- uid: Pixie.PixieColor.Black
+  commentId: F:Pixie.PixieColor.Black
+  id: Black
+  parent: Pixie.PixieColor
+  langs:
+  - csharp
+  - vb
+  name: Black
+  nameWithType: PixieColor.Black
+  fullName: Pixie.PixieColor.Black
+  type: Field
+  source:
+    id: Black
+    path: C:\Users\egidi\Documents\Projects\pixie\Pixie\PixieColor.cs
+    startLine: 5
+  assemblies:
+  - Pixie
+  namespace: Pixie
+  syntax:
+    content: Black = 1
+    return:
+      type: Pixie.PixieColor
+- uid: Pixie.PixieColor.Violet
+  commentId: F:Pixie.PixieColor.Violet
+  id: Violet
+  parent: Pixie.PixieColor
+  langs:
+  - csharp
+  - vb
+  name: Violet
+  nameWithType: PixieColor.Violet
+  fullName: Pixie.PixieColor.Violet
+  type: Field
+  source:
+    id: Violet
+    path: C:\Users\egidi\Documents\Projects\pixie\Pixie\PixieColor.cs
+    startLine: 6
+  assemblies:
+  - Pixie
+  namespace: Pixie
+  syntax:
+    content: Violet = 2
+    return:
+      type: Pixie.PixieColor
+- uid: Pixie.PixieColor.Blue
+  commentId: F:Pixie.PixieColor.Blue
+  id: Blue
+  parent: Pixie.PixieColor
+  langs:
+  - csharp
+  - vb
+  name: Blue
+  nameWithType: PixieColor.Blue
+  fullName: Pixie.PixieColor.Blue
+  type: Field
+  source:
+    id: Blue
+    path: C:\Users\egidi\Documents\Projects\pixie\Pixie\PixieColor.cs
+    startLine: 7
+  assemblies:
+  - Pixie
+  namespace: Pixie
+  syntax:
+    content: Blue = 3
+    return:
+      type: Pixie.PixieColor
+- uid: Pixie.PixieColor.Green
+  commentId: F:Pixie.PixieColor.Green
+  id: Green
+  parent: Pixie.PixieColor
+  langs:
+  - csharp
+  - vb
+  name: Green
+  nameWithType: PixieColor.Green
+  fullName: Pixie.PixieColor.Green
+  type: Field
+  source:
+    id: Green
+    path: C:\Users\egidi\Documents\Projects\pixie\Pixie\PixieColor.cs
+    startLine: 8
+  assemblies:
+  - Pixie
+  namespace: Pixie
+  syntax:
+    content: Green = 4
+    return:
+      type: Pixie.PixieColor
+- uid: Pixie.PixieColor.Red
+  commentId: F:Pixie.PixieColor.Red
+  id: Red
+  parent: Pixie.PixieColor
+  langs:
+  - csharp
+  - vb
+  name: Red
+  nameWithType: PixieColor.Red
+  fullName: Pixie.PixieColor.Red
+  type: Field
+  source:
+    id: Red
+    path: C:\Users\egidi\Documents\Projects\pixie\Pixie\PixieColor.cs
+    startLine: 9
+  assemblies:
+  - Pixie
+  namespace: Pixie
+  syntax:
+    content: Red = 5
+    return:
+      type: Pixie.PixieColor
+- uid: Pixie.PixieColor.Orange
+  commentId: F:Pixie.PixieColor.Orange
+  id: Orange
+  parent: Pixie.PixieColor
+  langs:
+  - csharp
+  - vb
+  name: Orange
+  nameWithType: PixieColor.Orange
+  fullName: Pixie.PixieColor.Orange
+  type: Field
+  source:
+    id: Orange
+    path: C:\Users\egidi\Documents\Projects\pixie\Pixie\PixieColor.cs
+    startLine: 10
+  assemblies:
+  - Pixie
+  namespace: Pixie
+  syntax:
+    content: Orange = 6
+    return:
+      type: Pixie.PixieColor
+- uid: Pixie.PixieColor.Yellow
+  commentId: F:Pixie.PixieColor.Yellow
+  id: Yellow
+  parent: Pixie.PixieColor
+  langs:
+  - csharp
+  - vb
+  name: Yellow
+  nameWithType: PixieColor.Yellow
+  fullName: Pixie.PixieColor.Yellow
+  type: Field
+  source:
+    id: Yellow
+    path: C:\Users\egidi\Documents\Projects\pixie\Pixie\PixieColor.cs
+    startLine: 11
+  assemblies:
+  - Pixie
+  namespace: Pixie
+  syntax:
+    content: Yellow = 7
+    return:
+      type: Pixie.PixieColor
+- uid: Pixie.PixieColor.White
+  commentId: F:Pixie.PixieColor.White
+  id: White
+  parent: Pixie.PixieColor
+  langs:
+  - csharp
+  - vb
+  name: White
+  nameWithType: PixieColor.White
+  fullName: Pixie.PixieColor.White
+  type: Field
+  source:
+    id: White
+    path: C:\Users\egidi\Documents\Projects\pixie\Pixie\PixieColor.cs
+    startLine: 12
+  assemblies:
+  - Pixie
+  namespace: Pixie
+  syntax:
+    content: White = 8
+    return:
+      type: Pixie.PixieColor
+- uid: Pixie.PixieColor.Count
+  commentId: F:Pixie.PixieColor.Count
+  id: Count
+  parent: Pixie.PixieColor
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: PixieColor.Count
+  fullName: Pixie.PixieColor.Count
+  type: Field
+  source:
+    id: Count
+    path: C:\Users\egidi\Documents\Projects\pixie\Pixie\PixieColor.cs
+    startLine: 13
+  assemblies:
+  - Pixie
+  namespace: Pixie
+  syntax:
+    content: Count = 8
+    return:
+      type: Pixie.PixieColor
+references:
+- uid: Pixie
+  commentId: N:Pixie
+  href: Pixie.html
+  name: Pixie
+  nameWithType: Pixie
+  fullName: Pixie
+- uid: Pixie.PixieColor
+  commentId: T:Pixie.PixieColor
+  parent: Pixie
+  href: Pixie.PixieColor.html
+  name: PixieColor
+  nameWithType: PixieColor
+  fullName: Pixie.PixieColor

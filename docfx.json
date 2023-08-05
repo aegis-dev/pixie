@@ -8,7 +8,7 @@
           ]
         }
       ],
-      "dest": "docs/api",
+      "dest": "docfx/api",
       "includePrivateMembers": false,
       "disableGitFeatures": false,
       "disableDefaultFilter": false,
@@ -22,27 +22,27 @@
     "content": [
       {
         "files": [
-          "docs/api/**.yml",
-          "docs/api/index.md"
+          "docfx/api/**.yml",
+          "docfx/api/index.md"
         ]
       },
       {
         "files": [
-          "docs/examples/**.md",
-          "docs/examples/**/toc.yml",
-          "docs/toc.yml",
-          "docs/*.md"
+          "docfx/examples/**.md",
+          "docfx/examples/**/toc.yml",
+          "docfx/toc.yml",
+          "docfx/*.md"
         ]
       }
     ],
     "resource": [
       {
         "files": [
-          "docs/images/**"
+          "docfx/images/**"
         ]
       }
     ],
-    "output": "docs/_site",
+    "output": "docs",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [

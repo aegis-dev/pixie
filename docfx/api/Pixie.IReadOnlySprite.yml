@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pixie.IReadOnlySprite
+  commentId: T:Pixie.IReadOnlySprite
+  id: IReadOnlySprite
+  parent: Pixie
+  children:
+  - Pixie.IReadOnlySprite.GetColorAt(System.UInt32,System.UInt32)
+  - Pixie.IReadOnlySprite.Height
+  - Pixie.IReadOnlySprite.Width
+  langs:
+  - csharp
+  - vb
+  name: IReadOnlySprite
+  nameWithType: IReadOnlySprite
+  fullName: Pixie.IReadOnlySprite
+  type: Interface
+  source:
+    id: IReadOnlySprite
+    path: C:\Users\egidi\Documents\Projects\pixie\Pixie\IReadOnlySprite.cs
+    startLine: 2
+  assemblies:
+  - Pixie
+  namespace: Pixie
+  syntax:
+    content: public interface IReadOnlySprite
+    content.vb: Public Interface IReadOnlySprite
+- uid: Pixie.IReadOnlySprite.Width
+  commentId: P:Pixie.IReadOnlySprite.Width
+  id: Width
+  parent: Pixie.IReadOnlySprite
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: IReadOnlySprite.Width
+  fullName: Pixie.IReadOnlySprite.Width
+  type: Property
+  source:
+    id: Width
+    path: C:\Users\egidi\Documents\Projects\pixie\Pixie\IReadOnlySprite.cs
+    startLine: 4
+  assemblies:
+  - Pixie
+  namespace: Pixie
+  syntax:
+    content: uint Width { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: ReadOnly Property Width As UInteger
+  overload: Pixie.IReadOnlySprite.Width*
+- uid: Pixie.IReadOnlySprite.Height
+  commentId: P:Pixie.IReadOnlySprite.Height
+  id: Height
+  parent: Pixie.IReadOnlySprite
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: IReadOnlySprite.Height
+  fullName: Pixie.IReadOnlySprite.Height
+  type: Property
+  source:
+    id: Height
+    path: C:\Users\egidi\Documents\Projects\pixie\Pixie\IReadOnlySprite.cs
+    startLine: 5
+  assemblies:
+  - Pixie
+  namespace: Pixie
+  syntax:
+    content: uint Height { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: ReadOnly Property Height As UInteger
+  overload: Pixie.IReadOnlySprite.Height*
+- uid: Pixie.IReadOnlySprite.GetColorAt(System.UInt32,System.UInt32)
+  commentId: M:Pixie.IReadOnlySprite.GetColorAt(System.UInt32,System.UInt32)
+  id: GetColorAt(System.UInt32,System.UInt32)
+  parent: Pixie.IReadOnlySprite
+  langs:
+  - csharp
+  - vb
+  name: GetColorAt(uint, uint)
+  nameWithType: IReadOnlySprite.GetColorAt(uint, uint)
+  fullName: Pixie.IReadOnlySprite.GetColorAt(uint, uint)
+  type: Method
+  source:
+    id: GetColorAt
+    path: C:\Users\egidi\Documents\Projects\pixie\Pixie\IReadOnlySprite.cs
+    startLine: 7
+  assemblies:
+  - Pixie
+  namespace: Pixie
+  syntax:
+    content: PixieColor GetColorAt(uint x, uint y)
+    parameters:
+    - id: x
+      type: System.UInt32
+    - id: y
+      type: System.UInt32
+    return:
+      type: Pixie.PixieColor
+    content.vb: Function GetColorAt(x As UInteger, y As UInteger) As PixieColor
+  overload: Pixie.IReadOnlySprite.GetColorAt*
+  nameWithType.vb: IReadOnlySprite.GetColorAt(UInteger, UInteger)
+  fullName.vb: Pixie.IReadOnlySprite.GetColorAt(UInteger, UInteger)
+  name.vb: GetColorAt(UInteger, UInteger)
+references:
+- uid: Pixie
+  commentId: N:Pixie
+  href: Pixie.html
+  name: Pixie
+  nameWithType: Pixie
+  fullName: Pixie
+- uid: Pixie.IReadOnlySprite.Width*
+  commentId: Overload:Pixie.IReadOnlySprite.Width
+  href: Pixie.IReadOnlySprite.html#Pixie.IReadOnlySprite.Width
+  name: Width
+  nameWithType: IReadOnlySprite.Width
+  fullName: Pixie.IReadOnlySprite.Width
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Pixie.IReadOnlySprite.Height*
+  commentId: Overload:Pixie.IReadOnlySprite.Height
+  href: Pixie.IReadOnlySprite.html#Pixie.IReadOnlySprite.Height
+  name: Height
+  nameWithType: IReadOnlySprite.Height
+  fullName: Pixie.IReadOnlySprite.Height
+- uid: Pixie.IReadOnlySprite.GetColorAt*
+  commentId: Overload:Pixie.IReadOnlySprite.GetColorAt
+  href: Pixie.IReadOnlySprite.html#Pixie.IReadOnlySprite.GetColorAt(System.UInt32,System.UInt32)
+  name: GetColorAt
+  nameWithType: IReadOnlySprite.GetColorAt
+  fullName: Pixie.IReadOnlySprite.GetColorAt
+- uid: Pixie.PixieColor
+  commentId: T:Pixie.PixieColor
+  parent: Pixie
+  href: Pixie.PixieColor.html
+  name: PixieColor
+  nameWithType: PixieColor
+  fullName: Pixie.PixieColor

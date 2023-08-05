@@ -405,3 +405,5 @@ FodyWeavers.xsd
 _site
 
 docs/api/.manifest
+
+docs/api/*.yml

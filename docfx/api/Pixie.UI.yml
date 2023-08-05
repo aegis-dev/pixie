@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pixie.UI
+  commentId: N:Pixie.UI
+  id: Pixie.UI
+  children:
+  - Pixie.UI.Canvas
+  - Pixie.UI.CanvasElement
+  langs:
+  - csharp
+  - vb
+  name: Pixie.UI
+  nameWithType: Pixie.UI
+  fullName: Pixie.UI
+  type: Namespace
+  assemblies:
+  - Pixie
+references:
+- uid: Pixie.UI.Canvas
+  commentId: T:Pixie.UI.Canvas
+  href: Pixie.UI.Canvas.html
+  name: Canvas
+  nameWithType: Canvas
+  fullName: Pixie.UI.Canvas
+- uid: Pixie.UI.CanvasElement
+  commentId: T:Pixie.UI.CanvasElement
+  parent: Pixie.UI
+  href: Pixie.UI.CanvasElement.html
+  name: CanvasElement
+  nameWithType: CanvasElement
+  fullName: Pixie.UI.CanvasElement
+- uid: Pixie.UI
+  commentId: N:Pixie.UI
+  href: Pixie.html
+  name: Pixie.UI
+  nameWithType: Pixie.UI
+  fullName: Pixie.UI
+  spec.csharp:
+  - uid: Pixie
+    name: Pixie
+    href: Pixie.html
+  - name: .
+  - uid: Pixie.UI
+    name: UI
+    href: Pixie.UI.html
+  spec.vb:
+  - uid: Pixie
+    name: Pixie
+    href: Pixie.html
+  - name: .
+  - uid: Pixie.UI
+    name: UI
+    href: Pixie.UI.html

@@ -1,0 +1,554 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pixie.UI.Canvas
+  commentId: T:Pixie.UI.Canvas
+  id: Canvas
+  parent: Pixie.UI
+  children:
+  - Pixie.UI.Canvas.#ctor(Pixie.Renderer@)
+  - Pixie.UI.Canvas.AddChildElement(Pixie.UI.CanvasElement@)
+  - Pixie.UI.Canvas.Height
+  - Pixie.UI.Canvas.OnUpdate(Pixie.Renderer@,Pixie.Input@,System.Single)
+  - Pixie.UI.Canvas.Render(Pixie.Renderer@)
+  - Pixie.UI.Canvas.Width
+  langs:
+  - csharp
+  - vb
+  name: Canvas
+  nameWithType: Canvas
+  fullName: Pixie.UI.Canvas
+  type: Class
+  source:
+    id: Canvas
+    path: C:\Users\egidi\Documents\Projects\pixie\Pixie\UI\Canvas.cs
+    startLine: 2
+  assemblies:
+  - Pixie
+  namespace: Pixie.UI
+  syntax:
+    content: public class Canvas
+    content.vb: Public Class Canvas
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Pixie.UI.Canvas.Width
+  commentId: P:Pixie.UI.Canvas.Width
+  id: Width
+  parent: Pixie.UI.Canvas
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: Canvas.Width
+  fullName: Pixie.UI.Canvas.Width
+  type: Property
+  source:
+    id: Width
+    path: C:\Users\egidi\Documents\Projects\pixie\Pixie\UI\Canvas.cs
+    startLine: 4
+  assemblies:
+  - Pixie
+  namespace: Pixie.UI
+  syntax:
+    content: public uint Width { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public ReadOnly Property Width As UInteger
+  overload: Pixie.UI.Canvas.Width*
+- uid: Pixie.UI.Canvas.Height
+  commentId: P:Pixie.UI.Canvas.Height
+  id: Height
+  parent: Pixie.UI.Canvas
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: Canvas.Height
+  fullName: Pixie.UI.Canvas.Height
+  type: Property
+  source:
+    id: Height
+    path: C:\Users\egidi\Documents\Projects\pixie\Pixie\UI\Canvas.cs
+    startLine: 7
+  assemblies:
+  - Pixie
+  namespace: Pixie.UI
+  syntax:
+    content: public uint Height { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public ReadOnly Property Height As UInteger
+  overload: Pixie.UI.Canvas.Height*
+- uid: Pixie.UI.Canvas.#ctor(Pixie.Renderer@)
+  commentId: M:Pixie.UI.Canvas.#ctor(Pixie.Renderer@)
+  id: '#ctor(Pixie.Renderer@)'
+  parent: Pixie.UI.Canvas
+  langs:
+  - csharp
+  - vb
+  name: Canvas(in Renderer)
+  nameWithType: Canvas.Canvas(in Renderer)
+  fullName: Pixie.UI.Canvas.Canvas(in Pixie.Renderer)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\egidi\Documents\Projects\pixie\Pixie\UI\Canvas.cs
+    startLine: 14
+  assemblies:
+  - Pixie
+  namespace: Pixie.UI
+  syntax:
+    content: public Canvas(in Renderer renderer)
+    parameters:
+    - id: renderer
+      type: Pixie.Renderer
+    content.vb: Public Sub New(renderer As Renderer)
+  overload: Pixie.UI.Canvas.#ctor*
+  nameWithType.vb: Canvas.New(Renderer)
+  fullName.vb: Pixie.UI.Canvas.New(Pixie.Renderer)
+  name.vb: New(Renderer)
+- uid: Pixie.UI.Canvas.AddChildElement(Pixie.UI.CanvasElement@)
+  commentId: M:Pixie.UI.Canvas.AddChildElement(Pixie.UI.CanvasElement@)
+  id: AddChildElement(Pixie.UI.CanvasElement@)
+  parent: Pixie.UI.Canvas
+  langs:
+  - csharp
+  - vb
+  name: AddChildElement(in CanvasElement)
+  nameWithType: Canvas.AddChildElement(in CanvasElement)
+  fullName: Pixie.UI.Canvas.AddChildElement(in Pixie.UI.CanvasElement)
+  type: Method
+  source:
+    id: AddChildElement
+    path: C:\Users\egidi\Documents\Projects\pixie\Pixie\UI\Canvas.cs
+    startLine: 19
+  assemblies:
+  - Pixie
+  namespace: Pixie.UI
+  syntax:
+    content: public void AddChildElement(in CanvasElement element)
+    parameters:
+    - id: element
+      type: Pixie.UI.CanvasElement
+    content.vb: Public Sub AddChildElement(element As CanvasElement)
+  overload: Pixie.UI.Canvas.AddChildElement*
+  nameWithType.vb: Canvas.AddChildElement(CanvasElement)
+  fullName.vb: Pixie.UI.Canvas.AddChildElement(Pixie.UI.CanvasElement)
+  name.vb: AddChildElement(CanvasElement)
+- uid: Pixie.UI.Canvas.OnUpdate(Pixie.Renderer@,Pixie.Input@,System.Single)
+  commentId: M:Pixie.UI.Canvas.OnUpdate(Pixie.Renderer@,Pixie.Input@,System.Single)
+  id: OnUpdate(Pixie.Renderer@,Pixie.Input@,System.Single)
+  parent: Pixie.UI.Canvas
+  langs:
+  - csharp
+  - vb
+  name: OnUpdate(in Renderer, in Input, float)
+  nameWithType: Canvas.OnUpdate(in Renderer, in Input, float)
+  fullName: Pixie.UI.Canvas.OnUpdate(in Pixie.Renderer, in Pixie.Input, float)
+  type: Method
+  source:
+    id: OnUpdate
+    path: C:\Users\egidi\Documents\Projects\pixie\Pixie\UI\Canvas.cs
+    startLine: 24
+  assemblies:
+  - Pixie
+  namespace: Pixie.UI
+  syntax:
+    content: public void OnUpdate(in Renderer renderer, in Input input, float deltaTime)
+    parameters:
+    - id: renderer
+      type: Pixie.Renderer
+    - id: input
+      type: Pixie.Input
+    - id: deltaTime
+      type: System.Single
+    content.vb: Public Sub OnUpdate(renderer As Renderer, input As Input, deltaTime As Single)
+  overload: Pixie.UI.Canvas.OnUpdate*
+  nameWithType.vb: Canvas.OnUpdate(Renderer, Input, Single)
+  fullName.vb: Pixie.UI.Canvas.OnUpdate(Pixie.Renderer, Pixie.Input, Single)
+  name.vb: OnUpdate(Renderer, Input, Single)
+- uid: Pixie.UI.Canvas.Render(Pixie.Renderer@)
+  commentId: M:Pixie.UI.Canvas.Render(Pixie.Renderer@)
+  id: Render(Pixie.Renderer@)
+  parent: Pixie.UI.Canvas
+  langs:
+  - csharp
+  - vb
+  name: Render(in Renderer)
+  nameWithType: Canvas.Render(in Renderer)
+  fullName: Pixie.UI.Canvas.Render(in Pixie.Renderer)
+  type: Method
+  source:
+    id: Render
+    path: C:\Users\egidi\Documents\Projects\pixie\Pixie\UI\Canvas.cs
+    startLine: 42
+  assemblies:
+  - Pixie
+  namespace: Pixie.UI
+  syntax:
+    content: public void Render(in Renderer renderer)
+    parameters:
+    - id: renderer
+      type: Pixie.Renderer
+    content.vb: Public Sub Render(renderer As Renderer)
+  overload: Pixie.UI.Canvas.Render*
+  nameWithType.vb: Canvas.Render(Renderer)
+  fullName.vb: Pixie.UI.Canvas.Render(Pixie.Renderer)
+  name.vb: Render(Renderer)
+references:
+- uid: Pixie.UI
+  commentId: N:Pixie.UI
+  href: Pixie.html
+  name: Pixie.UI
+  nameWithType: Pixie.UI
+  fullName: Pixie.UI
+  spec.csharp:
+  - uid: Pixie
+    name: Pixie
+    href: Pixie.html
+  - name: .
+  - uid: Pixie.UI
+    name: UI
+    href: Pixie.UI.html
+  spec.vb:
+  - uid: Pixie
+    name: Pixie
+    href: Pixie.html
+  - name: .
+  - uid: Pixie.UI
+    name: UI
+    href: Pixie.UI.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Pixie.UI.Canvas.Width*
+  commentId: Overload:Pixie.UI.Canvas.Width
+  href: Pixie.UI.Canvas.html#Pixie.UI.Canvas.Width
+  name: Width
+  nameWithType: Canvas.Width
+  fullName: Pixie.UI.Canvas.Width
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Pixie.UI.Canvas.Height*
+  commentId: Overload:Pixie.UI.Canvas.Height
+  href: Pixie.UI.Canvas.html#Pixie.UI.Canvas.Height
+  name: Height
+  nameWithType: Canvas.Height
+  fullName: Pixie.UI.Canvas.Height
+- uid: Pixie.UI.Canvas.#ctor*
+  commentId: Overload:Pixie.UI.Canvas.#ctor
+  href: Pixie.UI.Canvas.html#Pixie.UI.Canvas.#ctor(Pixie.Renderer@)
+  name: Canvas
+  nameWithType: Canvas.Canvas
+  fullName: Pixie.UI.Canvas.Canvas
+  nameWithType.vb: Canvas.New
+  fullName.vb: Pixie.UI.Canvas.New
+  name.vb: New
+- uid: Pixie.Renderer
+  commentId: T:Pixie.Renderer
+  parent: Pixie
+  href: Pixie.Renderer.html
+  name: Renderer
+  nameWithType: Renderer
+  fullName: Pixie.Renderer
+- uid: Pixie
+  commentId: N:Pixie
+  href: Pixie.html
+  name: Pixie
+  nameWithType: Pixie
+  fullName: Pixie
+- uid: Pixie.UI.Canvas.AddChildElement*
+  commentId: Overload:Pixie.UI.Canvas.AddChildElement
+  href: Pixie.UI.Canvas.html#Pixie.UI.Canvas.AddChildElement(Pixie.UI.CanvasElement@)
+  name: AddChildElement
+  nameWithType: Canvas.AddChildElement
+  fullName: Pixie.UI.Canvas.AddChildElement
+- uid: Pixie.UI.CanvasElement
+  commentId: T:Pixie.UI.CanvasElement
+  parent: Pixie.UI
+  href: Pixie.UI.CanvasElement.html
+  name: CanvasElement
+  nameWithType: CanvasElement
+  fullName: Pixie.UI.CanvasElement
+- uid: Pixie.UI.Canvas.OnUpdate*
+  commentId: Overload:Pixie.UI.Canvas.OnUpdate
+  href: Pixie.UI.Canvas.html#Pixie.UI.Canvas.OnUpdate(Pixie.Renderer@,Pixie.Input@,System.Single)
+  name: OnUpdate
+  nameWithType: Canvas.OnUpdate
+  fullName: Pixie.UI.Canvas.OnUpdate
+- uid: Pixie.Input
+  commentId: T:Pixie.Input
+  parent: Pixie
+  href: Pixie.Input.html
+  name: Input
+  nameWithType: Input
+  fullName: Pixie.Input
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Pixie.UI.Canvas.Render*
+  commentId: Overload:Pixie.UI.Canvas.Render
+  href: Pixie.UI.Canvas.html#Pixie.UI.Canvas.Render(Pixie.Renderer@)
+  name: Render
+  nameWithType: Canvas.Render
+  fullName: Pixie.UI.Canvas.Render
