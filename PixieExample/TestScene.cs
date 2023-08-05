@@ -34,7 +34,6 @@ namespace PixieExample
             UIQuad bottom = new UIQuad(0, -5, 16, 16, PixieColor.Green);
             centerQuad.AttachNeighbourElementBelow(bottom);
 
-
             UIQuad leftCorner = new UIQuad(0, (int)_canvas.Height - 16, 16, 16, PixieColor.Red);
             _canvas.AddChildElement(leftCorner);
             UIQuad rightCorner = new UIQuad((int)_canvas.Width - 16, 0, 16, 16, PixieColor.Red);
@@ -76,7 +75,6 @@ namespace PixieExample
             _canvas.Render(renderer);
 
             renderer.Text("Hello World!\nWelcome!", 64, 64, PixieColor.White);
-
         }
 
         public override void OnDestroy()

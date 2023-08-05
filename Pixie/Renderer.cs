@@ -59,9 +59,6 @@ namespace Pixie
         {
             Texture bufferTexture = _frameBuffer.RenderToTexture(_dataManager);
 
-            // Not needed, but left it just in case
-            //_glRenderer.ClearScreen();
-
             _glRenderer.Begin();
             _glRenderer.SetUniformInt(UniformBackgroundColorIndexLocation, _backgroundColorIndex);
             _glRenderer.Render(_frameBuffer.FrameBufferQuad, bufferTexture, _paletteTexture);

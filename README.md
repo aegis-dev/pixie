@@ -1,2 +1,4 @@
-# pixie
-.NET framework for desktop simple pixel games
+# Pixie
+Fantasy .NET framework for desktop pixel art games
+
+
