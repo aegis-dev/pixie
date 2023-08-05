@@ -4,11 +4,12 @@
       "src": [
         {
           "files": [
-            "Pixie/**.csproj"
-          ]
+            "/Pixie/**.csproj"
+          ],
+          src: "../"
         }
       ],
-      "dest": "docfx/api",
+      "dest": "api",
       "includePrivateMembers": false,
       "disableGitFeatures": false,
       "disableDefaultFilter": false,
@@ -22,27 +23,27 @@
     "content": [
       {
         "files": [
-          "docfx/api/**.yml",
-          "docfx/api/index.md"
+          "api/**.yml",
+          "api/index.md"
         ]
       },
       {
         "files": [
-          "docfx/examples/**.md",
-          "docfx/examples/**/toc.yml",
-          "docfx/toc.yml",
-          "docfx/*.md"
+          "examples/**.md",
+          "examples/**/toc.yml",
+          "toc.yml",
+          "*.md"
         ]
       }
     ],
     "resource": [
       {
         "files": [
-          "docfx/images/**"
+          "images/**"
         ]
       }
     ],
-    "output": "docs",
+    "output": "../docs",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [

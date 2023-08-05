@@ -2,16 +2,16 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Enum Input.State
+      <title>Interface IReadOnlySprite
  </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Enum Input.State
+      <meta name="title" content="Interface IReadOnlySprite
  ">
       
-      <link rel="icon" href="../../favicon.ico">
-      <link rel="stylesheet" href="../../public/docfx.min.css">
-      <link rel="stylesheet" href="../../public/main.css">
-      <meta name="docfx:navrel" content="">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
       
@@ -21,8 +21,8 @@
   </head>
 
   <script type="module">
-    import options from './../../public/main.js'
-    import { init } from './../../public/docfx.min.js'
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
     init(options)
   </script>
 
@@ -36,8 +36,8 @@
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../../index.html">
-            <img id="logo" class="svg" src="../../logo.svg" alt="">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
             
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,13 +73,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Pixie.Input.State">
+        <article data-uid="Pixie.IReadOnlySprite">
 
 
 
-
-  <h1 id="Pixie_Input_State" data-uid="Pixie.Input.State" class="text-break">
-    Enum Input.State
+  <h1 id="Pixie_IReadOnlySprite" data-uid="Pixie.IReadOnlySprite" class="text-break">
+    Interface IReadOnlySprite
   
   </h1>
 
@@ -92,7 +91,7 @@
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum Input.State</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IReadOnlySprite</code></pre>
   </div>
 
 
@@ -103,14 +102,116 @@
 
 
 
-  <h2 id="fields">Fields
+
+
+
+
+  <h2 class="section" id="properties">Properties
 </h2>
+
+
+  <a id="Pixie_IReadOnlySprite_Height_" data-uid="Pixie.IReadOnlySprite.Height*"></a>
+
+  <h3 id="Pixie_IReadOnlySprite_Height" data-uid="Pixie.IReadOnlySprite.Height">
+  Height
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">uint Height { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt id="Pixie_Input_State_Down"><code>Down = 1</code></dt>
-    <dd></dd>
-    <dt id="Pixie_Input_State_Up"><code>Up = 0</code></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
     <dd></dd>
   </dl>
+
+
+
+
+
+
+
+
+  <a id="Pixie_IReadOnlySprite_Width_" data-uid="Pixie.IReadOnlySprite.Width*"></a>
+
+  <h3 id="Pixie_IReadOnlySprite_Width" data-uid="Pixie.IReadOnlySprite.Width">
+  Width
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">uint Width { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Pixie_IReadOnlySprite_GetColorAt_" data-uid="Pixie.IReadOnlySprite.GetColorAt*"></a>
+
+  <h3 id="Pixie_IReadOnlySprite_GetColorAt_System_UInt32_System_UInt32_" data-uid="Pixie.IReadOnlySprite.GetColorAt(System.UInt32,System.UInt32)">
+  GetColorAt(uint, uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">PixieColor GetColorAt(uint x, uint y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Pixie.PixieColor.html">PixieColor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
 
 
 

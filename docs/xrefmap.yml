@@ -3,81 +3,81 @@ sorted: true
 references:
 - uid: Pixie
   name: Pixie
-  href: docfx/api/Pixie.html
+  href: api/Pixie.html
   commentId: N:Pixie
   fullName: Pixie
   nameWithType: Pixie
 - uid: Pixie.Brightness
   name: Brightness
-  href: docfx/api/Pixie.Brightness.html
+  href: api/Pixie.Brightness.html
   commentId: T:Pixie.Brightness
   fullName: Pixie.Brightness
   nameWithType: Brightness
 - uid: Pixie.Brightness.Dark
   name: Dark
-  href: docfx/api/Pixie.Brightness.html#Pixie_Brightness_Dark
+  href: api/Pixie.Brightness.html#Pixie_Brightness_Dark
   commentId: F:Pixie.Brightness.Dark
   fullName: Pixie.Brightness.Dark
   nameWithType: Brightness.Dark
 - uid: Pixie.Brightness.Dim
   name: Dim
-  href: docfx/api/Pixie.Brightness.html#Pixie_Brightness_Dim
+  href: api/Pixie.Brightness.html#Pixie_Brightness_Dim
   commentId: F:Pixie.Brightness.Dim
   fullName: Pixie.Brightness.Dim
   nameWithType: Brightness.Dim
 - uid: Pixie.Brightness.Normal
   name: Normal
-  href: docfx/api/Pixie.Brightness.html#Pixie_Brightness_Normal
+  href: api/Pixie.Brightness.html#Pixie_Brightness_Normal
   commentId: F:Pixie.Brightness.Normal
   fullName: Pixie.Brightness.Normal
   nameWithType: Brightness.Normal
 - uid: Pixie.Brightness.VeryDark
   name: VeryDark
-  href: docfx/api/Pixie.Brightness.html#Pixie_Brightness_VeryDark
+  href: api/Pixie.Brightness.html#Pixie_Brightness_VeryDark
   commentId: F:Pixie.Brightness.VeryDark
   fullName: Pixie.Brightness.VeryDark
   nameWithType: Brightness.VeryDark
 - uid: Pixie.BrightnessUtils
   name: BrightnessUtils
-  href: docfx/api/Pixie.BrightnessUtils.html
+  href: api/Pixie.BrightnessUtils.html
   commentId: T:Pixie.BrightnessUtils
   fullName: Pixie.BrightnessUtils
   nameWithType: BrightnessUtils
 - uid: Pixie.BrightnessUtils.IsDarker(Pixie.Brightness,Pixie.Brightness)
   name: IsDarker(Brightness, Brightness)
-  href: docfx/api/Pixie.BrightnessUtils.html#Pixie_BrightnessUtils_IsDarker_Pixie_Brightness_Pixie_Brightness_
+  href: api/Pixie.BrightnessUtils.html#Pixie_BrightnessUtils_IsDarker_Pixie_Brightness_Pixie_Brightness_
   commentId: M:Pixie.BrightnessUtils.IsDarker(Pixie.Brightness,Pixie.Brightness)
   fullName: Pixie.BrightnessUtils.IsDarker(Pixie.Brightness, Pixie.Brightness)
   nameWithType: BrightnessUtils.IsDarker(Brightness, Brightness)
 - uid: Pixie.BrightnessUtils.IsDarker*
   name: IsDarker
-  href: docfx/api/Pixie.BrightnessUtils.html#Pixie_BrightnessUtils_IsDarker_
+  href: api/Pixie.BrightnessUtils.html#Pixie_BrightnessUtils_IsDarker_
   commentId: Overload:Pixie.BrightnessUtils.IsDarker
   isSpec: "True"
   fullName: Pixie.BrightnessUtils.IsDarker
   nameWithType: BrightnessUtils.IsDarker
 - uid: Pixie.BrightnessUtils.IsLighter(Pixie.Brightness,Pixie.Brightness)
   name: IsLighter(Brightness, Brightness)
-  href: docfx/api/Pixie.BrightnessUtils.html#Pixie_BrightnessUtils_IsLighter_Pixie_Brightness_Pixie_Brightness_
+  href: api/Pixie.BrightnessUtils.html#Pixie_BrightnessUtils_IsLighter_Pixie_Brightness_Pixie_Brightness_
   commentId: M:Pixie.BrightnessUtils.IsLighter(Pixie.Brightness,Pixie.Brightness)
   fullName: Pixie.BrightnessUtils.IsLighter(Pixie.Brightness, Pixie.Brightness)
   nameWithType: BrightnessUtils.IsLighter(Brightness, Brightness)
 - uid: Pixie.BrightnessUtils.IsLighter*
   name: IsLighter
-  href: docfx/api/Pixie.BrightnessUtils.html#Pixie_BrightnessUtils_IsLighter_
+  href: api/Pixie.BrightnessUtils.html#Pixie_BrightnessUtils_IsLighter_
   commentId: Overload:Pixie.BrightnessUtils.IsLighter
   isSpec: "True"
   fullName: Pixie.BrightnessUtils.IsLighter
   nameWithType: BrightnessUtils.IsLighter
 - uid: Pixie.GameContext
   name: GameContext
-  href: docfx/api/Pixie.GameContext.html
+  href: api/Pixie.GameContext.html
   commentId: T:Pixie.GameContext
   fullName: Pixie.GameContext
   nameWithType: GameContext
 - uid: Pixie.GameContext.#ctor(System.UInt32,System.UInt32,System.String,System.Boolean)
   name: GameContext(uint, uint, string, bool)
-  href: docfx/api/Pixie.GameContext.html#Pixie_GameContext__ctor_System_UInt32_System_UInt32_System_String_System_Boolean_
+  href: api/Pixie.GameContext.html#Pixie_GameContext__ctor_System_UInt32_System_UInt32_System_String_System_Boolean_
   commentId: M:Pixie.GameContext.#ctor(System.UInt32,System.UInt32,System.String,System.Boolean)
   name.vb: New(UInteger, UInteger, String, Boolean)
   fullName: Pixie.GameContext.GameContext(uint, uint, string, bool)
@@ -86,7 +86,7 @@ references:
   nameWithType.vb: GameContext.New(UInteger, UInteger, String, Boolean)
 - uid: Pixie.GameContext.#ctor*
   name: GameContext
-  href: docfx/api/Pixie.GameContext.html#Pixie_GameContext__ctor_
+  href: api/Pixie.GameContext.html#Pixie_GameContext__ctor_
   commentId: Overload:Pixie.GameContext.#ctor
   isSpec: "True"
   name.vb: New
@@ -96,58 +96,58 @@ references:
   nameWithType.vb: GameContext.New
 - uid: Pixie.GameContext.RunGame(Pixie.Scene)
   name: RunGame(Scene)
-  href: docfx/api/Pixie.GameContext.html#Pixie_GameContext_RunGame_Pixie_Scene_
+  href: api/Pixie.GameContext.html#Pixie_GameContext_RunGame_Pixie_Scene_
   commentId: M:Pixie.GameContext.RunGame(Pixie.Scene)
   fullName: Pixie.GameContext.RunGame(Pixie.Scene)
   nameWithType: GameContext.RunGame(Scene)
 - uid: Pixie.GameContext.RunGame*
   name: RunGame
-  href: docfx/api/Pixie.GameContext.html#Pixie_GameContext_RunGame_
+  href: api/Pixie.GameContext.html#Pixie_GameContext_RunGame_
   commentId: Overload:Pixie.GameContext.RunGame
   isSpec: "True"
   fullName: Pixie.GameContext.RunGame
   nameWithType: GameContext.RunGame
 - uid: Pixie.GameContext.StopGame
   name: StopGame()
-  href: docfx/api/Pixie.GameContext.html#Pixie_GameContext_StopGame
+  href: api/Pixie.GameContext.html#Pixie_GameContext_StopGame
   commentId: M:Pixie.GameContext.StopGame
   fullName: Pixie.GameContext.StopGame()
   nameWithType: GameContext.StopGame()
 - uid: Pixie.GameContext.StopGame*
   name: StopGame
-  href: docfx/api/Pixie.GameContext.html#Pixie_GameContext_StopGame_
+  href: api/Pixie.GameContext.html#Pixie_GameContext_StopGame_
   commentId: Overload:Pixie.GameContext.StopGame
   isSpec: "True"
   fullName: Pixie.GameContext.StopGame
   nameWithType: GameContext.StopGame
 - uid: Pixie.GameState
   name: GameState
-  href: docfx/api/Pixie.GameState.html
+  href: api/Pixie.GameState.html
   commentId: T:Pixie.GameState
   fullName: Pixie.GameState
   nameWithType: GameState
 - uid: Pixie.GameState.ShutDown
   name: ShutDown()
-  href: docfx/api/Pixie.GameState.html#Pixie_GameState_ShutDown
+  href: api/Pixie.GameState.html#Pixie_GameState_ShutDown
   commentId: M:Pixie.GameState.ShutDown
   fullName: Pixie.GameState.ShutDown()
   nameWithType: GameState.ShutDown()
 - uid: Pixie.GameState.ShutDown*
   name: ShutDown
-  href: docfx/api/Pixie.GameState.html#Pixie_GameState_ShutDown_
+  href: api/Pixie.GameState.html#Pixie_GameState_ShutDown_
   commentId: Overload:Pixie.GameState.ShutDown
   isSpec: "True"
   fullName: Pixie.GameState.ShutDown
   nameWithType: GameState.ShutDown
 - uid: Pixie.IReadOnlySprite
   name: IReadOnlySprite
-  href: docfx/api/Pixie.IReadOnlySprite.html
+  href: api/Pixie.IReadOnlySprite.html
   commentId: T:Pixie.IReadOnlySprite
   fullName: Pixie.IReadOnlySprite
   nameWithType: IReadOnlySprite
 - uid: Pixie.IReadOnlySprite.GetColorAt(System.UInt32,System.UInt32)
   name: GetColorAt(uint, uint)
-  href: docfx/api/Pixie.IReadOnlySprite.html#Pixie_IReadOnlySprite_GetColorAt_System_UInt32_System_UInt32_
+  href: api/Pixie.IReadOnlySprite.html#Pixie_IReadOnlySprite_GetColorAt_System_UInt32_System_UInt32_
   commentId: M:Pixie.IReadOnlySprite.GetColorAt(System.UInt32,System.UInt32)
   name.vb: GetColorAt(UInteger, UInteger)
   fullName: Pixie.IReadOnlySprite.GetColorAt(uint, uint)
@@ -156,240 +156,240 @@ references:
   nameWithType.vb: IReadOnlySprite.GetColorAt(UInteger, UInteger)
 - uid: Pixie.IReadOnlySprite.GetColorAt*
   name: GetColorAt
-  href: docfx/api/Pixie.IReadOnlySprite.html#Pixie_IReadOnlySprite_GetColorAt_
+  href: api/Pixie.IReadOnlySprite.html#Pixie_IReadOnlySprite_GetColorAt_
   commentId: Overload:Pixie.IReadOnlySprite.GetColorAt
   isSpec: "True"
   fullName: Pixie.IReadOnlySprite.GetColorAt
   nameWithType: IReadOnlySprite.GetColorAt
 - uid: Pixie.IReadOnlySprite.Height
   name: Height
-  href: docfx/api/Pixie.IReadOnlySprite.html#Pixie_IReadOnlySprite_Height
+  href: api/Pixie.IReadOnlySprite.html#Pixie_IReadOnlySprite_Height
   commentId: P:Pixie.IReadOnlySprite.Height
   fullName: Pixie.IReadOnlySprite.Height
   nameWithType: IReadOnlySprite.Height
 - uid: Pixie.IReadOnlySprite.Height*
   name: Height
-  href: docfx/api/Pixie.IReadOnlySprite.html#Pixie_IReadOnlySprite_Height_
+  href: api/Pixie.IReadOnlySprite.html#Pixie_IReadOnlySprite_Height_
   commentId: Overload:Pixie.IReadOnlySprite.Height
   isSpec: "True"
   fullName: Pixie.IReadOnlySprite.Height
   nameWithType: IReadOnlySprite.Height
 - uid: Pixie.IReadOnlySprite.Width
   name: Width
-  href: docfx/api/Pixie.IReadOnlySprite.html#Pixie_IReadOnlySprite_Width
+  href: api/Pixie.IReadOnlySprite.html#Pixie_IReadOnlySprite_Width
   commentId: P:Pixie.IReadOnlySprite.Width
   fullName: Pixie.IReadOnlySprite.Width
   nameWithType: IReadOnlySprite.Width
 - uid: Pixie.IReadOnlySprite.Width*
   name: Width
-  href: docfx/api/Pixie.IReadOnlySprite.html#Pixie_IReadOnlySprite_Width_
+  href: api/Pixie.IReadOnlySprite.html#Pixie_IReadOnlySprite_Width_
   commentId: Overload:Pixie.IReadOnlySprite.Width
   isSpec: "True"
   fullName: Pixie.IReadOnlySprite.Width
   nameWithType: IReadOnlySprite.Width
 - uid: Pixie.Input
   name: Input
-  href: docfx/api/Pixie.Input.html
+  href: api/Pixie.Input.html
   commentId: T:Pixie.Input
   fullName: Pixie.Input
   nameWithType: Input
 - uid: Pixie.Input.ButtonPressed(Silk.NET.Input.MouseButton)
   name: ButtonPressed(MouseButton)
-  href: docfx/api/Pixie.Input.html#Pixie_Input_ButtonPressed_Silk_NET_Input_MouseButton_
+  href: api/Pixie.Input.html#Pixie_Input_ButtonPressed_Silk_NET_Input_MouseButton_
   commentId: M:Pixie.Input.ButtonPressed(Silk.NET.Input.MouseButton)
   fullName: Pixie.Input.ButtonPressed(Silk.NET.Input.MouseButton)
   nameWithType: Input.ButtonPressed(MouseButton)
 - uid: Pixie.Input.ButtonPressed*
   name: ButtonPressed
-  href: docfx/api/Pixie.Input.html#Pixie_Input_ButtonPressed_
+  href: api/Pixie.Input.html#Pixie_Input_ButtonPressed_
   commentId: Overload:Pixie.Input.ButtonPressed
   isSpec: "True"
   fullName: Pixie.Input.ButtonPressed
   nameWithType: Input.ButtonPressed
 - uid: Pixie.Input.GetButtonState(Silk.NET.Input.MouseButton)
   name: GetButtonState(MouseButton)
-  href: docfx/api/Pixie.Input.html#Pixie_Input_GetButtonState_Silk_NET_Input_MouseButton_
+  href: api/Pixie.Input.html#Pixie_Input_GetButtonState_Silk_NET_Input_MouseButton_
   commentId: M:Pixie.Input.GetButtonState(Silk.NET.Input.MouseButton)
   fullName: Pixie.Input.GetButtonState(Silk.NET.Input.MouseButton)
   nameWithType: Input.GetButtonState(MouseButton)
 - uid: Pixie.Input.GetButtonState*
   name: GetButtonState
-  href: docfx/api/Pixie.Input.html#Pixie_Input_GetButtonState_
+  href: api/Pixie.Input.html#Pixie_Input_GetButtonState_
   commentId: Overload:Pixie.Input.GetButtonState
   isSpec: "True"
   fullName: Pixie.Input.GetButtonState
   nameWithType: Input.GetButtonState
 - uid: Pixie.Input.GetKeyState(Silk.NET.Input.Key)
   name: GetKeyState(Key)
-  href: docfx/api/Pixie.Input.html#Pixie_Input_GetKeyState_Silk_NET_Input_Key_
+  href: api/Pixie.Input.html#Pixie_Input_GetKeyState_Silk_NET_Input_Key_
   commentId: M:Pixie.Input.GetKeyState(Silk.NET.Input.Key)
   fullName: Pixie.Input.GetKeyState(Silk.NET.Input.Key)
   nameWithType: Input.GetKeyState(Key)
 - uid: Pixie.Input.GetKeyState*
   name: GetKeyState
-  href: docfx/api/Pixie.Input.html#Pixie_Input_GetKeyState_
+  href: api/Pixie.Input.html#Pixie_Input_GetKeyState_
   commentId: Overload:Pixie.Input.GetKeyState
   isSpec: "True"
   fullName: Pixie.Input.GetKeyState
   nameWithType: Input.GetKeyState
 - uid: Pixie.Input.GetLastButtonState(Silk.NET.Input.MouseButton)
   name: GetLastButtonState(MouseButton)
-  href: docfx/api/Pixie.Input.html#Pixie_Input_GetLastButtonState_Silk_NET_Input_MouseButton_
+  href: api/Pixie.Input.html#Pixie_Input_GetLastButtonState_Silk_NET_Input_MouseButton_
   commentId: M:Pixie.Input.GetLastButtonState(Silk.NET.Input.MouseButton)
   fullName: Pixie.Input.GetLastButtonState(Silk.NET.Input.MouseButton)
   nameWithType: Input.GetLastButtonState(MouseButton)
 - uid: Pixie.Input.GetLastButtonState*
   name: GetLastButtonState
-  href: docfx/api/Pixie.Input.html#Pixie_Input_GetLastButtonState_
+  href: api/Pixie.Input.html#Pixie_Input_GetLastButtonState_
   commentId: Overload:Pixie.Input.GetLastButtonState
   isSpec: "True"
   fullName: Pixie.Input.GetLastButtonState
   nameWithType: Input.GetLastButtonState
 - uid: Pixie.Input.GetLastKeyState(Silk.NET.Input.Key)
   name: GetLastKeyState(Key)
-  href: docfx/api/Pixie.Input.html#Pixie_Input_GetLastKeyState_Silk_NET_Input_Key_
+  href: api/Pixie.Input.html#Pixie_Input_GetLastKeyState_Silk_NET_Input_Key_
   commentId: M:Pixie.Input.GetLastKeyState(Silk.NET.Input.Key)
   fullName: Pixie.Input.GetLastKeyState(Silk.NET.Input.Key)
   nameWithType: Input.GetLastKeyState(Key)
 - uid: Pixie.Input.GetLastKeyState*
   name: GetLastKeyState
-  href: docfx/api/Pixie.Input.html#Pixie_Input_GetLastKeyState_
+  href: api/Pixie.Input.html#Pixie_Input_GetLastKeyState_
   commentId: Overload:Pixie.Input.GetLastKeyState
   isSpec: "True"
   fullName: Pixie.Input.GetLastKeyState
   nameWithType: Input.GetLastKeyState
 - uid: Pixie.Input.KeyPressed(Silk.NET.Input.Key)
   name: KeyPressed(Key)
-  href: docfx/api/Pixie.Input.html#Pixie_Input_KeyPressed_Silk_NET_Input_Key_
+  href: api/Pixie.Input.html#Pixie_Input_KeyPressed_Silk_NET_Input_Key_
   commentId: M:Pixie.Input.KeyPressed(Silk.NET.Input.Key)
   fullName: Pixie.Input.KeyPressed(Silk.NET.Input.Key)
   nameWithType: Input.KeyPressed(Key)
 - uid: Pixie.Input.KeyPressed*
   name: KeyPressed
-  href: docfx/api/Pixie.Input.html#Pixie_Input_KeyPressed_
+  href: api/Pixie.Input.html#Pixie_Input_KeyPressed_
   commentId: Overload:Pixie.Input.KeyPressed
   isSpec: "True"
   fullName: Pixie.Input.KeyPressed
   nameWithType: Input.KeyPressed
 - uid: Pixie.Input.MouseX
   name: MouseX
-  href: docfx/api/Pixie.Input.html#Pixie_Input_MouseX
+  href: api/Pixie.Input.html#Pixie_Input_MouseX
   commentId: P:Pixie.Input.MouseX
   fullName: Pixie.Input.MouseX
   nameWithType: Input.MouseX
 - uid: Pixie.Input.MouseX*
   name: MouseX
-  href: docfx/api/Pixie.Input.html#Pixie_Input_MouseX_
+  href: api/Pixie.Input.html#Pixie_Input_MouseX_
   commentId: Overload:Pixie.Input.MouseX
   isSpec: "True"
   fullName: Pixie.Input.MouseX
   nameWithType: Input.MouseX
 - uid: Pixie.Input.MouseY
   name: MouseY
-  href: docfx/api/Pixie.Input.html#Pixie_Input_MouseY
+  href: api/Pixie.Input.html#Pixie_Input_MouseY
   commentId: P:Pixie.Input.MouseY
   fullName: Pixie.Input.MouseY
   nameWithType: Input.MouseY
 - uid: Pixie.Input.MouseY*
   name: MouseY
-  href: docfx/api/Pixie.Input.html#Pixie_Input_MouseY_
+  href: api/Pixie.Input.html#Pixie_Input_MouseY_
   commentId: Overload:Pixie.Input.MouseY
   isSpec: "True"
   fullName: Pixie.Input.MouseY
   nameWithType: Input.MouseY
 - uid: Pixie.Input.State
   name: Input.State
-  href: docfx/api/Pixie.Input.State.html
+  href: api/Pixie.Input.State.html
   commentId: T:Pixie.Input.State
   fullName: Pixie.Input.State
   nameWithType: Input.State
 - uid: Pixie.Input.State.Down
   name: Down
-  href: docfx/api/Pixie.Input.State.html#Pixie_Input_State_Down
+  href: api/Pixie.Input.State.html#Pixie_Input_State_Down
   commentId: F:Pixie.Input.State.Down
   fullName: Pixie.Input.State.Down
   nameWithType: Input.State.Down
 - uid: Pixie.Input.State.Up
   name: Up
-  href: docfx/api/Pixie.Input.State.html#Pixie_Input_State_Up
+  href: api/Pixie.Input.State.html#Pixie_Input_State_Up
   commentId: F:Pixie.Input.State.Up
   fullName: Pixie.Input.State.Up
   nameWithType: Input.State.Up
 - uid: Pixie.PixieColor
   name: PixieColor
-  href: docfx/api/Pixie.PixieColor.html
+  href: api/Pixie.PixieColor.html
   commentId: T:Pixie.PixieColor
   fullName: Pixie.PixieColor
   nameWithType: PixieColor
 - uid: Pixie.PixieColor.Black
   name: Black
-  href: docfx/api/Pixie.PixieColor.html#Pixie_PixieColor_Black
+  href: api/Pixie.PixieColor.html#Pixie_PixieColor_Black
   commentId: F:Pixie.PixieColor.Black
   fullName: Pixie.PixieColor.Black
   nameWithType: PixieColor.Black
 - uid: Pixie.PixieColor.Blue
   name: Blue
-  href: docfx/api/Pixie.PixieColor.html#Pixie_PixieColor_Blue
+  href: api/Pixie.PixieColor.html#Pixie_PixieColor_Blue
   commentId: F:Pixie.PixieColor.Blue
   fullName: Pixie.PixieColor.Blue
   nameWithType: PixieColor.Blue
 - uid: Pixie.PixieColor.Count
   name: Count
-  href: docfx/api/Pixie.PixieColor.html#Pixie_PixieColor_Count
+  href: api/Pixie.PixieColor.html#Pixie_PixieColor_Count
   commentId: F:Pixie.PixieColor.Count
   fullName: Pixie.PixieColor.Count
   nameWithType: PixieColor.Count
 - uid: Pixie.PixieColor.Green
   name: Green
-  href: docfx/api/Pixie.PixieColor.html#Pixie_PixieColor_Green
+  href: api/Pixie.PixieColor.html#Pixie_PixieColor_Green
   commentId: F:Pixie.PixieColor.Green
   fullName: Pixie.PixieColor.Green
   nameWithType: PixieColor.Green
 - uid: Pixie.PixieColor.None
   name: None
-  href: docfx/api/Pixie.PixieColor.html#Pixie_PixieColor_None
+  href: api/Pixie.PixieColor.html#Pixie_PixieColor_None
   commentId: F:Pixie.PixieColor.None
   fullName: Pixie.PixieColor.None
   nameWithType: PixieColor.None
 - uid: Pixie.PixieColor.Orange
   name: Orange
-  href: docfx/api/Pixie.PixieColor.html#Pixie_PixieColor_Orange
+  href: api/Pixie.PixieColor.html#Pixie_PixieColor_Orange
   commentId: F:Pixie.PixieColor.Orange
   fullName: Pixie.PixieColor.Orange
   nameWithType: PixieColor.Orange
 - uid: Pixie.PixieColor.Red
   name: Red
-  href: docfx/api/Pixie.PixieColor.html#Pixie_PixieColor_Red
+  href: api/Pixie.PixieColor.html#Pixie_PixieColor_Red
   commentId: F:Pixie.PixieColor.Red
   fullName: Pixie.PixieColor.Red
   nameWithType: PixieColor.Red
 - uid: Pixie.PixieColor.Violet
   name: Violet
-  href: docfx/api/Pixie.PixieColor.html#Pixie_PixieColor_Violet
+  href: api/Pixie.PixieColor.html#Pixie_PixieColor_Violet
   commentId: F:Pixie.PixieColor.Violet
   fullName: Pixie.PixieColor.Violet
   nameWithType: PixieColor.Violet
 - uid: Pixie.PixieColor.White
   name: White
-  href: docfx/api/Pixie.PixieColor.html#Pixie_PixieColor_White
+  href: api/Pixie.PixieColor.html#Pixie_PixieColor_White
   commentId: F:Pixie.PixieColor.White
   fullName: Pixie.PixieColor.White
   nameWithType: PixieColor.White
 - uid: Pixie.PixieColor.Yellow
   name: Yellow
-  href: docfx/api/Pixie.PixieColor.html#Pixie_PixieColor_Yellow
+  href: api/Pixie.PixieColor.html#Pixie_PixieColor_Yellow
   commentId: F:Pixie.PixieColor.Yellow
   fullName: Pixie.PixieColor.Yellow
   nameWithType: PixieColor.Yellow
 - uid: Pixie.PointLight
   name: PointLight
-  href: docfx/api/Pixie.PointLight.html
+  href: api/Pixie.PointLight.html
   commentId: T:Pixie.PointLight
   fullName: Pixie.PointLight
   nameWithType: PointLight
 - uid: Pixie.PointLight.#ctor(System.Int64,System.Int64,System.Int16)
   name: PointLight(long, long, short)
-  href: docfx/api/Pixie.PointLight.html#Pixie_PointLight__ctor_System_Int64_System_Int64_System_Int16_
+  href: api/Pixie.PointLight.html#Pixie_PointLight__ctor_System_Int64_System_Int64_System_Int16_
   commentId: M:Pixie.PointLight.#ctor(System.Int64,System.Int64,System.Int16)
   name.vb: New(Long, Long, Short)
   fullName: Pixie.PointLight.PointLight(long, long, short)
@@ -398,7 +398,7 @@ references:
   nameWithType.vb: PointLight.New(Long, Long, Short)
 - uid: Pixie.PointLight.#ctor*
   name: PointLight
-  href: docfx/api/Pixie.PointLight.html#Pixie_PointLight__ctor_
+  href: api/Pixie.PointLight.html#Pixie_PointLight__ctor_
   commentId: Overload:Pixie.PointLight.#ctor
   isSpec: "True"
   name.vb: New
@@ -408,7 +408,7 @@ references:
   nameWithType.vb: PointLight.New
 - uid: Pixie.PointLight.Distance(System.Int64,System.Int64)
   name: Distance(long, long)
-  href: docfx/api/Pixie.PointLight.html#Pixie_PointLight_Distance_System_Int64_System_Int64_
+  href: api/Pixie.PointLight.html#Pixie_PointLight_Distance_System_Int64_System_Int64_
   commentId: M:Pixie.PointLight.Distance(System.Int64,System.Int64)
   name.vb: Distance(Long, Long)
   fullName: Pixie.PointLight.Distance(long, long)
@@ -417,14 +417,14 @@ references:
   nameWithType.vb: PointLight.Distance(Long, Long)
 - uid: Pixie.PointLight.Distance*
   name: Distance
-  href: docfx/api/Pixie.PointLight.html#Pixie_PointLight_Distance_
+  href: api/Pixie.PointLight.html#Pixie_PointLight_Distance_
   commentId: Overload:Pixie.PointLight.Distance
   isSpec: "True"
   fullName: Pixie.PointLight.Distance
   nameWithType: PointLight.Distance
 - uid: Pixie.PointLight.GetBrightness(System.Int64,System.Int64)
   name: GetBrightness(long, long)
-  href: docfx/api/Pixie.PointLight.html#Pixie_PointLight_GetBrightness_System_Int64_System_Int64_
+  href: api/Pixie.PointLight.html#Pixie_PointLight_GetBrightness_System_Int64_System_Int64_
   commentId: M:Pixie.PointLight.GetBrightness(System.Int64,System.Int64)
   name.vb: GetBrightness(Long, Long)
   fullName: Pixie.PointLight.GetBrightness(long, long)
@@ -433,98 +433,98 @@ references:
   nameWithType.vb: PointLight.GetBrightness(Long, Long)
 - uid: Pixie.PointLight.GetBrightness*
   name: GetBrightness
-  href: docfx/api/Pixie.PointLight.html#Pixie_PointLight_GetBrightness_
+  href: api/Pixie.PointLight.html#Pixie_PointLight_GetBrightness_
   commentId: Overload:Pixie.PointLight.GetBrightness
   isSpec: "True"
   fullName: Pixie.PointLight.GetBrightness
   nameWithType: PointLight.GetBrightness
 - uid: Pixie.PointLight.Radius
   name: Radius
-  href: docfx/api/Pixie.PointLight.html#Pixie_PointLight_Radius
+  href: api/Pixie.PointLight.html#Pixie_PointLight_Radius
   commentId: P:Pixie.PointLight.Radius
   fullName: Pixie.PointLight.Radius
   nameWithType: PointLight.Radius
 - uid: Pixie.PointLight.Radius*
   name: Radius
-  href: docfx/api/Pixie.PointLight.html#Pixie_PointLight_Radius_
+  href: api/Pixie.PointLight.html#Pixie_PointLight_Radius_
   commentId: Overload:Pixie.PointLight.Radius
   isSpec: "True"
   fullName: Pixie.PointLight.Radius
   nameWithType: PointLight.Radius
 - uid: Pixie.PointLight.X
   name: X
-  href: docfx/api/Pixie.PointLight.html#Pixie_PointLight_X
+  href: api/Pixie.PointLight.html#Pixie_PointLight_X
   commentId: P:Pixie.PointLight.X
   fullName: Pixie.PointLight.X
   nameWithType: PointLight.X
 - uid: Pixie.PointLight.X*
   name: X
-  href: docfx/api/Pixie.PointLight.html#Pixie_PointLight_X_
+  href: api/Pixie.PointLight.html#Pixie_PointLight_X_
   commentId: Overload:Pixie.PointLight.X
   isSpec: "True"
   fullName: Pixie.PointLight.X
   nameWithType: PointLight.X
 - uid: Pixie.PointLight.Y
   name: Y
-  href: docfx/api/Pixie.PointLight.html#Pixie_PointLight_Y
+  href: api/Pixie.PointLight.html#Pixie_PointLight_Y
   commentId: P:Pixie.PointLight.Y
   fullName: Pixie.PointLight.Y
   nameWithType: PointLight.Y
 - uid: Pixie.PointLight.Y*
   name: Y
-  href: docfx/api/Pixie.PointLight.html#Pixie_PointLight_Y_
+  href: api/Pixie.PointLight.html#Pixie_PointLight_Y_
   commentId: Overload:Pixie.PointLight.Y
   isSpec: "True"
   fullName: Pixie.PointLight.Y
   nameWithType: PointLight.Y
 - uid: Pixie.Renderer
   name: Renderer
-  href: docfx/api/Pixie.Renderer.html
+  href: api/Pixie.Renderer.html
   commentId: T:Pixie.Renderer
   fullName: Pixie.Renderer
   nameWithType: Renderer
 - uid: Pixie.Renderer.Brightness
   name: Brightness
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_Brightness
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Brightness
   commentId: P:Pixie.Renderer.Brightness
   fullName: Pixie.Renderer.Brightness
   nameWithType: Renderer.Brightness
 - uid: Pixie.Renderer.Brightness*
   name: Brightness
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_Brightness_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Brightness_
   commentId: Overload:Pixie.Renderer.Brightness
   isSpec: "True"
   fullName: Pixie.Renderer.Brightness
   nameWithType: Renderer.Brightness
 - uid: Pixie.Renderer.CameraX
   name: CameraX
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_CameraX
+  href: api/Pixie.Renderer.html#Pixie_Renderer_CameraX
   commentId: P:Pixie.Renderer.CameraX
   fullName: Pixie.Renderer.CameraX
   nameWithType: Renderer.CameraX
 - uid: Pixie.Renderer.CameraX*
   name: CameraX
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_CameraX_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_CameraX_
   commentId: Overload:Pixie.Renderer.CameraX
   isSpec: "True"
   fullName: Pixie.Renderer.CameraX
   nameWithType: Renderer.CameraX
 - uid: Pixie.Renderer.CameraY
   name: CameraY
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_CameraY
+  href: api/Pixie.Renderer.html#Pixie_Renderer_CameraY
   commentId: P:Pixie.Renderer.CameraY
   fullName: Pixie.Renderer.CameraY
   nameWithType: Renderer.CameraY
 - uid: Pixie.Renderer.CameraY*
   name: CameraY
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_CameraY_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_CameraY_
   commentId: Overload:Pixie.Renderer.CameraY
   isSpec: "True"
   fullName: Pixie.Renderer.CameraY
   nameWithType: Renderer.CameraY
 - uid: Pixie.Renderer.Circle(System.Int64,System.Int64,System.UInt32,Pixie.PixieColor)
   name: Circle(long, long, uint, PixieColor)
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_Circle_System_Int64_System_Int64_System_UInt32_Pixie_PixieColor_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Circle_System_Int64_System_Int64_System_UInt32_Pixie_PixieColor_
   commentId: M:Pixie.Renderer.Circle(System.Int64,System.Int64,System.UInt32,Pixie.PixieColor)
   name.vb: Circle(Long, Long, UInteger, PixieColor)
   fullName: Pixie.Renderer.Circle(long, long, uint, Pixie.PixieColor)
@@ -533,7 +533,7 @@ references:
   nameWithType.vb: Renderer.Circle(Long, Long, UInteger, PixieColor)
 - uid: Pixie.Renderer.Circle(System.Int64,System.Int64,System.UInt32,Pixie.PixieColor,Pixie.Brightness)
   name: Circle(long, long, uint, PixieColor, Brightness)
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_Circle_System_Int64_System_Int64_System_UInt32_Pixie_PixieColor_Pixie_Brightness_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Circle_System_Int64_System_Int64_System_UInt32_Pixie_PixieColor_Pixie_Brightness_
   commentId: M:Pixie.Renderer.Circle(System.Int64,System.Int64,System.UInt32,Pixie.PixieColor,Pixie.Brightness)
   name.vb: Circle(Long, Long, UInteger, PixieColor, Brightness)
   fullName: Pixie.Renderer.Circle(long, long, uint, Pixie.PixieColor, Pixie.Brightness)
@@ -542,7 +542,7 @@ references:
   nameWithType.vb: Renderer.Circle(Long, Long, UInteger, PixieColor, Brightness)
 - uid: Pixie.Renderer.Circle(System.Int64,System.Int64,System.UInt32,System.Byte)
   name: Circle(long, long, uint, byte)
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_Circle_System_Int64_System_Int64_System_UInt32_System_Byte_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Circle_System_Int64_System_Int64_System_UInt32_System_Byte_
   commentId: M:Pixie.Renderer.Circle(System.Int64,System.Int64,System.UInt32,System.Byte)
   name.vb: Circle(Long, Long, UInteger, Byte)
   fullName: Pixie.Renderer.Circle(long, long, uint, byte)
@@ -551,14 +551,14 @@ references:
   nameWithType.vb: Renderer.Circle(Long, Long, UInteger, Byte)
 - uid: Pixie.Renderer.Circle*
   name: Circle
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_Circle_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Circle_
   commentId: Overload:Pixie.Renderer.Circle
   isSpec: "True"
   fullName: Pixie.Renderer.Circle
   nameWithType: Renderer.Circle
 - uid: Pixie.Renderer.CircleFilled(System.Int64,System.Int64,System.UInt32,Pixie.PixieColor)
   name: CircleFilled(long, long, uint, PixieColor)
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_CircleFilled_System_Int64_System_Int64_System_UInt32_Pixie_PixieColor_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_CircleFilled_System_Int64_System_Int64_System_UInt32_Pixie_PixieColor_
   commentId: M:Pixie.Renderer.CircleFilled(System.Int64,System.Int64,System.UInt32,Pixie.PixieColor)
   name.vb: CircleFilled(Long, Long, UInteger, PixieColor)
   fullName: Pixie.Renderer.CircleFilled(long, long, uint, Pixie.PixieColor)
@@ -567,7 +567,7 @@ references:
   nameWithType.vb: Renderer.CircleFilled(Long, Long, UInteger, PixieColor)
 - uid: Pixie.Renderer.CircleFilled(System.Int64,System.Int64,System.UInt32,Pixie.PixieColor,Pixie.Brightness)
   name: CircleFilled(long, long, uint, PixieColor, Brightness)
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_CircleFilled_System_Int64_System_Int64_System_UInt32_Pixie_PixieColor_Pixie_Brightness_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_CircleFilled_System_Int64_System_Int64_System_UInt32_Pixie_PixieColor_Pixie_Brightness_
   commentId: M:Pixie.Renderer.CircleFilled(System.Int64,System.Int64,System.UInt32,Pixie.PixieColor,Pixie.Brightness)
   name.vb: CircleFilled(Long, Long, UInteger, PixieColor, Brightness)
   fullName: Pixie.Renderer.CircleFilled(long, long, uint, Pixie.PixieColor, Pixie.Brightness)
@@ -576,7 +576,7 @@ references:
   nameWithType.vb: Renderer.CircleFilled(Long, Long, UInteger, PixieColor, Brightness)
 - uid: Pixie.Renderer.CircleFilled(System.Int64,System.Int64,System.UInt32,System.Byte)
   name: CircleFilled(long, long, uint, byte)
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_CircleFilled_System_Int64_System_Int64_System_UInt32_System_Byte_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_CircleFilled_System_Int64_System_Int64_System_UInt32_System_Byte_
   commentId: M:Pixie.Renderer.CircleFilled(System.Int64,System.Int64,System.UInt32,System.Byte)
   name.vb: CircleFilled(Long, Long, UInteger, Byte)
   fullName: Pixie.Renderer.CircleFilled(long, long, uint, byte)
@@ -585,66 +585,66 @@ references:
   nameWithType.vb: Renderer.CircleFilled(Long, Long, UInteger, Byte)
 - uid: Pixie.Renderer.CircleFilled*
   name: CircleFilled
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_CircleFilled_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_CircleFilled_
   commentId: Overload:Pixie.Renderer.CircleFilled
   isSpec: "True"
   fullName: Pixie.Renderer.CircleFilled
   nameWithType: Renderer.CircleFilled
 - uid: Pixie.Renderer.ClearFrameBuffer
   name: ClearFrameBuffer()
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_ClearFrameBuffer
+  href: api/Pixie.Renderer.html#Pixie_Renderer_ClearFrameBuffer
   commentId: M:Pixie.Renderer.ClearFrameBuffer
   fullName: Pixie.Renderer.ClearFrameBuffer()
   nameWithType: Renderer.ClearFrameBuffer()
 - uid: Pixie.Renderer.ClearFrameBuffer*
   name: ClearFrameBuffer
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_ClearFrameBuffer_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_ClearFrameBuffer_
   commentId: Overload:Pixie.Renderer.ClearFrameBuffer
   isSpec: "True"
   fullName: Pixie.Renderer.ClearFrameBuffer
   nameWithType: Renderer.ClearFrameBuffer
 - uid: Pixie.Renderer.FrameBufferHeight
   name: FrameBufferHeight
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_FrameBufferHeight
+  href: api/Pixie.Renderer.html#Pixie_Renderer_FrameBufferHeight
   commentId: P:Pixie.Renderer.FrameBufferHeight
   fullName: Pixie.Renderer.FrameBufferHeight
   nameWithType: Renderer.FrameBufferHeight
 - uid: Pixie.Renderer.FrameBufferHeight*
   name: FrameBufferHeight
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_FrameBufferHeight_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_FrameBufferHeight_
   commentId: Overload:Pixie.Renderer.FrameBufferHeight
   isSpec: "True"
   fullName: Pixie.Renderer.FrameBufferHeight
   nameWithType: Renderer.FrameBufferHeight
 - uid: Pixie.Renderer.FrameBufferWidth
   name: FrameBufferWidth
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_FrameBufferWidth
+  href: api/Pixie.Renderer.html#Pixie_Renderer_FrameBufferWidth
   commentId: P:Pixie.Renderer.FrameBufferWidth
   fullName: Pixie.Renderer.FrameBufferWidth
   nameWithType: Renderer.FrameBufferWidth
 - uid: Pixie.Renderer.FrameBufferWidth*
   name: FrameBufferWidth
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_FrameBufferWidth_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_FrameBufferWidth_
   commentId: Overload:Pixie.Renderer.FrameBufferWidth
   isSpec: "True"
   fullName: Pixie.Renderer.FrameBufferWidth
   nameWithType: Renderer.FrameBufferWidth
 - uid: Pixie.Renderer.GetBackgroundColor
   name: GetBackgroundColor()
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_GetBackgroundColor
+  href: api/Pixie.Renderer.html#Pixie_Renderer_GetBackgroundColor
   commentId: M:Pixie.Renderer.GetBackgroundColor
   fullName: Pixie.Renderer.GetBackgroundColor()
   nameWithType: Renderer.GetBackgroundColor()
 - uid: Pixie.Renderer.GetBackgroundColor*
   name: GetBackgroundColor
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_GetBackgroundColor_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_GetBackgroundColor_
   commentId: Overload:Pixie.Renderer.GetBackgroundColor
   isSpec: "True"
   fullName: Pixie.Renderer.GetBackgroundColor
   nameWithType: Renderer.GetBackgroundColor
 - uid: Pixie.Renderer.Line(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.PixieColor)
   name: Line(long, long, long, long, PixieColor)
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_Line_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_PixieColor_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Line_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_PixieColor_
   commentId: M:Pixie.Renderer.Line(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.PixieColor)
   name.vb: Line(Long, Long, Long, Long, PixieColor)
   fullName: Pixie.Renderer.Line(long, long, long, long, Pixie.PixieColor)
@@ -653,7 +653,7 @@ references:
   nameWithType.vb: Renderer.Line(Long, Long, Long, Long, PixieColor)
 - uid: Pixie.Renderer.Line(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.PixieColor,Pixie.Brightness)
   name: Line(long, long, long, long, PixieColor, Brightness)
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_Line_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_PixieColor_Pixie_Brightness_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Line_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_PixieColor_Pixie_Brightness_
   commentId: M:Pixie.Renderer.Line(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.PixieColor,Pixie.Brightness)
   name.vb: Line(Long, Long, Long, Long, PixieColor, Brightness)
   fullName: Pixie.Renderer.Line(long, long, long, long, Pixie.PixieColor, Pixie.Brightness)
@@ -662,7 +662,7 @@ references:
   nameWithType.vb: Renderer.Line(Long, Long, Long, Long, PixieColor, Brightness)
 - uid: Pixie.Renderer.Line(System.Int64,System.Int64,System.Int64,System.Int64,System.Byte)
   name: Line(long, long, long, long, byte)
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_Line_System_Int64_System_Int64_System_Int64_System_Int64_System_Byte_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Line_System_Int64_System_Int64_System_Int64_System_Int64_System_Byte_
   commentId: M:Pixie.Renderer.Line(System.Int64,System.Int64,System.Int64,System.Int64,System.Byte)
   name.vb: Line(Long, Long, Long, Long, Byte)
   fullName: Pixie.Renderer.Line(long, long, long, long, byte)
@@ -671,14 +671,14 @@ references:
   nameWithType.vb: Renderer.Line(Long, Long, Long, Long, Byte)
 - uid: Pixie.Renderer.Line*
   name: Line
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_Line_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Line_
   commentId: Overload:Pixie.Renderer.Line
   isSpec: "True"
   fullName: Pixie.Renderer.Line
   nameWithType: Renderer.Line
 - uid: Pixie.Renderer.Point(System.Int64,System.Int64,Pixie.PixieColor)
   name: Point(long, long, PixieColor)
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_Point_System_Int64_System_Int64_Pixie_PixieColor_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Point_System_Int64_System_Int64_Pixie_PixieColor_
   commentId: M:Pixie.Renderer.Point(System.Int64,System.Int64,Pixie.PixieColor)
   name.vb: Point(Long, Long, PixieColor)
   fullName: Pixie.Renderer.Point(long, long, Pixie.PixieColor)
@@ -687,7 +687,7 @@ references:
   nameWithType.vb: Renderer.Point(Long, Long, PixieColor)
 - uid: Pixie.Renderer.Point(System.Int64,System.Int64,Pixie.PixieColor,Pixie.Brightness)
   name: Point(long, long, PixieColor, Brightness)
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_Point_System_Int64_System_Int64_Pixie_PixieColor_Pixie_Brightness_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Point_System_Int64_System_Int64_Pixie_PixieColor_Pixie_Brightness_
   commentId: M:Pixie.Renderer.Point(System.Int64,System.Int64,Pixie.PixieColor,Pixie.Brightness)
   name.vb: Point(Long, Long, PixieColor, Brightness)
   fullName: Pixie.Renderer.Point(long, long, Pixie.PixieColor, Pixie.Brightness)
@@ -696,7 +696,7 @@ references:
   nameWithType.vb: Renderer.Point(Long, Long, PixieColor, Brightness)
 - uid: Pixie.Renderer.Point(System.Int64,System.Int64,Pixie.PixieColor,System.Collections.Generic.IReadOnlyList{Pixie.PointLight})
   name: Point(long, long, PixieColor, IReadOnlyList<PointLight>)
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_Point_System_Int64_System_Int64_Pixie_PixieColor_System_Collections_Generic_IReadOnlyList_Pixie_PointLight__
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Point_System_Int64_System_Int64_Pixie_PixieColor_System_Collections_Generic_IReadOnlyList_Pixie_PointLight__
   commentId: M:Pixie.Renderer.Point(System.Int64,System.Int64,Pixie.PixieColor,System.Collections.Generic.IReadOnlyList{Pixie.PointLight})
   name.vb: Point(Long, Long, PixieColor, IReadOnlyList(Of PointLight))
   fullName: Pixie.Renderer.Point(long, long, Pixie.PixieColor, System.Collections.Generic.IReadOnlyList<Pixie.PointLight>)
@@ -705,7 +705,7 @@ references:
   nameWithType.vb: Renderer.Point(Long, Long, PixieColor, IReadOnlyList(Of PointLight))
 - uid: Pixie.Renderer.Point(System.Int64,System.Int64,System.Byte)
   name: Point(long, long, byte)
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_Point_System_Int64_System_Int64_System_Byte_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Point_System_Int64_System_Int64_System_Byte_
   commentId: M:Pixie.Renderer.Point(System.Int64,System.Int64,System.Byte)
   name.vb: Point(Long, Long, Byte)
   fullName: Pixie.Renderer.Point(long, long, byte)
@@ -714,14 +714,14 @@ references:
   nameWithType.vb: Renderer.Point(Long, Long, Byte)
 - uid: Pixie.Renderer.Point*
   name: Point
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_Point_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Point_
   commentId: Overload:Pixie.Renderer.Point
   isSpec: "True"
   fullName: Pixie.Renderer.Point
   nameWithType: Renderer.Point
 - uid: Pixie.Renderer.Rectangle(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.PixieColor)
   name: Rectangle(long, long, long, long, PixieColor)
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_Rectangle_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_PixieColor_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Rectangle_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_PixieColor_
   commentId: M:Pixie.Renderer.Rectangle(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.PixieColor)
   name.vb: Rectangle(Long, Long, Long, Long, PixieColor)
   fullName: Pixie.Renderer.Rectangle(long, long, long, long, Pixie.PixieColor)
@@ -730,7 +730,7 @@ references:
   nameWithType.vb: Renderer.Rectangle(Long, Long, Long, Long, PixieColor)
 - uid: Pixie.Renderer.Rectangle(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.PixieColor,Pixie.Brightness)
   name: Rectangle(long, long, long, long, PixieColor, Brightness)
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_Rectangle_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_PixieColor_Pixie_Brightness_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Rectangle_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_PixieColor_Pixie_Brightness_
   commentId: M:Pixie.Renderer.Rectangle(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.PixieColor,Pixie.Brightness)
   name.vb: Rectangle(Long, Long, Long, Long, PixieColor, Brightness)
   fullName: Pixie.Renderer.Rectangle(long, long, long, long, Pixie.PixieColor, Pixie.Brightness)
@@ -739,7 +739,7 @@ references:
   nameWithType.vb: Renderer.Rectangle(Long, Long, Long, Long, PixieColor, Brightness)
 - uid: Pixie.Renderer.Rectangle(System.Int64,System.Int64,System.Int64,System.Int64,System.Byte)
   name: Rectangle(long, long, long, long, byte)
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_Rectangle_System_Int64_System_Int64_System_Int64_System_Int64_System_Byte_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Rectangle_System_Int64_System_Int64_System_Int64_System_Int64_System_Byte_
   commentId: M:Pixie.Renderer.Rectangle(System.Int64,System.Int64,System.Int64,System.Int64,System.Byte)
   name.vb: Rectangle(Long, Long, Long, Long, Byte)
   fullName: Pixie.Renderer.Rectangle(long, long, long, long, byte)
@@ -748,14 +748,14 @@ references:
   nameWithType.vb: Renderer.Rectangle(Long, Long, Long, Long, Byte)
 - uid: Pixie.Renderer.Rectangle*
   name: Rectangle
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_Rectangle_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Rectangle_
   commentId: Overload:Pixie.Renderer.Rectangle
   isSpec: "True"
   fullName: Pixie.Renderer.Rectangle
   nameWithType: Renderer.Rectangle
 - uid: Pixie.Renderer.RectangleFilled(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.PixieColor)
   name: RectangleFilled(long, long, long, long, PixieColor)
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_RectangleFilled_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_PixieColor_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_RectangleFilled_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_PixieColor_
   commentId: M:Pixie.Renderer.RectangleFilled(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.PixieColor)
   name.vb: RectangleFilled(Long, Long, Long, Long, PixieColor)
   fullName: Pixie.Renderer.RectangleFilled(long, long, long, long, Pixie.PixieColor)
@@ -764,7 +764,7 @@ references:
   nameWithType.vb: Renderer.RectangleFilled(Long, Long, Long, Long, PixieColor)
 - uid: Pixie.Renderer.RectangleFilled(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.PixieColor,Pixie.Brightness)
   name: RectangleFilled(long, long, long, long, PixieColor, Brightness)
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_RectangleFilled_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_PixieColor_Pixie_Brightness_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_RectangleFilled_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_PixieColor_Pixie_Brightness_
   commentId: M:Pixie.Renderer.RectangleFilled(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.PixieColor,Pixie.Brightness)
   name.vb: RectangleFilled(Long, Long, Long, Long, PixieColor, Brightness)
   fullName: Pixie.Renderer.RectangleFilled(long, long, long, long, Pixie.PixieColor, Pixie.Brightness)
@@ -773,7 +773,7 @@ references:
   nameWithType.vb: Renderer.RectangleFilled(Long, Long, Long, Long, PixieColor, Brightness)
 - uid: Pixie.Renderer.RectangleFilled(System.Int64,System.Int64,System.Int64,System.Int64,System.Byte)
   name: RectangleFilled(long, long, long, long, byte)
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_RectangleFilled_System_Int64_System_Int64_System_Int64_System_Int64_System_Byte_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_RectangleFilled_System_Int64_System_Int64_System_Int64_System_Int64_System_Byte_
   commentId: M:Pixie.Renderer.RectangleFilled(System.Int64,System.Int64,System.Int64,System.Int64,System.Byte)
   name.vb: RectangleFilled(Long, Long, Long, Long, Byte)
   fullName: Pixie.Renderer.RectangleFilled(long, long, long, long, byte)
@@ -782,26 +782,26 @@ references:
   nameWithType.vb: Renderer.RectangleFilled(Long, Long, Long, Long, Byte)
 - uid: Pixie.Renderer.RectangleFilled*
   name: RectangleFilled
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_RectangleFilled_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_RectangleFilled_
   commentId: Overload:Pixie.Renderer.RectangleFilled
   isSpec: "True"
   fullName: Pixie.Renderer.RectangleFilled
   nameWithType: Renderer.RectangleFilled
 - uid: Pixie.Renderer.SetBackgroundColor(Pixie.PixieColor)
   name: SetBackgroundColor(PixieColor)
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_SetBackgroundColor_Pixie_PixieColor_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_SetBackgroundColor_Pixie_PixieColor_
   commentId: M:Pixie.Renderer.SetBackgroundColor(Pixie.PixieColor)
   fullName: Pixie.Renderer.SetBackgroundColor(Pixie.PixieColor)
   nameWithType: Renderer.SetBackgroundColor(PixieColor)
 - uid: Pixie.Renderer.SetBackgroundColor(Pixie.PixieColor,Pixie.Brightness)
   name: SetBackgroundColor(PixieColor, Brightness)
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_SetBackgroundColor_Pixie_PixieColor_Pixie_Brightness_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_SetBackgroundColor_Pixie_PixieColor_Pixie_Brightness_
   commentId: M:Pixie.Renderer.SetBackgroundColor(Pixie.PixieColor,Pixie.Brightness)
   fullName: Pixie.Renderer.SetBackgroundColor(Pixie.PixieColor, Pixie.Brightness)
   nameWithType: Renderer.SetBackgroundColor(PixieColor, Brightness)
 - uid: Pixie.Renderer.SetBackgroundColor(System.Byte)
   name: SetBackgroundColor(byte)
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_SetBackgroundColor_System_Byte_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_SetBackgroundColor_System_Byte_
   commentId: M:Pixie.Renderer.SetBackgroundColor(System.Byte)
   name.vb: SetBackgroundColor(Byte)
   fullName: Pixie.Renderer.SetBackgroundColor(byte)
@@ -810,14 +810,14 @@ references:
   nameWithType.vb: Renderer.SetBackgroundColor(Byte)
 - uid: Pixie.Renderer.SetBackgroundColor*
   name: SetBackgroundColor
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_SetBackgroundColor_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_SetBackgroundColor_
   commentId: Overload:Pixie.Renderer.SetBackgroundColor
   isSpec: "True"
   fullName: Pixie.Renderer.SetBackgroundColor
   nameWithType: Renderer.SetBackgroundColor
 - uid: Pixie.Renderer.Sprite(Pixie.IReadOnlySprite@,System.Int64,System.Int64,System.Boolean)
   name: Sprite(in IReadOnlySprite?, long, long, bool)
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_Sprite_Pixie_IReadOnlySprite__System_Int64_System_Int64_System_Boolean_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Sprite_Pixie_IReadOnlySprite__System_Int64_System_Int64_System_Boolean_
   commentId: M:Pixie.Renderer.Sprite(Pixie.IReadOnlySprite@,System.Int64,System.Int64,System.Boolean)
   name.vb: Sprite(IReadOnlySprite, Long, Long, Boolean)
   fullName: Pixie.Renderer.Sprite(in Pixie.IReadOnlySprite?, long, long, bool)
@@ -826,7 +826,7 @@ references:
   nameWithType.vb: Renderer.Sprite(IReadOnlySprite, Long, Long, Boolean)
 - uid: Pixie.Renderer.Sprite(Pixie.IReadOnlySprite@,System.Int64,System.Int64,System.Boolean,Pixie.Brightness)
   name: Sprite(in IReadOnlySprite?, long, long, bool, Brightness)
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_Sprite_Pixie_IReadOnlySprite__System_Int64_System_Int64_System_Boolean_Pixie_Brightness_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Sprite_Pixie_IReadOnlySprite__System_Int64_System_Int64_System_Boolean_Pixie_Brightness_
   commentId: M:Pixie.Renderer.Sprite(Pixie.IReadOnlySprite@,System.Int64,System.Int64,System.Boolean,Pixie.Brightness)
   name.vb: Sprite(IReadOnlySprite, Long, Long, Boolean, Brightness)
   fullName: Pixie.Renderer.Sprite(in Pixie.IReadOnlySprite?, long, long, bool, Pixie.Brightness)
@@ -835,7 +835,7 @@ references:
   nameWithType.vb: Renderer.Sprite(IReadOnlySprite, Long, Long, Boolean, Brightness)
 - uid: Pixie.Renderer.Sprite(Pixie.IReadOnlySprite@,System.Int64,System.Int64,System.Boolean,System.Collections.Generic.IReadOnlyList{Pixie.PointLight})
   name: Sprite(in IReadOnlySprite?, long, long, bool, IReadOnlyList<PointLight>)
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_Sprite_Pixie_IReadOnlySprite__System_Int64_System_Int64_System_Boolean_System_Collections_Generic_IReadOnlyList_Pixie_PointLight__
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Sprite_Pixie_IReadOnlySprite__System_Int64_System_Int64_System_Boolean_System_Collections_Generic_IReadOnlyList_Pixie_PointLight__
   commentId: M:Pixie.Renderer.Sprite(Pixie.IReadOnlySprite@,System.Int64,System.Int64,System.Boolean,System.Collections.Generic.IReadOnlyList{Pixie.PointLight})
   name.vb: Sprite(IReadOnlySprite, Long, Long, Boolean, IReadOnlyList(Of PointLight))
   fullName: Pixie.Renderer.Sprite(in Pixie.IReadOnlySprite?, long, long, bool, System.Collections.Generic.IReadOnlyList<Pixie.PointLight>)
@@ -844,14 +844,14 @@ references:
   nameWithType.vb: Renderer.Sprite(IReadOnlySprite, Long, Long, Boolean, IReadOnlyList(Of PointLight))
 - uid: Pixie.Renderer.Sprite*
   name: Sprite
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_Sprite_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Sprite_
   commentId: Overload:Pixie.Renderer.Sprite
   isSpec: "True"
   fullName: Pixie.Renderer.Sprite
   nameWithType: Renderer.Sprite
 - uid: Pixie.Renderer.Text(System.String,System.Int64,System.Int64,Pixie.PixieColor)
   name: Text(string, long, long, PixieColor)
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_Text_System_String_System_Int64_System_Int64_Pixie_PixieColor_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Text_System_String_System_Int64_System_Int64_Pixie_PixieColor_
   commentId: M:Pixie.Renderer.Text(System.String,System.Int64,System.Int64,Pixie.PixieColor)
   name.vb: Text(String, Long, Long, PixieColor)
   fullName: Pixie.Renderer.Text(string, long, long, Pixie.PixieColor)
@@ -860,7 +860,7 @@ references:
   nameWithType.vb: Renderer.Text(String, Long, Long, PixieColor)
 - uid: Pixie.Renderer.Text(System.String,System.Int64,System.Int64,Pixie.PixieColor,Pixie.Brightness)
   name: Text(string, long, long, PixieColor, Brightness)
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_Text_System_String_System_Int64_System_Int64_Pixie_PixieColor_Pixie_Brightness_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Text_System_String_System_Int64_System_Int64_Pixie_PixieColor_Pixie_Brightness_
   commentId: M:Pixie.Renderer.Text(System.String,System.Int64,System.Int64,Pixie.PixieColor,Pixie.Brightness)
   name.vb: Text(String, Long, Long, PixieColor, Brightness)
   fullName: Pixie.Renderer.Text(string, long, long, Pixie.PixieColor, Pixie.Brightness)
@@ -869,7 +869,7 @@ references:
   nameWithType.vb: Renderer.Text(String, Long, Long, PixieColor, Brightness)
 - uid: Pixie.Renderer.Text(System.String,System.Int64,System.Int64,System.Byte)
   name: Text(string, long, long, byte)
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_Text_System_String_System_Int64_System_Int64_System_Byte_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Text_System_String_System_Int64_System_Int64_System_Byte_
   commentId: M:Pixie.Renderer.Text(System.String,System.Int64,System.Int64,System.Byte)
   name.vb: Text(String, Long, Long, Byte)
   fullName: Pixie.Renderer.Text(string, long, long, byte)
@@ -878,33 +878,33 @@ references:
   nameWithType.vb: Renderer.Text(String, Long, Long, Byte)
 - uid: Pixie.Renderer.Text*
   name: Text
-  href: docfx/api/Pixie.Renderer.html#Pixie_Renderer_Text_
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Text_
   commentId: Overload:Pixie.Renderer.Text
   isSpec: "True"
   fullName: Pixie.Renderer.Text
   nameWithType: Renderer.Text
 - uid: Pixie.Scene
   name: Scene
-  href: docfx/api/Pixie.Scene.html
+  href: api/Pixie.Scene.html
   commentId: T:Pixie.Scene
   fullName: Pixie.Scene
   nameWithType: Scene
 - uid: Pixie.Scene.OnDestroy
   name: OnDestroy()
-  href: docfx/api/Pixie.Scene.html#Pixie_Scene_OnDestroy
+  href: api/Pixie.Scene.html#Pixie_Scene_OnDestroy
   commentId: M:Pixie.Scene.OnDestroy
   fullName: Pixie.Scene.OnDestroy()
   nameWithType: Scene.OnDestroy()
 - uid: Pixie.Scene.OnDestroy*
   name: OnDestroy
-  href: docfx/api/Pixie.Scene.html#Pixie_Scene_OnDestroy_
+  href: api/Pixie.Scene.html#Pixie_Scene_OnDestroy_
   commentId: Overload:Pixie.Scene.OnDestroy
   isSpec: "True"
   fullName: Pixie.Scene.OnDestroy
   nameWithType: Scene.OnDestroy
 - uid: Pixie.Scene.OnRender(Pixie.Renderer@,Pixie.Input@,System.Single)
   name: OnRender(in Renderer, in Input, float)
-  href: docfx/api/Pixie.Scene.html#Pixie_Scene_OnRender_Pixie_Renderer__Pixie_Input__System_Single_
+  href: api/Pixie.Scene.html#Pixie_Scene_OnRender_Pixie_Renderer__Pixie_Input__System_Single_
   commentId: M:Pixie.Scene.OnRender(Pixie.Renderer@,Pixie.Input@,System.Single)
   name.vb: OnRender(Renderer, Input, Single)
   fullName: Pixie.Scene.OnRender(in Pixie.Renderer, in Pixie.Input, float)
@@ -913,14 +913,14 @@ references:
   nameWithType.vb: Scene.OnRender(Renderer, Input, Single)
 - uid: Pixie.Scene.OnRender*
   name: OnRender
-  href: docfx/api/Pixie.Scene.html#Pixie_Scene_OnRender_
+  href: api/Pixie.Scene.html#Pixie_Scene_OnRender_
   commentId: Overload:Pixie.Scene.OnRender
   isSpec: "True"
   fullName: Pixie.Scene.OnRender
   nameWithType: Scene.OnRender
 - uid: Pixie.Scene.OnStart(Pixie.Renderer@)
   name: OnStart(in Renderer)
-  href: docfx/api/Pixie.Scene.html#Pixie_Scene_OnStart_Pixie_Renderer__
+  href: api/Pixie.Scene.html#Pixie_Scene_OnStart_Pixie_Renderer__
   commentId: M:Pixie.Scene.OnStart(Pixie.Renderer@)
   name.vb: OnStart(Renderer)
   fullName: Pixie.Scene.OnStart(in Pixie.Renderer)
@@ -929,14 +929,14 @@ references:
   nameWithType.vb: Scene.OnStart(Renderer)
 - uid: Pixie.Scene.OnStart*
   name: OnStart
-  href: docfx/api/Pixie.Scene.html#Pixie_Scene_OnStart_
+  href: api/Pixie.Scene.html#Pixie_Scene_OnStart_
   commentId: Overload:Pixie.Scene.OnStart
   isSpec: "True"
   fullName: Pixie.Scene.OnStart
   nameWithType: Scene.OnStart
 - uid: Pixie.Scene.OnUpdate(Pixie.GameState@,Pixie.Renderer@,Pixie.Input@,System.Single)
   name: OnUpdate(in GameState, in Renderer, in Input, float)
-  href: docfx/api/Pixie.Scene.html#Pixie_Scene_OnUpdate_Pixie_GameState__Pixie_Renderer__Pixie_Input__System_Single_
+  href: api/Pixie.Scene.html#Pixie_Scene_OnUpdate_Pixie_GameState__Pixie_Renderer__Pixie_Input__System_Single_
   commentId: M:Pixie.Scene.OnUpdate(Pixie.GameState@,Pixie.Renderer@,Pixie.Input@,System.Single)
   name.vb: OnUpdate(GameState, Renderer, Input, Single)
   fullName: Pixie.Scene.OnUpdate(in Pixie.GameState, in Pixie.Renderer, in Pixie.Input, float)
@@ -945,20 +945,20 @@ references:
   nameWithType.vb: Scene.OnUpdate(GameState, Renderer, Input, Single)
 - uid: Pixie.Scene.OnUpdate*
   name: OnUpdate
-  href: docfx/api/Pixie.Scene.html#Pixie_Scene_OnUpdate_
+  href: api/Pixie.Scene.html#Pixie_Scene_OnUpdate_
   commentId: Overload:Pixie.Scene.OnUpdate
   isSpec: "True"
   fullName: Pixie.Scene.OnUpdate
   nameWithType: Scene.OnUpdate
 - uid: Pixie.Sprite
   name: Sprite
-  href: docfx/api/Pixie.Sprite.html
+  href: api/Pixie.Sprite.html
   commentId: T:Pixie.Sprite
   fullName: Pixie.Sprite
   nameWithType: Sprite
 - uid: Pixie.Sprite.#ctor(System.UInt32,System.UInt32)
   name: Sprite(uint, uint)
-  href: docfx/api/Pixie.Sprite.html#Pixie_Sprite__ctor_System_UInt32_System_UInt32_
+  href: api/Pixie.Sprite.html#Pixie_Sprite__ctor_System_UInt32_System_UInt32_
   commentId: M:Pixie.Sprite.#ctor(System.UInt32,System.UInt32)
   name.vb: New(UInteger, UInteger)
   fullName: Pixie.Sprite.Sprite(uint, uint)
@@ -967,7 +967,7 @@ references:
   nameWithType.vb: Sprite.New(UInteger, UInteger)
 - uid: Pixie.Sprite.#ctor(System.UInt32,System.UInt32,System.Collections.Generic.List{System.Collections.Generic.List{Pixie.PixieColor}})
   name: Sprite(uint, uint, List<List<PixieColor>>)
-  href: docfx/api/Pixie.Sprite.html#Pixie_Sprite__ctor_System_UInt32_System_UInt32_System_Collections_Generic_List_System_Collections_Generic_List_Pixie_PixieColor___
+  href: api/Pixie.Sprite.html#Pixie_Sprite__ctor_System_UInt32_System_UInt32_System_Collections_Generic_List_System_Collections_Generic_List_Pixie_PixieColor___
   commentId: M:Pixie.Sprite.#ctor(System.UInt32,System.UInt32,System.Collections.Generic.List{System.Collections.Generic.List{Pixie.PixieColor}})
   name.vb: New(UInteger, UInteger, List(Of List(Of PixieColor)))
   fullName: Pixie.Sprite.Sprite(uint, uint, System.Collections.Generic.List<System.Collections.Generic.List<Pixie.PixieColor>>)
@@ -976,7 +976,7 @@ references:
   nameWithType.vb: Sprite.New(UInteger, UInteger, List(Of List(Of PixieColor)))
 - uid: Pixie.Sprite.#ctor*
   name: Sprite
-  href: docfx/api/Pixie.Sprite.html#Pixie_Sprite__ctor_
+  href: api/Pixie.Sprite.html#Pixie_Sprite__ctor_
   commentId: Overload:Pixie.Sprite.#ctor
   isSpec: "True"
   name.vb: New
@@ -986,7 +986,7 @@ references:
   nameWithType.vb: Sprite.New
 - uid: Pixie.Sprite.FromBitmapPNG(System.Drawing.Bitmap@)
   name: FromBitmapPNG(in Bitmap)
-  href: docfx/api/Pixie.Sprite.html#Pixie_Sprite_FromBitmapPNG_System_Drawing_Bitmap__
+  href: api/Pixie.Sprite.html#Pixie_Sprite_FromBitmapPNG_System_Drawing_Bitmap__
   commentId: M:Pixie.Sprite.FromBitmapPNG(System.Drawing.Bitmap@)
   name.vb: FromBitmapPNG(Bitmap)
   fullName: Pixie.Sprite.FromBitmapPNG(in System.Drawing.Bitmap)
@@ -995,14 +995,14 @@ references:
   nameWithType.vb: Sprite.FromBitmapPNG(Bitmap)
 - uid: Pixie.Sprite.FromBitmapPNG*
   name: FromBitmapPNG
-  href: docfx/api/Pixie.Sprite.html#Pixie_Sprite_FromBitmapPNG_
+  href: api/Pixie.Sprite.html#Pixie_Sprite_FromBitmapPNG_
   commentId: Overload:Pixie.Sprite.FromBitmapPNG
   isSpec: "True"
   fullName: Pixie.Sprite.FromBitmapPNG
   nameWithType: Sprite.FromBitmapPNG
 - uid: Pixie.Sprite.GetColorAt(System.UInt32,System.UInt32)
   name: GetColorAt(uint, uint)
-  href: docfx/api/Pixie.Sprite.html#Pixie_Sprite_GetColorAt_System_UInt32_System_UInt32_
+  href: api/Pixie.Sprite.html#Pixie_Sprite_GetColorAt_System_UInt32_System_UInt32_
   commentId: M:Pixie.Sprite.GetColorAt(System.UInt32,System.UInt32)
   name.vb: GetColorAt(UInteger, UInteger)
   fullName: Pixie.Sprite.GetColorAt(uint, uint)
@@ -1011,27 +1011,27 @@ references:
   nameWithType.vb: Sprite.GetColorAt(UInteger, UInteger)
 - uid: Pixie.Sprite.GetColorAt*
   name: GetColorAt
-  href: docfx/api/Pixie.Sprite.html#Pixie_Sprite_GetColorAt_
+  href: api/Pixie.Sprite.html#Pixie_Sprite_GetColorAt_
   commentId: Overload:Pixie.Sprite.GetColorAt
   isSpec: "True"
   fullName: Pixie.Sprite.GetColorAt
   nameWithType: Sprite.GetColorAt
 - uid: Pixie.Sprite.Height
   name: Height
-  href: docfx/api/Pixie.Sprite.html#Pixie_Sprite_Height
+  href: api/Pixie.Sprite.html#Pixie_Sprite_Height
   commentId: P:Pixie.Sprite.Height
   fullName: Pixie.Sprite.Height
   nameWithType: Sprite.Height
 - uid: Pixie.Sprite.Height*
   name: Height
-  href: docfx/api/Pixie.Sprite.html#Pixie_Sprite_Height_
+  href: api/Pixie.Sprite.html#Pixie_Sprite_Height_
   commentId: Overload:Pixie.Sprite.Height
   isSpec: "True"
   fullName: Pixie.Sprite.Height
   nameWithType: Sprite.Height
 - uid: Pixie.Sprite.SetColorAt(System.UInt32,System.UInt32,Pixie.PixieColor)
   name: SetColorAt(uint, uint, PixieColor)
-  href: docfx/api/Pixie.Sprite.html#Pixie_Sprite_SetColorAt_System_UInt32_System_UInt32_Pixie_PixieColor_
+  href: api/Pixie.Sprite.html#Pixie_Sprite_SetColorAt_System_UInt32_System_UInt32_Pixie_PixieColor_
   commentId: M:Pixie.Sprite.SetColorAt(System.UInt32,System.UInt32,Pixie.PixieColor)
   name.vb: SetColorAt(UInteger, UInteger, PixieColor)
   fullName: Pixie.Sprite.SetColorAt(uint, uint, Pixie.PixieColor)
@@ -1040,33 +1040,33 @@ references:
   nameWithType.vb: Sprite.SetColorAt(UInteger, UInteger, PixieColor)
 - uid: Pixie.Sprite.SetColorAt*
   name: SetColorAt
-  href: docfx/api/Pixie.Sprite.html#Pixie_Sprite_SetColorAt_
+  href: api/Pixie.Sprite.html#Pixie_Sprite_SetColorAt_
   commentId: Overload:Pixie.Sprite.SetColorAt
   isSpec: "True"
   fullName: Pixie.Sprite.SetColorAt
   nameWithType: Sprite.SetColorAt
 - uid: Pixie.Sprite.Width
   name: Width
-  href: docfx/api/Pixie.Sprite.html#Pixie_Sprite_Width
+  href: api/Pixie.Sprite.html#Pixie_Sprite_Width
   commentId: P:Pixie.Sprite.Width
   fullName: Pixie.Sprite.Width
   nameWithType: Sprite.Width
 - uid: Pixie.Sprite.Width*
   name: Width
-  href: docfx/api/Pixie.Sprite.html#Pixie_Sprite_Width_
+  href: api/Pixie.Sprite.html#Pixie_Sprite_Width_
   commentId: Overload:Pixie.Sprite.Width
   isSpec: "True"
   fullName: Pixie.Sprite.Width
   nameWithType: Sprite.Width
 - uid: Pixie.SpriteSheet
   name: SpriteSheet
-  href: docfx/api/Pixie.SpriteSheet.html
+  href: api/Pixie.SpriteSheet.html
   commentId: T:Pixie.SpriteSheet
   fullName: Pixie.SpriteSheet
   nameWithType: SpriteSheet
 - uid: Pixie.SpriteSheet.FromBitmapPNG(System.Drawing.Bitmap@,System.UInt32,System.UInt32)
   name: FromBitmapPNG(in Bitmap, uint, uint)
-  href: docfx/api/Pixie.SpriteSheet.html#Pixie_SpriteSheet_FromBitmapPNG_System_Drawing_Bitmap__System_UInt32_System_UInt32_
+  href: api/Pixie.SpriteSheet.html#Pixie_SpriteSheet_FromBitmapPNG_System_Drawing_Bitmap__System_UInt32_System_UInt32_
   commentId: M:Pixie.SpriteSheet.FromBitmapPNG(System.Drawing.Bitmap@,System.UInt32,System.UInt32)
   name.vb: FromBitmapPNG(Bitmap, UInteger, UInteger)
   fullName: Pixie.SpriteSheet.FromBitmapPNG(in System.Drawing.Bitmap, uint, uint)
@@ -1075,14 +1075,14 @@ references:
   nameWithType.vb: SpriteSheet.FromBitmapPNG(Bitmap, UInteger, UInteger)
 - uid: Pixie.SpriteSheet.FromBitmapPNG*
   name: FromBitmapPNG
-  href: docfx/api/Pixie.SpriteSheet.html#Pixie_SpriteSheet_FromBitmapPNG_
+  href: api/Pixie.SpriteSheet.html#Pixie_SpriteSheet_FromBitmapPNG_
   commentId: Overload:Pixie.SpriteSheet.FromBitmapPNG
   isSpec: "True"
   fullName: Pixie.SpriteSheet.FromBitmapPNG
   nameWithType: SpriteSheet.FromBitmapPNG
 - uid: Pixie.SpriteSheet.GetSpriteAtIndex(System.UInt32)
   name: GetSpriteAtIndex(uint)
-  href: docfx/api/Pixie.SpriteSheet.html#Pixie_SpriteSheet_GetSpriteAtIndex_System_UInt32_
+  href: api/Pixie.SpriteSheet.html#Pixie_SpriteSheet_GetSpriteAtIndex_System_UInt32_
   commentId: M:Pixie.SpriteSheet.GetSpriteAtIndex(System.UInt32)
   name.vb: GetSpriteAtIndex(UInteger)
   fullName: Pixie.SpriteSheet.GetSpriteAtIndex(uint)
@@ -1091,39 +1091,39 @@ references:
   nameWithType.vb: SpriteSheet.GetSpriteAtIndex(UInteger)
 - uid: Pixie.SpriteSheet.GetSpriteAtIndex*
   name: GetSpriteAtIndex
-  href: docfx/api/Pixie.SpriteSheet.html#Pixie_SpriteSheet_GetSpriteAtIndex_
+  href: api/Pixie.SpriteSheet.html#Pixie_SpriteSheet_GetSpriteAtIndex_
   commentId: Overload:Pixie.SpriteSheet.GetSpriteAtIndex
   isSpec: "True"
   fullName: Pixie.SpriteSheet.GetSpriteAtIndex
   nameWithType: SpriteSheet.GetSpriteAtIndex
 - uid: Pixie.SpriteSheet.Size
   name: Size
-  href: docfx/api/Pixie.SpriteSheet.html#Pixie_SpriteSheet_Size
+  href: api/Pixie.SpriteSheet.html#Pixie_SpriteSheet_Size
   commentId: P:Pixie.SpriteSheet.Size
   fullName: Pixie.SpriteSheet.Size
   nameWithType: SpriteSheet.Size
 - uid: Pixie.SpriteSheet.Size*
   name: Size
-  href: docfx/api/Pixie.SpriteSheet.html#Pixie_SpriteSheet_Size_
+  href: api/Pixie.SpriteSheet.html#Pixie_SpriteSheet_Size_
   commentId: Overload:Pixie.SpriteSheet.Size
   isSpec: "True"
   fullName: Pixie.SpriteSheet.Size
   nameWithType: SpriteSheet.Size
 - uid: Pixie.UI
   name: Pixie.UI
-  href: docfx/api/Pixie.UI.html
+  href: api/Pixie.UI.html
   commentId: N:Pixie.UI
   fullName: Pixie.UI
   nameWithType: Pixie.UI
 - uid: Pixie.UI.Canvas
   name: Canvas
-  href: docfx/api/Pixie.UI.Canvas.html
+  href: api/Pixie.UI.Canvas.html
   commentId: T:Pixie.UI.Canvas
   fullName: Pixie.UI.Canvas
   nameWithType: Canvas
 - uid: Pixie.UI.Canvas.#ctor(Pixie.Renderer@)
   name: Canvas(in Renderer)
-  href: docfx/api/Pixie.UI.Canvas.html#Pixie_UI_Canvas__ctor_Pixie_Renderer__
+  href: api/Pixie.UI.Canvas.html#Pixie_UI_Canvas__ctor_Pixie_Renderer__
   commentId: M:Pixie.UI.Canvas.#ctor(Pixie.Renderer@)
   name.vb: New(Renderer)
   fullName: Pixie.UI.Canvas.Canvas(in Pixie.Renderer)
@@ -1132,7 +1132,7 @@ references:
   nameWithType.vb: Canvas.New(Renderer)
 - uid: Pixie.UI.Canvas.#ctor*
   name: Canvas
-  href: docfx/api/Pixie.UI.Canvas.html#Pixie_UI_Canvas__ctor_
+  href: api/Pixie.UI.Canvas.html#Pixie_UI_Canvas__ctor_
   commentId: Overload:Pixie.UI.Canvas.#ctor
   isSpec: "True"
   name.vb: New
@@ -1142,7 +1142,7 @@ references:
   nameWithType.vb: Canvas.New
 - uid: Pixie.UI.Canvas.AddChildElement(Pixie.UI.CanvasElement@)
   name: AddChildElement(in CanvasElement)
-  href: docfx/api/Pixie.UI.Canvas.html#Pixie_UI_Canvas_AddChildElement_Pixie_UI_CanvasElement__
+  href: api/Pixie.UI.Canvas.html#Pixie_UI_Canvas_AddChildElement_Pixie_UI_CanvasElement__
   commentId: M:Pixie.UI.Canvas.AddChildElement(Pixie.UI.CanvasElement@)
   name.vb: AddChildElement(CanvasElement)
   fullName: Pixie.UI.Canvas.AddChildElement(in Pixie.UI.CanvasElement)
@@ -1151,27 +1151,27 @@ references:
   nameWithType.vb: Canvas.AddChildElement(CanvasElement)
 - uid: Pixie.UI.Canvas.AddChildElement*
   name: AddChildElement
-  href: docfx/api/Pixie.UI.Canvas.html#Pixie_UI_Canvas_AddChildElement_
+  href: api/Pixie.UI.Canvas.html#Pixie_UI_Canvas_AddChildElement_
   commentId: Overload:Pixie.UI.Canvas.AddChildElement
   isSpec: "True"
   fullName: Pixie.UI.Canvas.AddChildElement
   nameWithType: Canvas.AddChildElement
 - uid: Pixie.UI.Canvas.Height
   name: Height
-  href: docfx/api/Pixie.UI.Canvas.html#Pixie_UI_Canvas_Height
+  href: api/Pixie.UI.Canvas.html#Pixie_UI_Canvas_Height
   commentId: P:Pixie.UI.Canvas.Height
   fullName: Pixie.UI.Canvas.Height
   nameWithType: Canvas.Height
 - uid: Pixie.UI.Canvas.Height*
   name: Height
-  href: docfx/api/Pixie.UI.Canvas.html#Pixie_UI_Canvas_Height_
+  href: api/Pixie.UI.Canvas.html#Pixie_UI_Canvas_Height_
   commentId: Overload:Pixie.UI.Canvas.Height
   isSpec: "True"
   fullName: Pixie.UI.Canvas.Height
   nameWithType: Canvas.Height
 - uid: Pixie.UI.Canvas.OnUpdate(Pixie.Renderer@,Pixie.Input@,System.Single)
   name: OnUpdate(in Renderer, in Input, float)
-  href: docfx/api/Pixie.UI.Canvas.html#Pixie_UI_Canvas_OnUpdate_Pixie_Renderer__Pixie_Input__System_Single_
+  href: api/Pixie.UI.Canvas.html#Pixie_UI_Canvas_OnUpdate_Pixie_Renderer__Pixie_Input__System_Single_
   commentId: M:Pixie.UI.Canvas.OnUpdate(Pixie.Renderer@,Pixie.Input@,System.Single)
   name.vb: OnUpdate(Renderer, Input, Single)
   fullName: Pixie.UI.Canvas.OnUpdate(in Pixie.Renderer, in Pixie.Input, float)
@@ -1180,14 +1180,14 @@ references:
   nameWithType.vb: Canvas.OnUpdate(Renderer, Input, Single)
 - uid: Pixie.UI.Canvas.OnUpdate*
   name: OnUpdate
-  href: docfx/api/Pixie.UI.Canvas.html#Pixie_UI_Canvas_OnUpdate_
+  href: api/Pixie.UI.Canvas.html#Pixie_UI_Canvas_OnUpdate_
   commentId: Overload:Pixie.UI.Canvas.OnUpdate
   isSpec: "True"
   fullName: Pixie.UI.Canvas.OnUpdate
   nameWithType: Canvas.OnUpdate
 - uid: Pixie.UI.Canvas.Render(Pixie.Renderer@)
   name: Render(in Renderer)
-  href: docfx/api/Pixie.UI.Canvas.html#Pixie_UI_Canvas_Render_Pixie_Renderer__
+  href: api/Pixie.UI.Canvas.html#Pixie_UI_Canvas_Render_Pixie_Renderer__
   commentId: M:Pixie.UI.Canvas.Render(Pixie.Renderer@)
   name.vb: Render(Renderer)
   fullName: Pixie.UI.Canvas.Render(in Pixie.Renderer)
@@ -1196,33 +1196,33 @@ references:
   nameWithType.vb: Canvas.Render(Renderer)
 - uid: Pixie.UI.Canvas.Render*
   name: Render
-  href: docfx/api/Pixie.UI.Canvas.html#Pixie_UI_Canvas_Render_
+  href: api/Pixie.UI.Canvas.html#Pixie_UI_Canvas_Render_
   commentId: Overload:Pixie.UI.Canvas.Render
   isSpec: "True"
   fullName: Pixie.UI.Canvas.Render
   nameWithType: Canvas.Render
 - uid: Pixie.UI.Canvas.Width
   name: Width
-  href: docfx/api/Pixie.UI.Canvas.html#Pixie_UI_Canvas_Width
+  href: api/Pixie.UI.Canvas.html#Pixie_UI_Canvas_Width
   commentId: P:Pixie.UI.Canvas.Width
   fullName: Pixie.UI.Canvas.Width
   nameWithType: Canvas.Width
 - uid: Pixie.UI.Canvas.Width*
   name: Width
-  href: docfx/api/Pixie.UI.Canvas.html#Pixie_UI_Canvas_Width_
+  href: api/Pixie.UI.Canvas.html#Pixie_UI_Canvas_Width_
   commentId: Overload:Pixie.UI.Canvas.Width
   isSpec: "True"
   fullName: Pixie.UI.Canvas.Width
   nameWithType: Canvas.Width
 - uid: Pixie.UI.CanvasElement
   name: CanvasElement
-  href: docfx/api/Pixie.UI.CanvasElement.html
+  href: api/Pixie.UI.CanvasElement.html
   commentId: T:Pixie.UI.CanvasElement
   fullName: Pixie.UI.CanvasElement
   nameWithType: CanvasElement
 - uid: Pixie.UI.CanvasElement.#ctor(System.Int32,System.Int32,System.UInt32,System.UInt32)
   name: CanvasElement(int, int, uint, uint)
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement__ctor_System_Int32_System_Int32_System_UInt32_System_UInt32_
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement__ctor_System_Int32_System_Int32_System_UInt32_System_UInt32_
   commentId: M:Pixie.UI.CanvasElement.#ctor(System.Int32,System.Int32,System.UInt32,System.UInt32)
   name.vb: New(Integer, Integer, UInteger, UInteger)
   fullName: Pixie.UI.CanvasElement.CanvasElement(int, int, uint, uint)
@@ -1231,7 +1231,7 @@ references:
   nameWithType.vb: CanvasElement.New(Integer, Integer, UInteger, UInteger)
 - uid: Pixie.UI.CanvasElement.#ctor*
   name: CanvasElement
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement__ctor_
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement__ctor_
   commentId: Overload:Pixie.UI.CanvasElement.#ctor
   isSpec: "True"
   name.vb: New
@@ -1241,7 +1241,7 @@ references:
   nameWithType.vb: CanvasElement.New
 - uid: Pixie.UI.CanvasElement.AddChildElement(Pixie.UI.CanvasElement@)
   name: AddChildElement(in CanvasElement)
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_AddChildElement_Pixie_UI_CanvasElement__
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_AddChildElement_Pixie_UI_CanvasElement__
   commentId: M:Pixie.UI.CanvasElement.AddChildElement(Pixie.UI.CanvasElement@)
   name.vb: AddChildElement(CanvasElement)
   fullName: Pixie.UI.CanvasElement.AddChildElement(in Pixie.UI.CanvasElement)
@@ -1250,14 +1250,14 @@ references:
   nameWithType.vb: CanvasElement.AddChildElement(CanvasElement)
 - uid: Pixie.UI.CanvasElement.AddChildElement*
   name: AddChildElement
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_AddChildElement_
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_AddChildElement_
   commentId: Overload:Pixie.UI.CanvasElement.AddChildElement
   isSpec: "True"
   fullName: Pixie.UI.CanvasElement.AddChildElement
   nameWithType: CanvasElement.AddChildElement
 - uid: Pixie.UI.CanvasElement.AttachNeighbourElementAbove(Pixie.UI.CanvasElement@)
   name: AttachNeighbourElementAbove(in CanvasElement)
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_AttachNeighbourElementAbove_Pixie_UI_CanvasElement__
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_AttachNeighbourElementAbove_Pixie_UI_CanvasElement__
   commentId: M:Pixie.UI.CanvasElement.AttachNeighbourElementAbove(Pixie.UI.CanvasElement@)
   name.vb: AttachNeighbourElementAbove(CanvasElement)
   fullName: Pixie.UI.CanvasElement.AttachNeighbourElementAbove(in Pixie.UI.CanvasElement)
@@ -1266,14 +1266,14 @@ references:
   nameWithType.vb: CanvasElement.AttachNeighbourElementAbove(CanvasElement)
 - uid: Pixie.UI.CanvasElement.AttachNeighbourElementAbove*
   name: AttachNeighbourElementAbove
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_AttachNeighbourElementAbove_
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_AttachNeighbourElementAbove_
   commentId: Overload:Pixie.UI.CanvasElement.AttachNeighbourElementAbove
   isSpec: "True"
   fullName: Pixie.UI.CanvasElement.AttachNeighbourElementAbove
   nameWithType: CanvasElement.AttachNeighbourElementAbove
 - uid: Pixie.UI.CanvasElement.AttachNeighbourElementBelow(Pixie.UI.CanvasElement@)
   name: AttachNeighbourElementBelow(in CanvasElement)
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_AttachNeighbourElementBelow_Pixie_UI_CanvasElement__
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_AttachNeighbourElementBelow_Pixie_UI_CanvasElement__
   commentId: M:Pixie.UI.CanvasElement.AttachNeighbourElementBelow(Pixie.UI.CanvasElement@)
   name.vb: AttachNeighbourElementBelow(CanvasElement)
   fullName: Pixie.UI.CanvasElement.AttachNeighbourElementBelow(in Pixie.UI.CanvasElement)
@@ -1282,14 +1282,14 @@ references:
   nameWithType.vb: CanvasElement.AttachNeighbourElementBelow(CanvasElement)
 - uid: Pixie.UI.CanvasElement.AttachNeighbourElementBelow*
   name: AttachNeighbourElementBelow
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_AttachNeighbourElementBelow_
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_AttachNeighbourElementBelow_
   commentId: Overload:Pixie.UI.CanvasElement.AttachNeighbourElementBelow
   isSpec: "True"
   fullName: Pixie.UI.CanvasElement.AttachNeighbourElementBelow
   nameWithType: CanvasElement.AttachNeighbourElementBelow
 - uid: Pixie.UI.CanvasElement.AttachNeighbourElementToLeft(Pixie.UI.CanvasElement@)
   name: AttachNeighbourElementToLeft(in CanvasElement)
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_AttachNeighbourElementToLeft_Pixie_UI_CanvasElement__
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_AttachNeighbourElementToLeft_Pixie_UI_CanvasElement__
   commentId: M:Pixie.UI.CanvasElement.AttachNeighbourElementToLeft(Pixie.UI.CanvasElement@)
   name.vb: AttachNeighbourElementToLeft(CanvasElement)
   fullName: Pixie.UI.CanvasElement.AttachNeighbourElementToLeft(in Pixie.UI.CanvasElement)
@@ -1298,14 +1298,14 @@ references:
   nameWithType.vb: CanvasElement.AttachNeighbourElementToLeft(CanvasElement)
 - uid: Pixie.UI.CanvasElement.AttachNeighbourElementToLeft*
   name: AttachNeighbourElementToLeft
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_AttachNeighbourElementToLeft_
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_AttachNeighbourElementToLeft_
   commentId: Overload:Pixie.UI.CanvasElement.AttachNeighbourElementToLeft
   isSpec: "True"
   fullName: Pixie.UI.CanvasElement.AttachNeighbourElementToLeft
   nameWithType: CanvasElement.AttachNeighbourElementToLeft
 - uid: Pixie.UI.CanvasElement.AttachNeighbourElementToRight(Pixie.UI.CanvasElement@)
   name: AttachNeighbourElementToRight(in CanvasElement)
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_AttachNeighbourElementToRight_Pixie_UI_CanvasElement__
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_AttachNeighbourElementToRight_Pixie_UI_CanvasElement__
   commentId: M:Pixie.UI.CanvasElement.AttachNeighbourElementToRight(Pixie.UI.CanvasElement@)
   name.vb: AttachNeighbourElementToRight(CanvasElement)
   fullName: Pixie.UI.CanvasElement.AttachNeighbourElementToRight(in Pixie.UI.CanvasElement)
@@ -1314,91 +1314,91 @@ references:
   nameWithType.vb: CanvasElement.AttachNeighbourElementToRight(CanvasElement)
 - uid: Pixie.UI.CanvasElement.AttachNeighbourElementToRight*
   name: AttachNeighbourElementToRight
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_AttachNeighbourElementToRight_
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_AttachNeighbourElementToRight_
   commentId: Overload:Pixie.UI.CanvasElement.AttachNeighbourElementToRight
   isSpec: "True"
   fullName: Pixie.UI.CanvasElement.AttachNeighbourElementToRight
   nameWithType: CanvasElement.AttachNeighbourElementToRight
 - uid: Pixie.UI.CanvasElement.Children
   name: Children
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_Children
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_Children
   commentId: P:Pixie.UI.CanvasElement.Children
   fullName: Pixie.UI.CanvasElement.Children
   nameWithType: CanvasElement.Children
 - uid: Pixie.UI.CanvasElement.Children*
   name: Children
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_Children_
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_Children_
   commentId: Overload:Pixie.UI.CanvasElement.Children
   isSpec: "True"
   fullName: Pixie.UI.CanvasElement.Children
   nameWithType: CanvasElement.Children
 - uid: Pixie.UI.CanvasElement.Enabled
   name: Enabled
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_Enabled
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_Enabled
   commentId: P:Pixie.UI.CanvasElement.Enabled
   fullName: Pixie.UI.CanvasElement.Enabled
   nameWithType: CanvasElement.Enabled
 - uid: Pixie.UI.CanvasElement.Enabled*
   name: Enabled
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_Enabled_
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_Enabled_
   commentId: Overload:Pixie.UI.CanvasElement.Enabled
   isSpec: "True"
   fullName: Pixie.UI.CanvasElement.Enabled
   nameWithType: CanvasElement.Enabled
 - uid: Pixie.UI.CanvasElement.GetAbsolutePositionX
   name: GetAbsolutePositionX()
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_GetAbsolutePositionX
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_GetAbsolutePositionX
   commentId: M:Pixie.UI.CanvasElement.GetAbsolutePositionX
   fullName: Pixie.UI.CanvasElement.GetAbsolutePositionX()
   nameWithType: CanvasElement.GetAbsolutePositionX()
 - uid: Pixie.UI.CanvasElement.GetAbsolutePositionX*
   name: GetAbsolutePositionX
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_GetAbsolutePositionX_
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_GetAbsolutePositionX_
   commentId: Overload:Pixie.UI.CanvasElement.GetAbsolutePositionX
   isSpec: "True"
   fullName: Pixie.UI.CanvasElement.GetAbsolutePositionX
   nameWithType: CanvasElement.GetAbsolutePositionX
 - uid: Pixie.UI.CanvasElement.GetAbsolutePositionY
   name: GetAbsolutePositionY()
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_GetAbsolutePositionY
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_GetAbsolutePositionY
   commentId: M:Pixie.UI.CanvasElement.GetAbsolutePositionY
   fullName: Pixie.UI.CanvasElement.GetAbsolutePositionY()
   nameWithType: CanvasElement.GetAbsolutePositionY()
 - uid: Pixie.UI.CanvasElement.GetAbsolutePositionY*
   name: GetAbsolutePositionY
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_GetAbsolutePositionY_
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_GetAbsolutePositionY_
   commentId: Overload:Pixie.UI.CanvasElement.GetAbsolutePositionY
   isSpec: "True"
   fullName: Pixie.UI.CanvasElement.GetAbsolutePositionY
   nameWithType: CanvasElement.GetAbsolutePositionY
 - uid: Pixie.UI.CanvasElement.Height
   name: Height
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_Height
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_Height
   commentId: P:Pixie.UI.CanvasElement.Height
   fullName: Pixie.UI.CanvasElement.Height
   nameWithType: CanvasElement.Height
 - uid: Pixie.UI.CanvasElement.Height*
   name: Height
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_Height_
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_Height_
   commentId: Overload:Pixie.UI.CanvasElement.Height
   isSpec: "True"
   fullName: Pixie.UI.CanvasElement.Height
   nameWithType: CanvasElement.Height
 - uid: Pixie.UI.CanvasElement.OnClick
   name: OnClick
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_OnClick
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_OnClick
   commentId: E:Pixie.UI.CanvasElement.OnClick
   fullName: Pixie.UI.CanvasElement.OnClick
   nameWithType: CanvasElement.OnClick
 - uid: Pixie.UI.CanvasElement.OnHover
   name: OnHover
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_OnHover
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_OnHover
   commentId: E:Pixie.UI.CanvasElement.OnHover
   fullName: Pixie.UI.CanvasElement.OnHover
   nameWithType: CanvasElement.OnHover
 - uid: Pixie.UI.CanvasElement.OnRender(Pixie.Renderer@,System.Int64,System.Int64)
   name: OnRender(in Renderer, long, long)
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_OnRender_Pixie_Renderer__System_Int64_System_Int64_
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_OnRender_Pixie_Renderer__System_Int64_System_Int64_
   commentId: M:Pixie.UI.CanvasElement.OnRender(Pixie.Renderer@,System.Int64,System.Int64)
   name.vb: OnRender(Renderer, Long, Long)
   fullName: Pixie.UI.CanvasElement.OnRender(in Pixie.Renderer, long, long)
@@ -1407,14 +1407,14 @@ references:
   nameWithType.vb: CanvasElement.OnRender(Renderer, Long, Long)
 - uid: Pixie.UI.CanvasElement.OnRender*
   name: OnRender
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_OnRender_
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_OnRender_
   commentId: Overload:Pixie.UI.CanvasElement.OnRender
   isSpec: "True"
   fullName: Pixie.UI.CanvasElement.OnRender
   nameWithType: CanvasElement.OnRender
 - uid: Pixie.UI.CanvasElement.OnUpdate(Pixie.Renderer@,Pixie.Input@,System.Single)
   name: OnUpdate(in Renderer, in Input, float)
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_OnUpdate_Pixie_Renderer__Pixie_Input__System_Single_
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_OnUpdate_Pixie_Renderer__Pixie_Input__System_Single_
   commentId: M:Pixie.UI.CanvasElement.OnUpdate(Pixie.Renderer@,Pixie.Input@,System.Single)
   name.vb: OnUpdate(Renderer, Input, Single)
   fullName: Pixie.UI.CanvasElement.OnUpdate(in Pixie.Renderer, in Pixie.Input, float)
@@ -1423,59 +1423,59 @@ references:
   nameWithType.vb: CanvasElement.OnUpdate(Renderer, Input, Single)
 - uid: Pixie.UI.CanvasElement.OnUpdate*
   name: OnUpdate
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_OnUpdate_
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_OnUpdate_
   commentId: Overload:Pixie.UI.CanvasElement.OnUpdate
   isSpec: "True"
   fullName: Pixie.UI.CanvasElement.OnUpdate
   nameWithType: CanvasElement.OnUpdate
 - uid: Pixie.UI.CanvasElement.Parent
   name: Parent
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_Parent
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_Parent
   commentId: P:Pixie.UI.CanvasElement.Parent
   fullName: Pixie.UI.CanvasElement.Parent
   nameWithType: CanvasElement.Parent
 - uid: Pixie.UI.CanvasElement.Parent*
   name: Parent
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_Parent_
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_Parent_
   commentId: Overload:Pixie.UI.CanvasElement.Parent
   isSpec: "True"
   fullName: Pixie.UI.CanvasElement.Parent
   nameWithType: CanvasElement.Parent
 - uid: Pixie.UI.CanvasElement.PositionX
   name: PositionX
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_PositionX
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_PositionX
   commentId: P:Pixie.UI.CanvasElement.PositionX
   fullName: Pixie.UI.CanvasElement.PositionX
   nameWithType: CanvasElement.PositionX
 - uid: Pixie.UI.CanvasElement.PositionX*
   name: PositionX
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_PositionX_
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_PositionX_
   commentId: Overload:Pixie.UI.CanvasElement.PositionX
   isSpec: "True"
   fullName: Pixie.UI.CanvasElement.PositionX
   nameWithType: CanvasElement.PositionX
 - uid: Pixie.UI.CanvasElement.PositionY
   name: PositionY
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_PositionY
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_PositionY
   commentId: P:Pixie.UI.CanvasElement.PositionY
   fullName: Pixie.UI.CanvasElement.PositionY
   nameWithType: CanvasElement.PositionY
 - uid: Pixie.UI.CanvasElement.PositionY*
   name: PositionY
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_PositionY_
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_PositionY_
   commentId: Overload:Pixie.UI.CanvasElement.PositionY
   isSpec: "True"
   fullName: Pixie.UI.CanvasElement.PositionY
   nameWithType: CanvasElement.PositionY
 - uid: Pixie.UI.CanvasElement.Width
   name: Width
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_Width
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_Width
   commentId: P:Pixie.UI.CanvasElement.Width
   fullName: Pixie.UI.CanvasElement.Width
   nameWithType: CanvasElement.Width
 - uid: Pixie.UI.CanvasElement.Width*
   name: Width
-  href: docfx/api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_Width_
+  href: api/Pixie.UI.CanvasElement.html#Pixie_UI_CanvasElement_Width_
   commentId: Overload:Pixie.UI.CanvasElement.Width
   isSpec: "True"
   fullName: Pixie.UI.CanvasElement.Width

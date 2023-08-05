@@ -2,16 +2,16 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Scene
+      <title>Class SpriteSheet
  </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Scene
+      <meta name="title" content="Class SpriteSheet
  ">
       
-      <link rel="icon" href="../../favicon.ico">
-      <link rel="stylesheet" href="../../public/docfx.min.css">
-      <link rel="stylesheet" href="../../public/main.css">
-      <meta name="docfx:navrel" content="">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
       
@@ -21,8 +21,8 @@
   </head>
 
   <script type="module">
-    import options from './../../public/main.js'
-    import { init } from './../../public/docfx.min.js'
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
     init(options)
   </script>
 
@@ -36,8 +36,8 @@
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../../index.html">
-            <img id="logo" class="svg" src="../../logo.svg" alt="">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
             
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,12 +73,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Pixie.Scene">
+        <article data-uid="Pixie.SpriteSheet">
 
 
 
-  <h1 id="Pixie_Scene" data-uid="Pixie.Scene" class="text-break">
-    Class Scene
+  <h1 id="Pixie_SpriteSheet" data-uid="Pixie.SpriteSheet" class="text-break">
+    Class SpriteSheet
   
   </h1>
 
@@ -91,7 +91,7 @@
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class Scene</code></pre>
+    <pre><code class="lang-csharp hljs">public class SpriteSheet</code></pre>
   </div>
 
 
@@ -101,7 +101,7 @@
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">Scene</span></div>
+      <div><span class="xref">SpriteSheet</span></div>
     </dd>
   </dl>
 
@@ -138,14 +138,49 @@
 
 
 
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Pixie_SpriteSheet_Size_" data-uid="Pixie.SpriteSheet.Size*"></a>
+
+  <h3 id="Pixie_SpriteSheet_Size" data-uid="Pixie.SpriteSheet.Size">
+  Size
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Size { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
 
-  <a id="Pixie_Scene_OnDestroy_" data-uid="Pixie.Scene.OnDestroy*"></a>
+  <a id="Pixie_SpriteSheet_FromBitmapPNG_" data-uid="Pixie.SpriteSheet.FromBitmapPNG*"></a>
 
-  <h3 id="Pixie_Scene_OnDestroy" data-uid="Pixie.Scene.OnDestroy">
-  OnDestroy()
+  <h3 id="Pixie_SpriteSheet_FromBitmapPNG_System_Drawing_Bitmap__System_UInt32_System_UInt32_" data-uid="Pixie.SpriteSheet.FromBitmapPNG(System.Drawing.Bitmap@,System.UInt32,System.UInt32)">
+  FromBitmapPNG(in Bitmap, uint, uint)
   
   </h3>
 
@@ -153,116 +188,58 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract void OnDestroy()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Pixie_Scene_OnRender_" data-uid="Pixie.Scene.OnRender*"></a>
-
-  <h3 id="Pixie_Scene_OnRender_Pixie_Renderer__Pixie_Input__System_Single_" data-uid="Pixie.Scene.OnRender(Pixie.Renderer@,Pixie.Input@,System.Single)">
-  OnRender(in Renderer, in Input, float)
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract void OnRender(in Renderer renderer, in Input input, float deltaTime)</code></pre>
+    <pre><code class="lang-csharp hljs">public static SpriteSheet FromBitmapPNG(in Bitmap bitmap, uint spriteWidth, uint spriteHeight)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>renderer</code> <a class="xref" href="Pixie.Renderer.html">Renderer</a></dt>
+    <dt><code>bitmap</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.bitmap">Bitmap</a></dt>
     <dd></dd>
-    <dt><code>input</code> <a class="xref" href="Pixie.Input.html">Input</a></dt>
+    <dt><code>spriteWidth</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
     <dd></dd>
-    <dt><code>deltaTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Pixie_Scene_OnStart_" data-uid="Pixie.Scene.OnStart*"></a>
-
-  <h3 id="Pixie_Scene_OnStart_Pixie_Renderer__" data-uid="Pixie.Scene.OnStart(Pixie.Renderer@)">
-  OnStart(in Renderer)
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract void OnStart(in Renderer renderer)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>renderer</code> <a class="xref" href="Pixie.Renderer.html">Renderer</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Pixie_Scene_OnUpdate_" data-uid="Pixie.Scene.OnUpdate*"></a>
-
-  <h3 id="Pixie_Scene_OnUpdate_Pixie_GameState__Pixie_Renderer__Pixie_Input__System_Single_" data-uid="Pixie.Scene.OnUpdate(Pixie.GameState@,Pixie.Renderer@,Pixie.Input@,System.Single)">
-  OnUpdate(in GameState, in Renderer, in Input, float)
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract Scene? OnUpdate(in GameState state, in Renderer renderer, in Input input, float deltaTime)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>state</code> <a class="xref" href="Pixie.GameState.html">GameState</a></dt>
-    <dd></dd>
-    <dt><code>renderer</code> <a class="xref" href="Pixie.Renderer.html">Renderer</a></dt>
-    <dd></dd>
-    <dt><code>input</code> <a class="xref" href="Pixie.Input.html">Input</a></dt>
-    <dd></dd>
-    <dt><code>deltaTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dt><code>spriteHeight</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Pixie.Scene.html">Scene</a></dt>
+    <dt><a class="xref" href="Pixie.SpriteSheet.html">SpriteSheet</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Pixie_SpriteSheet_GetSpriteAtIndex_" data-uid="Pixie.SpriteSheet.GetSpriteAtIndex*"></a>
+
+  <h3 id="Pixie_SpriteSheet_GetSpriteAtIndex_System_UInt32_" data-uid="Pixie.SpriteSheet.GetSpriteAtIndex(System.UInt32)">
+  GetSpriteAtIndex(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Sprite? GetSpriteAtIndex(uint index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Pixie.Sprite.html">Sprite</a></dt>
     <dd></dd>
   </dl>
 

@@ -2,16 +2,16 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class GameContext
+      <title>Class Scene
  </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class GameContext
+      <meta name="title" content="Class Scene
  ">
       
-      <link rel="icon" href="../../favicon.ico">
-      <link rel="stylesheet" href="../../public/docfx.min.css">
-      <link rel="stylesheet" href="../../public/main.css">
-      <meta name="docfx:navrel" content="">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
       
@@ -21,8 +21,8 @@
   </head>
 
   <script type="module">
-    import options from './../../public/main.js'
-    import { init } from './../../public/docfx.min.js'
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
     init(options)
   </script>
 
@@ -36,8 +36,8 @@
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../../index.html">
-            <img id="logo" class="svg" src="../../logo.svg" alt="">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
             
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,12 +73,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Pixie.GameContext">
+        <article data-uid="Pixie.Scene">
 
 
 
-  <h1 id="Pixie_GameContext" data-uid="Pixie.GameContext" class="text-break">
-    Class GameContext
+  <h1 id="Pixie_Scene" data-uid="Pixie.Scene" class="text-break">
+    Class Scene
   
   </h1>
 
@@ -91,7 +91,7 @@
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class GameContext</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class Scene</code></pre>
   </div>
 
 
@@ -101,7 +101,7 @@
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">GameContext</span></div>
+      <div><span class="xref">Scene</span></div>
     </dd>
   </dl>
 
@@ -138,55 +138,14 @@
 
 
 
-  <h2 class="section" id="constructors">Constructors
-</h2>
-
-
-  <a id="Pixie_GameContext__ctor_" data-uid="Pixie.GameContext.#ctor*"></a>
-
-  <h3 id="Pixie_GameContext__ctor_System_UInt32_System_UInt32_System_String_System_Boolean_" data-uid="Pixie.GameContext.#ctor(System.UInt32,System.UInt32,System.String,System.Boolean)">
-  GameContext(uint, uint, string, bool)
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameContext(uint bufferWidth, uint bufferHeight, string title, bool fullscrean)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>bufferWidth</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
-    <dd></dd>
-    <dt><code>bufferHeight</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
-    <dd></dd>
-    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-    <dt><code>fullscrean</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
   <h2 class="section" id="methods">Methods
 </h2>
 
 
-  <a id="Pixie_GameContext_RunGame_" data-uid="Pixie.GameContext.RunGame*"></a>
+  <a id="Pixie_Scene_OnDestroy_" data-uid="Pixie.Scene.OnDestroy*"></a>
 
-  <h3 id="Pixie_GameContext_RunGame_Pixie_Scene_" data-uid="Pixie.GameContext.RunGame(Pixie.Scene)">
-  RunGame(Scene)
+  <h3 id="Pixie_Scene_OnDestroy" data-uid="Pixie.Scene.OnDestroy">
+  OnDestroy()
   
   </h3>
 
@@ -194,12 +153,42 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RunGame(Scene scene)</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract void OnDestroy()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Pixie_Scene_OnRender_" data-uid="Pixie.Scene.OnRender*"></a>
+
+  <h3 id="Pixie_Scene_OnRender_Pixie_Renderer__Pixie_Input__System_Single_" data-uid="Pixie.Scene.OnRender(Pixie.Renderer@,Pixie.Input@,System.Single)">
+  OnRender(in Renderer, in Input, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void OnRender(in Renderer renderer, in Input input, float deltaTime)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>scene</code> <a class="xref" href="Pixie.Scene.html">Scene</a></dt>
+    <dt><code>renderer</code> <a class="xref" href="Pixie.Renderer.html">Renderer</a></dt>
+    <dd></dd>
+    <dt><code>input</code> <a class="xref" href="Pixie.Input.html">Input</a></dt>
+    <dd></dd>
+    <dt><code>deltaTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd></dd>
   </dl>
 
@@ -214,10 +203,10 @@
 
 
 
-  <a id="Pixie_GameContext_StopGame_" data-uid="Pixie.GameContext.StopGame*"></a>
+  <a id="Pixie_Scene_OnStart_" data-uid="Pixie.Scene.OnStart*"></a>
 
-  <h3 id="Pixie_GameContext_StopGame" data-uid="Pixie.GameContext.StopGame">
-  StopGame()
+  <h3 id="Pixie_Scene_OnStart_Pixie_Renderer__" data-uid="Pixie.Scene.OnStart(Pixie.Renderer@)">
+  OnStart(in Renderer)
   
   </h3>
 
@@ -225,10 +214,57 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void StopGame()</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract void OnStart(in Renderer renderer)</code></pre>
   </div>
 
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>renderer</code> <a class="xref" href="Pixie.Renderer.html">Renderer</a></dt>
+    <dd></dd>
+  </dl>
 
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Pixie_Scene_OnUpdate_" data-uid="Pixie.Scene.OnUpdate*"></a>
+
+  <h3 id="Pixie_Scene_OnUpdate_Pixie_GameState__Pixie_Renderer__Pixie_Input__System_Single_" data-uid="Pixie.Scene.OnUpdate(Pixie.GameState@,Pixie.Renderer@,Pixie.Input@,System.Single)">
+  OnUpdate(in GameState, in Renderer, in Input, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Scene? OnUpdate(in GameState state, in Renderer renderer, in Input input, float deltaTime)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>state</code> <a class="xref" href="Pixie.GameState.html">GameState</a></dt>
+    <dd></dd>
+    <dt><code>renderer</code> <a class="xref" href="Pixie.Renderer.html">Renderer</a></dt>
+    <dd></dd>
+    <dt><code>input</code> <a class="xref" href="Pixie.Input.html">Input</a></dt>
+    <dd></dd>
+    <dt><code>deltaTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Pixie.Scene.html">Scene</a></dt>
+    <dd></dd>
+  </dl>
 
 
 
