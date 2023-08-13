@@ -18,7 +18,6 @@
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-using System.Numerics;
 using System.Runtime.InteropServices;
 
 namespace Pixie.Internal
@@ -37,9 +36,9 @@ namespace Pixie.Internal
             Z = z;
         }
 
-        public Vector3 Clone()
+        public Vec3 Clone()
         {
-            return new Vector3(X, Y, Z);
+            return new Vec3(X, Y, Z);
         }
     }
 }

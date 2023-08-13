@@ -228,12 +228,12 @@ namespace Pixie
 
         public void Line(long x1, long y1, long x2, long y2, PixieColor color)
         {
-            Line(x1, x2, y1, y2, (byte)color);
+            Line(x1, y1, x2, y2, (byte)color);
         }
 
         public void Line(long x1, long y1, long x2, long y2, PixieColor color, Brightness brightness)
         {
-            Line(x1, x2, y1, y2, (byte)((byte)color + ((byte)brightness * (byte)PixieColor.Count)));
+            Line(x1, y1, x2, y2, (byte)((byte)color + ((byte)brightness * (byte)PixieColor.Count)));
         }
 
         public void Line(long x1, long y1, long x2, long y2, byte colorIndex)

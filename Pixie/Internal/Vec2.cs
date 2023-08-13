@@ -33,5 +33,10 @@ namespace Pixie.Internal
             X = x;
             Y = y;
         }
+
+        public Vec2 Clone()
+        {
+            return new Vec2(X, Y);
+        }
     }
 }
