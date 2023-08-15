@@ -505,6 +505,45 @@ namespace Pixie
             }
         }
 
+        public void Sprite(in IReadOnlySprite? sprite, long x, long y, float angle)
+        {
+            if (sprite is null)
+            {
+                throw new ArgumentNullException(nameof(sprite));
+            }
+
+            float angleRadians = MathF.PI * angle / 180.0f;
+
+            float cosTheta = MathF.Cos(angleRadians);
+            float sinTheta = MathF.Sin(angleRadians);
+
+            uint spriteWidth = sprite.Width;
+            uint spriteHeight = sprite.Height;
+
+            long newWidth = (long)(Math.Abs(cosTheta) * spriteWidth + Math.Abs(sinTheta) * spriteHeight);
+            long newHeight = (long)(Math.Abs(cosTheta) * spriteHeight + Math.Abs(sinTheta) * spriteWidth);
+
+            long widthOffset = (newWidth - spriteWidth) / 2;
+            long heightOffset = (newHeight - spriteHeight) / 2;
+
+            for (long spriteX = 0; spriteX < newWidth; ++spriteX)
+            {
+                for (long spriteY = 0; spriteY < newHeight; ++spriteY)
+                {
+                    long sampleX = (long)((spriteX - newWidth / 2) * cosTheta + (spriteY - newHeight / 2) * sinTheta + spriteWidth / 2);
+                    long sampleY = (long)((-spriteX + newWidth / 2) * sinTheta + (spriteY - newHeight / 2) * cosTheta + spriteHeight / 2);
+
+                    PixieColor color = sprite.GetColorAt((uint)sampleX, (uint)sampleY);
+                    if (color == PixieColor.None)
+                    {
+                        continue;
+                    }
+
+                    Point(x - widthOffset + spriteX, y - heightOffset + spriteY, color);
+                }
+            }
+        }
+
         public void Text(string text, long x, long y, PixieColor color, Brightness brightness)
         {
             Text(text, x, y, (byte)((byte)color + ((byte)brightness * (byte)PixieColor.Count)));
