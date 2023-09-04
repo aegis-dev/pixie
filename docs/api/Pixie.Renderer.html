@@ -142,37 +142,6 @@
 </h2>
 
 
-  <a id="Pixie_Renderer_Brightness_" data-uid="Pixie.Renderer.Brightness*"></a>
-
-  <h3 id="Pixie_Renderer_Brightness" data-uid="Pixie.Renderer.Brightness">
-  Brightness
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Brightness Brightness { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="Pixie.Brightness.html">Brightness</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="Pixie_Renderer_CameraX_" data-uid="Pixie.Renderer.CameraX*"></a>
 
   <h3 id="Pixie_Renderer_CameraX" data-uid="Pixie.Renderer.CameraX">
@@ -303,8 +272,8 @@
 
   <a id="Pixie_Renderer_Circle_" data-uid="Pixie.Renderer.Circle*"></a>
 
-  <h3 id="Pixie_Renderer_Circle_System_Int64_System_Int64_System_UInt32_Pixie_PixieColor_" data-uid="Pixie.Renderer.Circle(System.Int64,System.Int64,System.UInt32,Pixie.PixieColor)">
-  Circle(long, long, uint, PixieColor)
+  <h3 id="Pixie_Renderer_Circle_System_Int64_System_Int64_System_UInt32_Pixie_BaseColor_" data-uid="Pixie.Renderer.Circle(System.Int64,System.Int64,System.UInt32,Pixie.BaseColor)">
+  Circle(long, long, uint, BaseColor)
   
   </h3>
 
@@ -312,7 +281,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Circle(long originX, long originY, uint radius, PixieColor color)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Circle(long originX, long originY, uint radius, BaseColor color)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -323,7 +292,7 @@
     <dd></dd>
     <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
     <dd></dd>
-    <dt><code>color</code> <a class="xref" href="Pixie.PixieColor.html">PixieColor</a></dt>
+    <dt><code>color</code> <a class="xref" href="Pixie.BaseColor.html">BaseColor</a></dt>
     <dd></dd>
   </dl>
 
@@ -340,8 +309,8 @@
 
   <a id="Pixie_Renderer_Circle_" data-uid="Pixie.Renderer.Circle*"></a>
 
-  <h3 id="Pixie_Renderer_Circle_System_Int64_System_Int64_System_UInt32_Pixie_PixieColor_Pixie_Brightness_" data-uid="Pixie.Renderer.Circle(System.Int64,System.Int64,System.UInt32,Pixie.PixieColor,Pixie.Brightness)">
-  Circle(long, long, uint, PixieColor, Brightness)
+  <h3 id="Pixie_Renderer_Circle_System_Int64_System_Int64_System_UInt32_Pixie_BaseColor_Pixie_ColorPalette_" data-uid="Pixie.Renderer.Circle(System.Int64,System.Int64,System.UInt32,Pixie.BaseColor,Pixie.ColorPalette)">
+  Circle(long, long, uint, BaseColor, ColorPalette)
   
   </h3>
 
@@ -349,7 +318,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Circle(long originX, long originY, uint radius, PixieColor color, Brightness brightness)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Circle(long originX, long originY, uint radius, BaseColor color, ColorPalette palette)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -360,9 +329,9 @@
     <dd></dd>
     <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
     <dd></dd>
-    <dt><code>color</code> <a class="xref" href="Pixie.PixieColor.html">PixieColor</a></dt>
+    <dt><code>color</code> <a class="xref" href="Pixie.BaseColor.html">BaseColor</a></dt>
     <dd></dd>
-    <dt><code>brightness</code> <a class="xref" href="Pixie.Brightness.html">Brightness</a></dt>
+    <dt><code>palette</code> <a class="xref" href="Pixie.ColorPalette.html">ColorPalette</a></dt>
     <dd></dd>
   </dl>
 
@@ -416,8 +385,8 @@
 
   <a id="Pixie_Renderer_CircleFilled_" data-uid="Pixie.Renderer.CircleFilled*"></a>
 
-  <h3 id="Pixie_Renderer_CircleFilled_System_Int64_System_Int64_System_UInt32_Pixie_PixieColor_" data-uid="Pixie.Renderer.CircleFilled(System.Int64,System.Int64,System.UInt32,Pixie.PixieColor)">
-  CircleFilled(long, long, uint, PixieColor)
+  <h3 id="Pixie_Renderer_CircleFilled_System_Int64_System_Int64_System_UInt32_Pixie_BaseColor_" data-uid="Pixie.Renderer.CircleFilled(System.Int64,System.Int64,System.UInt32,Pixie.BaseColor)">
+  CircleFilled(long, long, uint, BaseColor)
   
   </h3>
 
@@ -425,7 +394,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void CircleFilled(long originX, long originY, uint radius, PixieColor color)</code></pre>
+    <pre><code class="lang-csharp hljs">public void CircleFilled(long originX, long originY, uint radius, BaseColor color)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -436,7 +405,7 @@
     <dd></dd>
     <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
     <dd></dd>
-    <dt><code>color</code> <a class="xref" href="Pixie.PixieColor.html">PixieColor</a></dt>
+    <dt><code>color</code> <a class="xref" href="Pixie.BaseColor.html">BaseColor</a></dt>
     <dd></dd>
   </dl>
 
@@ -453,8 +422,8 @@
 
   <a id="Pixie_Renderer_CircleFilled_" data-uid="Pixie.Renderer.CircleFilled*"></a>
 
-  <h3 id="Pixie_Renderer_CircleFilled_System_Int64_System_Int64_System_UInt32_Pixie_PixieColor_Pixie_Brightness_" data-uid="Pixie.Renderer.CircleFilled(System.Int64,System.Int64,System.UInt32,Pixie.PixieColor,Pixie.Brightness)">
-  CircleFilled(long, long, uint, PixieColor, Brightness)
+  <h3 id="Pixie_Renderer_CircleFilled_System_Int64_System_Int64_System_UInt32_Pixie_BaseColor_Pixie_ColorPalette_" data-uid="Pixie.Renderer.CircleFilled(System.Int64,System.Int64,System.UInt32,Pixie.BaseColor,Pixie.ColorPalette)">
+  CircleFilled(long, long, uint, BaseColor, ColorPalette)
   
   </h3>
 
@@ -462,7 +431,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void CircleFilled(long originX, long originY, uint radius, PixieColor color, Brightness brightness)</code></pre>
+    <pre><code class="lang-csharp hljs">public void CircleFilled(long originX, long originY, uint radius, BaseColor color, ColorPalette palette)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -473,9 +442,9 @@
     <dd></dd>
     <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
     <dd></dd>
-    <dt><code>color</code> <a class="xref" href="Pixie.PixieColor.html">PixieColor</a></dt>
+    <dt><code>color</code> <a class="xref" href="Pixie.BaseColor.html">BaseColor</a></dt>
     <dd></dd>
-    <dt><code>brightness</code> <a class="xref" href="Pixie.Brightness.html">Brightness</a></dt>
+    <dt><code>palette</code> <a class="xref" href="Pixie.ColorPalette.html">ColorPalette</a></dt>
     <dd></dd>
   </dl>
 
@@ -586,8 +555,8 @@
 
   <a id="Pixie_Renderer_Line_" data-uid="Pixie.Renderer.Line*"></a>
 
-  <h3 id="Pixie_Renderer_Line_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_PixieColor_" data-uid="Pixie.Renderer.Line(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.PixieColor)">
-  Line(long, long, long, long, PixieColor)
+  <h3 id="Pixie_Renderer_Line_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_BaseColor_" data-uid="Pixie.Renderer.Line(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.BaseColor)">
+  Line(long, long, long, long, BaseColor)
   
   </h3>
 
@@ -595,7 +564,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Line(long x1, long y1, long x2, long y2, PixieColor color)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Line(long x1, long y1, long x2, long y2, BaseColor color)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -608,7 +577,7 @@
     <dd></dd>
     <dt><code>y2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
     <dd></dd>
-    <dt><code>color</code> <a class="xref" href="Pixie.PixieColor.html">PixieColor</a></dt>
+    <dt><code>color</code> <a class="xref" href="Pixie.BaseColor.html">BaseColor</a></dt>
     <dd></dd>
   </dl>
 
@@ -625,8 +594,8 @@
 
   <a id="Pixie_Renderer_Line_" data-uid="Pixie.Renderer.Line*"></a>
 
-  <h3 id="Pixie_Renderer_Line_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_PixieColor_Pixie_Brightness_" data-uid="Pixie.Renderer.Line(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.PixieColor,Pixie.Brightness)">
-  Line(long, long, long, long, PixieColor, Brightness)
+  <h3 id="Pixie_Renderer_Line_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_BaseColor_Pixie_ColorPalette_" data-uid="Pixie.Renderer.Line(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.BaseColor,Pixie.ColorPalette)">
+  Line(long, long, long, long, BaseColor, ColorPalette)
   
   </h3>
 
@@ -634,7 +603,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Line(long x1, long y1, long x2, long y2, PixieColor color, Brightness brightness)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Line(long x1, long y1, long x2, long y2, BaseColor color, ColorPalette palette)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -647,9 +616,9 @@
     <dd></dd>
     <dt><code>y2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
     <dd></dd>
-    <dt><code>color</code> <a class="xref" href="Pixie.PixieColor.html">PixieColor</a></dt>
+    <dt><code>color</code> <a class="xref" href="Pixie.BaseColor.html">BaseColor</a></dt>
     <dd></dd>
-    <dt><code>brightness</code> <a class="xref" href="Pixie.Brightness.html">Brightness</a></dt>
+    <dt><code>palette</code> <a class="xref" href="Pixie.ColorPalette.html">ColorPalette</a></dt>
     <dd></dd>
   </dl>
 
@@ -705,8 +674,8 @@
 
   <a id="Pixie_Renderer_Point_" data-uid="Pixie.Renderer.Point*"></a>
 
-  <h3 id="Pixie_Renderer_Point_System_Int64_System_Int64_Pixie_PixieColor_" data-uid="Pixie.Renderer.Point(System.Int64,System.Int64,Pixie.PixieColor)">
-  Point(long, long, PixieColor)
+  <h3 id="Pixie_Renderer_Point_System_Int64_System_Int64_Pixie_BaseColor_" data-uid="Pixie.Renderer.Point(System.Int64,System.Int64,Pixie.BaseColor)">
+  Point(long, long, BaseColor)
   
   </h3>
 
@@ -714,7 +683,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Point(long x, long y, PixieColor color)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Point(long x, long y, BaseColor color)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -723,7 +692,7 @@
     <dd></dd>
     <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
     <dd></dd>
-    <dt><code>color</code> <a class="xref" href="Pixie.PixieColor.html">PixieColor</a></dt>
+    <dt><code>color</code> <a class="xref" href="Pixie.BaseColor.html">BaseColor</a></dt>
     <dd></dd>
   </dl>
 
@@ -740,8 +709,8 @@
 
   <a id="Pixie_Renderer_Point_" data-uid="Pixie.Renderer.Point*"></a>
 
-  <h3 id="Pixie_Renderer_Point_System_Int64_System_Int64_Pixie_PixieColor_Pixie_Brightness_" data-uid="Pixie.Renderer.Point(System.Int64,System.Int64,Pixie.PixieColor,Pixie.Brightness)">
-  Point(long, long, PixieColor, Brightness)
+  <h3 id="Pixie_Renderer_Point_System_Int64_System_Int64_Pixie_BaseColor_Pixie_ColorPalette_" data-uid="Pixie.Renderer.Point(System.Int64,System.Int64,Pixie.BaseColor,Pixie.ColorPalette)">
+  Point(long, long, BaseColor, ColorPalette)
   
   </h3>
 
@@ -749,7 +718,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Point(long x, long y, PixieColor color, Brightness brightness)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Point(long x, long y, BaseColor color, ColorPalette palette)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -758,46 +727,9 @@
     <dd></dd>
     <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
     <dd></dd>
-    <dt><code>color</code> <a class="xref" href="Pixie.PixieColor.html">PixieColor</a></dt>
+    <dt><code>color</code> <a class="xref" href="Pixie.BaseColor.html">BaseColor</a></dt>
     <dd></dd>
-    <dt><code>brightness</code> <a class="xref" href="Pixie.Brightness.html">Brightness</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Pixie_Renderer_Point_" data-uid="Pixie.Renderer.Point*"></a>
-
-  <h3 id="Pixie_Renderer_Point_System_Int64_System_Int64_Pixie_PixieColor_System_Collections_Generic_IReadOnlyList_Pixie_PointLight__" data-uid="Pixie.Renderer.Point(System.Int64,System.Int64,Pixie.PixieColor,System.Collections.Generic.IReadOnlyList{Pixie.PointLight})">
-  Point(long, long, PixieColor, IReadOnlyList&lt;PointLight&gt;)
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Point(long x, long y, PixieColor color, IReadOnlyList&lt;PointLight&gt; lights)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
-    <dd></dd>
-    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
-    <dd></dd>
-    <dt><code>color</code> <a class="xref" href="Pixie.PixieColor.html">PixieColor</a></dt>
-    <dd></dd>
-    <dt><code>lights</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="Pixie.PointLight.html">PointLight</a>&gt;</dt>
+    <dt><code>palette</code> <a class="xref" href="Pixie.ColorPalette.html">ColorPalette</a></dt>
     <dd></dd>
   </dl>
 
@@ -849,8 +781,8 @@
 
   <a id="Pixie_Renderer_Rectangle_" data-uid="Pixie.Renderer.Rectangle*"></a>
 
-  <h3 id="Pixie_Renderer_Rectangle_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_PixieColor_" data-uid="Pixie.Renderer.Rectangle(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.PixieColor)">
-  Rectangle(long, long, long, long, PixieColor)
+  <h3 id="Pixie_Renderer_Rectangle_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_BaseColor_" data-uid="Pixie.Renderer.Rectangle(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.BaseColor)">
+  Rectangle(long, long, long, long, BaseColor)
   
   </h3>
 
@@ -858,7 +790,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Rectangle(long x1, long y1, long x2, long y2, PixieColor color)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Rectangle(long x1, long y1, long x2, long y2, BaseColor color)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -871,7 +803,7 @@
     <dd></dd>
     <dt><code>y2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
     <dd></dd>
-    <dt><code>color</code> <a class="xref" href="Pixie.PixieColor.html">PixieColor</a></dt>
+    <dt><code>color</code> <a class="xref" href="Pixie.BaseColor.html">BaseColor</a></dt>
     <dd></dd>
   </dl>
 
@@ -888,8 +820,8 @@
 
   <a id="Pixie_Renderer_Rectangle_" data-uid="Pixie.Renderer.Rectangle*"></a>
 
-  <h3 id="Pixie_Renderer_Rectangle_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_PixieColor_Pixie_Brightness_" data-uid="Pixie.Renderer.Rectangle(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.PixieColor,Pixie.Brightness)">
-  Rectangle(long, long, long, long, PixieColor, Brightness)
+  <h3 id="Pixie_Renderer_Rectangle_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_BaseColor_Pixie_ColorPalette_" data-uid="Pixie.Renderer.Rectangle(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.BaseColor,Pixie.ColorPalette)">
+  Rectangle(long, long, long, long, BaseColor, ColorPalette)
   
   </h3>
 
@@ -897,7 +829,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Rectangle(long x1, long y1, long x2, long y2, PixieColor color, Brightness brightness)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Rectangle(long x1, long y1, long x2, long y2, BaseColor color, ColorPalette palette)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -910,9 +842,9 @@
     <dd></dd>
     <dt><code>y2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
     <dd></dd>
-    <dt><code>color</code> <a class="xref" href="Pixie.PixieColor.html">PixieColor</a></dt>
+    <dt><code>color</code> <a class="xref" href="Pixie.BaseColor.html">BaseColor</a></dt>
     <dd></dd>
-    <dt><code>brightness</code> <a class="xref" href="Pixie.Brightness.html">Brightness</a></dt>
+    <dt><code>palette</code> <a class="xref" href="Pixie.ColorPalette.html">ColorPalette</a></dt>
     <dd></dd>
   </dl>
 
@@ -968,8 +900,8 @@
 
   <a id="Pixie_Renderer_RectangleFilled_" data-uid="Pixie.Renderer.RectangleFilled*"></a>
 
-  <h3 id="Pixie_Renderer_RectangleFilled_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_PixieColor_" data-uid="Pixie.Renderer.RectangleFilled(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.PixieColor)">
-  RectangleFilled(long, long, long, long, PixieColor)
+  <h3 id="Pixie_Renderer_RectangleFilled_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_BaseColor_" data-uid="Pixie.Renderer.RectangleFilled(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.BaseColor)">
+  RectangleFilled(long, long, long, long, BaseColor)
   
   </h3>
 
@@ -977,7 +909,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RectangleFilled(long x1, long y1, long x2, long y2, PixieColor color)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RectangleFilled(long x1, long y1, long x2, long y2, BaseColor color)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -990,7 +922,7 @@
     <dd></dd>
     <dt><code>y2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
     <dd></dd>
-    <dt><code>color</code> <a class="xref" href="Pixie.PixieColor.html">PixieColor</a></dt>
+    <dt><code>color</code> <a class="xref" href="Pixie.BaseColor.html">BaseColor</a></dt>
     <dd></dd>
   </dl>
 
@@ -1007,8 +939,8 @@
 
   <a id="Pixie_Renderer_RectangleFilled_" data-uid="Pixie.Renderer.RectangleFilled*"></a>
 
-  <h3 id="Pixie_Renderer_RectangleFilled_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_PixieColor_Pixie_Brightness_" data-uid="Pixie.Renderer.RectangleFilled(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.PixieColor,Pixie.Brightness)">
-  RectangleFilled(long, long, long, long, PixieColor, Brightness)
+  <h3 id="Pixie_Renderer_RectangleFilled_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_BaseColor_Pixie_ColorPalette_" data-uid="Pixie.Renderer.RectangleFilled(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.BaseColor,Pixie.ColorPalette)">
+  RectangleFilled(long, long, long, long, BaseColor, ColorPalette)
   
   </h3>
 
@@ -1016,7 +948,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RectangleFilled(long x1, long y1, long x2, long y2, PixieColor color, Brightness brightness)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RectangleFilled(long x1, long y1, long x2, long y2, BaseColor color, ColorPalette palette)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1029,9 +961,9 @@
     <dd></dd>
     <dt><code>y2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
     <dd></dd>
-    <dt><code>color</code> <a class="xref" href="Pixie.PixieColor.html">PixieColor</a></dt>
+    <dt><code>color</code> <a class="xref" href="Pixie.BaseColor.html">BaseColor</a></dt>
     <dd></dd>
-    <dt><code>brightness</code> <a class="xref" href="Pixie.Brightness.html">Brightness</a></dt>
+    <dt><code>palette</code> <a class="xref" href="Pixie.ColorPalette.html">ColorPalette</a></dt>
     <dd></dd>
   </dl>
 
@@ -1087,8 +1019,8 @@
 
   <a id="Pixie_Renderer_SetBackgroundColor_" data-uid="Pixie.Renderer.SetBackgroundColor*"></a>
 
-  <h3 id="Pixie_Renderer_SetBackgroundColor_Pixie_PixieColor_" data-uid="Pixie.Renderer.SetBackgroundColor(Pixie.PixieColor)">
-  SetBackgroundColor(PixieColor)
+  <h3 id="Pixie_Renderer_SetBackgroundColor_Pixie_BaseColor_" data-uid="Pixie.Renderer.SetBackgroundColor(Pixie.BaseColor)">
+  SetBackgroundColor(BaseColor)
   
   </h3>
 
@@ -1096,12 +1028,12 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetBackgroundColor(PixieColor color)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetBackgroundColor(BaseColor color)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>color</code> <a class="xref" href="Pixie.PixieColor.html">PixieColor</a></dt>
+    <dt><code>color</code> <a class="xref" href="Pixie.BaseColor.html">BaseColor</a></dt>
     <dd></dd>
   </dl>
 
@@ -1118,8 +1050,8 @@
 
   <a id="Pixie_Renderer_SetBackgroundColor_" data-uid="Pixie.Renderer.SetBackgroundColor*"></a>
 
-  <h3 id="Pixie_Renderer_SetBackgroundColor_Pixie_PixieColor_Pixie_Brightness_" data-uid="Pixie.Renderer.SetBackgroundColor(Pixie.PixieColor,Pixie.Brightness)">
-  SetBackgroundColor(PixieColor, Brightness)
+  <h3 id="Pixie_Renderer_SetBackgroundColor_Pixie_BaseColor_Pixie_ColorPalette_" data-uid="Pixie.Renderer.SetBackgroundColor(Pixie.BaseColor,Pixie.ColorPalette)">
+  SetBackgroundColor(BaseColor, ColorPalette)
   
   </h3>
 
@@ -1127,14 +1059,14 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetBackgroundColor(PixieColor color, Brightness brightness)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetBackgroundColor(BaseColor color, ColorPalette palette)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>color</code> <a class="xref" href="Pixie.PixieColor.html">PixieColor</a></dt>
+    <dt><code>color</code> <a class="xref" href="Pixie.BaseColor.html">BaseColor</a></dt>
     <dd></dd>
-    <dt><code>brightness</code> <a class="xref" href="Pixie.Brightness.html">Brightness</a></dt>
+    <dt><code>palette</code> <a class="xref" href="Pixie.ColorPalette.html">ColorPalette</a></dt>
     <dd></dd>
   </dl>
 
@@ -1219,8 +1151,8 @@
 
   <a id="Pixie_Renderer_Sprite_" data-uid="Pixie.Renderer.Sprite*"></a>
 
-  <h3 id="Pixie_Renderer_Sprite_Pixie_IReadOnlySprite__System_Int64_System_Int64_System_Boolean_Pixie_Brightness_" data-uid="Pixie.Renderer.Sprite(Pixie.IReadOnlySprite@,System.Int64,System.Int64,System.Boolean,Pixie.Brightness)">
-  Sprite(in IReadOnlySprite?, long, long, bool, Brightness)
+  <h3 id="Pixie_Renderer_Sprite_Pixie_IReadOnlySprite__System_Int64_System_Int64_System_Boolean_Pixie_ColorPalette_" data-uid="Pixie.Renderer.Sprite(Pixie.IReadOnlySprite@,System.Int64,System.Int64,System.Boolean,Pixie.ColorPalette)">
+  Sprite(in IReadOnlySprite?, long, long, bool, ColorPalette)
   
   </h3>
 
@@ -1228,7 +1160,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Sprite(in IReadOnlySprite? sprite, long x, long y, bool flip, Brightness brightness)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Sprite(in IReadOnlySprite? sprite, long x, long y, bool flip, ColorPalette palette)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1241,7 +1173,7 @@
     <dd></dd>
     <dt><code>flip</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
-    <dt><code>brightness</code> <a class="xref" href="Pixie.Brightness.html">Brightness</a></dt>
+    <dt><code>palette</code> <a class="xref" href="Pixie.ColorPalette.html">ColorPalette</a></dt>
     <dd></dd>
   </dl>
 
@@ -1258,8 +1190,8 @@
 
   <a id="Pixie_Renderer_Sprite_" data-uid="Pixie.Renderer.Sprite*"></a>
 
-  <h3 id="Pixie_Renderer_Sprite_Pixie_IReadOnlySprite__System_Int64_System_Int64_System_Boolean_System_Collections_Generic_IReadOnlyList_Pixie_PointLight__" data-uid="Pixie.Renderer.Sprite(Pixie.IReadOnlySprite@,System.Int64,System.Int64,System.Boolean,System.Collections.Generic.IReadOnlyList{Pixie.PointLight})">
-  Sprite(in IReadOnlySprite?, long, long, bool, IReadOnlyList&lt;PointLight&gt;)
+  <h3 id="Pixie_Renderer_Sprite_Pixie_IReadOnlySprite__System_Int64_System_Int64_System_Single_" data-uid="Pixie.Renderer.Sprite(Pixie.IReadOnlySprite@,System.Int64,System.Int64,System.Single)">
+  Sprite(in IReadOnlySprite?, long, long, float)
   
   </h3>
 
@@ -1267,7 +1199,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Sprite(in IReadOnlySprite? sprite, long x, long y, bool flip, IReadOnlyList&lt;PointLight&gt; lights)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Sprite(in IReadOnlySprite? sprite, long x, long y, float angle)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1278,9 +1210,7 @@
     <dd></dd>
     <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
     <dd></dd>
-    <dt><code>flip</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-    <dt><code>lights</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="Pixie.PointLight.html">PointLight</a>&gt;</dt>
+    <dt><code>angle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd></dd>
   </dl>
 
@@ -1297,8 +1227,8 @@
 
   <a id="Pixie_Renderer_Text_" data-uid="Pixie.Renderer.Text*"></a>
 
-  <h3 id="Pixie_Renderer_Text_System_String_System_Int64_System_Int64_Pixie_PixieColor_" data-uid="Pixie.Renderer.Text(System.String,System.Int64,System.Int64,Pixie.PixieColor)">
-  Text(string, long, long, PixieColor)
+  <h3 id="Pixie_Renderer_Text_System_String_System_Int64_System_Int64_Pixie_BaseColor_" data-uid="Pixie.Renderer.Text(System.String,System.Int64,System.Int64,Pixie.BaseColor)">
+  Text(string, long, long, BaseColor)
   
   </h3>
 
@@ -1306,7 +1236,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Text(string text, long x, long y, PixieColor color)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Text(string text, long x, long y, BaseColor color)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1317,7 +1247,7 @@
     <dd></dd>
     <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
     <dd></dd>
-    <dt><code>color</code> <a class="xref" href="Pixie.PixieColor.html">PixieColor</a></dt>
+    <dt><code>color</code> <a class="xref" href="Pixie.BaseColor.html">BaseColor</a></dt>
     <dd></dd>
   </dl>
 
@@ -1334,8 +1264,8 @@
 
   <a id="Pixie_Renderer_Text_" data-uid="Pixie.Renderer.Text*"></a>
 
-  <h3 id="Pixie_Renderer_Text_System_String_System_Int64_System_Int64_Pixie_PixieColor_Pixie_Brightness_" data-uid="Pixie.Renderer.Text(System.String,System.Int64,System.Int64,Pixie.PixieColor,Pixie.Brightness)">
-  Text(string, long, long, PixieColor, Brightness)
+  <h3 id="Pixie_Renderer_Text_System_String_System_Int64_System_Int64_Pixie_BaseColor_Pixie_ColorPalette_" data-uid="Pixie.Renderer.Text(System.String,System.Int64,System.Int64,Pixie.BaseColor,Pixie.ColorPalette)">
+  Text(string, long, long, BaseColor, ColorPalette)
   
   </h3>
 
@@ -1343,7 +1273,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Text(string text, long x, long y, PixieColor color, Brightness brightness)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Text(string text, long x, long y, BaseColor color, ColorPalette palette)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1354,9 +1284,9 @@
     <dd></dd>
     <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
     <dd></dd>
-    <dt><code>color</code> <a class="xref" href="Pixie.PixieColor.html">PixieColor</a></dt>
+    <dt><code>color</code> <a class="xref" href="Pixie.BaseColor.html">BaseColor</a></dt>
     <dd></dd>
-    <dt><code>brightness</code> <a class="xref" href="Pixie.Brightness.html">Brightness</a></dt>
+    <dt><code>palette</code> <a class="xref" href="Pixie.ColorPalette.html">ColorPalette</a></dt>
     <dd></dd>
   </dl>
 

@@ -7,68 +7,108 @@ references:
   commentId: N:Pixie
   fullName: Pixie
   nameWithType: Pixie
-- uid: Pixie.Brightness
-  name: Brightness
-  href: api/Pixie.Brightness.html
-  commentId: T:Pixie.Brightness
-  fullName: Pixie.Brightness
-  nameWithType: Brightness
-- uid: Pixie.Brightness.Dark
-  name: Dark
-  href: api/Pixie.Brightness.html#Pixie_Brightness_Dark
-  commentId: F:Pixie.Brightness.Dark
-  fullName: Pixie.Brightness.Dark
-  nameWithType: Brightness.Dark
-- uid: Pixie.Brightness.Dim
-  name: Dim
-  href: api/Pixie.Brightness.html#Pixie_Brightness_Dim
-  commentId: F:Pixie.Brightness.Dim
-  fullName: Pixie.Brightness.Dim
-  nameWithType: Brightness.Dim
-- uid: Pixie.Brightness.Normal
-  name: Normal
-  href: api/Pixie.Brightness.html#Pixie_Brightness_Normal
-  commentId: F:Pixie.Brightness.Normal
-  fullName: Pixie.Brightness.Normal
-  nameWithType: Brightness.Normal
-- uid: Pixie.Brightness.VeryDark
-  name: VeryDark
-  href: api/Pixie.Brightness.html#Pixie_Brightness_VeryDark
-  commentId: F:Pixie.Brightness.VeryDark
-  fullName: Pixie.Brightness.VeryDark
-  nameWithType: Brightness.VeryDark
-- uid: Pixie.BrightnessUtils
-  name: BrightnessUtils
-  href: api/Pixie.BrightnessUtils.html
-  commentId: T:Pixie.BrightnessUtils
-  fullName: Pixie.BrightnessUtils
-  nameWithType: BrightnessUtils
-- uid: Pixie.BrightnessUtils.IsDarker(Pixie.Brightness,Pixie.Brightness)
-  name: IsDarker(Brightness, Brightness)
-  href: api/Pixie.BrightnessUtils.html#Pixie_BrightnessUtils_IsDarker_Pixie_Brightness_Pixie_Brightness_
-  commentId: M:Pixie.BrightnessUtils.IsDarker(Pixie.Brightness,Pixie.Brightness)
-  fullName: Pixie.BrightnessUtils.IsDarker(Pixie.Brightness, Pixie.Brightness)
-  nameWithType: BrightnessUtils.IsDarker(Brightness, Brightness)
-- uid: Pixie.BrightnessUtils.IsDarker*
-  name: IsDarker
-  href: api/Pixie.BrightnessUtils.html#Pixie_BrightnessUtils_IsDarker_
-  commentId: Overload:Pixie.BrightnessUtils.IsDarker
-  isSpec: "True"
-  fullName: Pixie.BrightnessUtils.IsDarker
-  nameWithType: BrightnessUtils.IsDarker
-- uid: Pixie.BrightnessUtils.IsLighter(Pixie.Brightness,Pixie.Brightness)
-  name: IsLighter(Brightness, Brightness)
-  href: api/Pixie.BrightnessUtils.html#Pixie_BrightnessUtils_IsLighter_Pixie_Brightness_Pixie_Brightness_
-  commentId: M:Pixie.BrightnessUtils.IsLighter(Pixie.Brightness,Pixie.Brightness)
-  fullName: Pixie.BrightnessUtils.IsLighter(Pixie.Brightness, Pixie.Brightness)
-  nameWithType: BrightnessUtils.IsLighter(Brightness, Brightness)
-- uid: Pixie.BrightnessUtils.IsLighter*
-  name: IsLighter
-  href: api/Pixie.BrightnessUtils.html#Pixie_BrightnessUtils_IsLighter_
-  commentId: Overload:Pixie.BrightnessUtils.IsLighter
-  isSpec: "True"
-  fullName: Pixie.BrightnessUtils.IsLighter
-  nameWithType: BrightnessUtils.IsLighter
+- uid: Pixie.BaseColor
+  name: BaseColor
+  href: api/Pixie.BaseColor.html
+  commentId: T:Pixie.BaseColor
+  fullName: Pixie.BaseColor
+  nameWithType: BaseColor
+- uid: Pixie.BaseColor.Black
+  name: Black
+  href: api/Pixie.BaseColor.html#Pixie_BaseColor_Black
+  commentId: F:Pixie.BaseColor.Black
+  fullName: Pixie.BaseColor.Black
+  nameWithType: BaseColor.Black
+- uid: Pixie.BaseColor.Blue
+  name: Blue
+  href: api/Pixie.BaseColor.html#Pixie_BaseColor_Blue
+  commentId: F:Pixie.BaseColor.Blue
+  fullName: Pixie.BaseColor.Blue
+  nameWithType: BaseColor.Blue
+- uid: Pixie.BaseColor.Count
+  name: Count
+  href: api/Pixie.BaseColor.html#Pixie_BaseColor_Count
+  commentId: F:Pixie.BaseColor.Count
+  fullName: Pixie.BaseColor.Count
+  nameWithType: BaseColor.Count
+- uid: Pixie.BaseColor.Green
+  name: Green
+  href: api/Pixie.BaseColor.html#Pixie_BaseColor_Green
+  commentId: F:Pixie.BaseColor.Green
+  fullName: Pixie.BaseColor.Green
+  nameWithType: BaseColor.Green
+- uid: Pixie.BaseColor.None
+  name: None
+  href: api/Pixie.BaseColor.html#Pixie_BaseColor_None
+  commentId: F:Pixie.BaseColor.None
+  fullName: Pixie.BaseColor.None
+  nameWithType: BaseColor.None
+- uid: Pixie.BaseColor.Orange
+  name: Orange
+  href: api/Pixie.BaseColor.html#Pixie_BaseColor_Orange
+  commentId: F:Pixie.BaseColor.Orange
+  fullName: Pixie.BaseColor.Orange
+  nameWithType: BaseColor.Orange
+- uid: Pixie.BaseColor.Red
+  name: Red
+  href: api/Pixie.BaseColor.html#Pixie_BaseColor_Red
+  commentId: F:Pixie.BaseColor.Red
+  fullName: Pixie.BaseColor.Red
+  nameWithType: BaseColor.Red
+- uid: Pixie.BaseColor.Violet
+  name: Violet
+  href: api/Pixie.BaseColor.html#Pixie_BaseColor_Violet
+  commentId: F:Pixie.BaseColor.Violet
+  fullName: Pixie.BaseColor.Violet
+  nameWithType: BaseColor.Violet
+- uid: Pixie.BaseColor.White
+  name: White
+  href: api/Pixie.BaseColor.html#Pixie_BaseColor_White
+  commentId: F:Pixie.BaseColor.White
+  fullName: Pixie.BaseColor.White
+  nameWithType: BaseColor.White
+- uid: Pixie.BaseColor.Yellow
+  name: Yellow
+  href: api/Pixie.BaseColor.html#Pixie_BaseColor_Yellow
+  commentId: F:Pixie.BaseColor.Yellow
+  fullName: Pixie.BaseColor.Yellow
+  nameWithType: BaseColor.Yellow
+- uid: Pixie.ColorPalette
+  name: ColorPalette
+  href: api/Pixie.ColorPalette.html
+  commentId: T:Pixie.ColorPalette
+  fullName: Pixie.ColorPalette
+  nameWithType: ColorPalette
+- uid: Pixie.ColorPalette.Base
+  name: Base
+  href: api/Pixie.ColorPalette.html#Pixie_ColorPalette_Base
+  commentId: F:Pixie.ColorPalette.Base
+  fullName: Pixie.ColorPalette.Base
+  nameWithType: ColorPalette.Base
+- uid: Pixie.ColorPalette.BaseDark
+  name: BaseDark
+  href: api/Pixie.ColorPalette.html#Pixie_ColorPalette_BaseDark
+  commentId: F:Pixie.ColorPalette.BaseDark
+  fullName: Pixie.ColorPalette.BaseDark
+  nameWithType: ColorPalette.BaseDark
+- uid: Pixie.ColorPalette.BaseDim
+  name: BaseDim
+  href: api/Pixie.ColorPalette.html#Pixie_ColorPalette_BaseDim
+  commentId: F:Pixie.ColorPalette.BaseDim
+  fullName: Pixie.ColorPalette.BaseDim
+  nameWithType: ColorPalette.BaseDim
+- uid: Pixie.ColorPalette.BlackAndWhite
+  name: BlackAndWhite
+  href: api/Pixie.ColorPalette.html#Pixie_ColorPalette_BlackAndWhite
+  commentId: F:Pixie.ColorPalette.BlackAndWhite
+  fullName: Pixie.ColorPalette.BlackAndWhite
+  nameWithType: ColorPalette.BlackAndWhite
+- uid: Pixie.ColorPalette.CorruptedIce
+  name: CorruptedIce
+  href: api/Pixie.ColorPalette.html#Pixie_ColorPalette_CorruptedIce
+  commentId: F:Pixie.ColorPalette.CorruptedIce
+  fullName: Pixie.ColorPalette.CorruptedIce
+  nameWithType: ColorPalette.CorruptedIce
 - uid: Pixie.GameContext
   name: GameContext
   href: api/Pixie.GameContext.html
@@ -315,187 +355,12 @@ references:
   commentId: F:Pixie.Input.State.Up
   fullName: Pixie.Input.State.Up
   nameWithType: Input.State.Up
-- uid: Pixie.PixieColor
-  name: PixieColor
-  href: api/Pixie.PixieColor.html
-  commentId: T:Pixie.PixieColor
-  fullName: Pixie.PixieColor
-  nameWithType: PixieColor
-- uid: Pixie.PixieColor.Black
-  name: Black
-  href: api/Pixie.PixieColor.html#Pixie_PixieColor_Black
-  commentId: F:Pixie.PixieColor.Black
-  fullName: Pixie.PixieColor.Black
-  nameWithType: PixieColor.Black
-- uid: Pixie.PixieColor.Blue
-  name: Blue
-  href: api/Pixie.PixieColor.html#Pixie_PixieColor_Blue
-  commentId: F:Pixie.PixieColor.Blue
-  fullName: Pixie.PixieColor.Blue
-  nameWithType: PixieColor.Blue
-- uid: Pixie.PixieColor.Count
-  name: Count
-  href: api/Pixie.PixieColor.html#Pixie_PixieColor_Count
-  commentId: F:Pixie.PixieColor.Count
-  fullName: Pixie.PixieColor.Count
-  nameWithType: PixieColor.Count
-- uid: Pixie.PixieColor.Green
-  name: Green
-  href: api/Pixie.PixieColor.html#Pixie_PixieColor_Green
-  commentId: F:Pixie.PixieColor.Green
-  fullName: Pixie.PixieColor.Green
-  nameWithType: PixieColor.Green
-- uid: Pixie.PixieColor.None
-  name: None
-  href: api/Pixie.PixieColor.html#Pixie_PixieColor_None
-  commentId: F:Pixie.PixieColor.None
-  fullName: Pixie.PixieColor.None
-  nameWithType: PixieColor.None
-- uid: Pixie.PixieColor.Orange
-  name: Orange
-  href: api/Pixie.PixieColor.html#Pixie_PixieColor_Orange
-  commentId: F:Pixie.PixieColor.Orange
-  fullName: Pixie.PixieColor.Orange
-  nameWithType: PixieColor.Orange
-- uid: Pixie.PixieColor.Red
-  name: Red
-  href: api/Pixie.PixieColor.html#Pixie_PixieColor_Red
-  commentId: F:Pixie.PixieColor.Red
-  fullName: Pixie.PixieColor.Red
-  nameWithType: PixieColor.Red
-- uid: Pixie.PixieColor.Violet
-  name: Violet
-  href: api/Pixie.PixieColor.html#Pixie_PixieColor_Violet
-  commentId: F:Pixie.PixieColor.Violet
-  fullName: Pixie.PixieColor.Violet
-  nameWithType: PixieColor.Violet
-- uid: Pixie.PixieColor.White
-  name: White
-  href: api/Pixie.PixieColor.html#Pixie_PixieColor_White
-  commentId: F:Pixie.PixieColor.White
-  fullName: Pixie.PixieColor.White
-  nameWithType: PixieColor.White
-- uid: Pixie.PixieColor.Yellow
-  name: Yellow
-  href: api/Pixie.PixieColor.html#Pixie_PixieColor_Yellow
-  commentId: F:Pixie.PixieColor.Yellow
-  fullName: Pixie.PixieColor.Yellow
-  nameWithType: PixieColor.Yellow
-- uid: Pixie.PointLight
-  name: PointLight
-  href: api/Pixie.PointLight.html
-  commentId: T:Pixie.PointLight
-  fullName: Pixie.PointLight
-  nameWithType: PointLight
-- uid: Pixie.PointLight.#ctor(System.Int64,System.Int64,System.Int16)
-  name: PointLight(long, long, short)
-  href: api/Pixie.PointLight.html#Pixie_PointLight__ctor_System_Int64_System_Int64_System_Int16_
-  commentId: M:Pixie.PointLight.#ctor(System.Int64,System.Int64,System.Int16)
-  name.vb: New(Long, Long, Short)
-  fullName: Pixie.PointLight.PointLight(long, long, short)
-  fullName.vb: Pixie.PointLight.New(Long, Long, Short)
-  nameWithType: PointLight.PointLight(long, long, short)
-  nameWithType.vb: PointLight.New(Long, Long, Short)
-- uid: Pixie.PointLight.#ctor*
-  name: PointLight
-  href: api/Pixie.PointLight.html#Pixie_PointLight__ctor_
-  commentId: Overload:Pixie.PointLight.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Pixie.PointLight.PointLight
-  fullName.vb: Pixie.PointLight.New
-  nameWithType: PointLight.PointLight
-  nameWithType.vb: PointLight.New
-- uid: Pixie.PointLight.Distance(System.Int64,System.Int64)
-  name: Distance(long, long)
-  href: api/Pixie.PointLight.html#Pixie_PointLight_Distance_System_Int64_System_Int64_
-  commentId: M:Pixie.PointLight.Distance(System.Int64,System.Int64)
-  name.vb: Distance(Long, Long)
-  fullName: Pixie.PointLight.Distance(long, long)
-  fullName.vb: Pixie.PointLight.Distance(Long, Long)
-  nameWithType: PointLight.Distance(long, long)
-  nameWithType.vb: PointLight.Distance(Long, Long)
-- uid: Pixie.PointLight.Distance*
-  name: Distance
-  href: api/Pixie.PointLight.html#Pixie_PointLight_Distance_
-  commentId: Overload:Pixie.PointLight.Distance
-  isSpec: "True"
-  fullName: Pixie.PointLight.Distance
-  nameWithType: PointLight.Distance
-- uid: Pixie.PointLight.GetBrightness(System.Int64,System.Int64)
-  name: GetBrightness(long, long)
-  href: api/Pixie.PointLight.html#Pixie_PointLight_GetBrightness_System_Int64_System_Int64_
-  commentId: M:Pixie.PointLight.GetBrightness(System.Int64,System.Int64)
-  name.vb: GetBrightness(Long, Long)
-  fullName: Pixie.PointLight.GetBrightness(long, long)
-  fullName.vb: Pixie.PointLight.GetBrightness(Long, Long)
-  nameWithType: PointLight.GetBrightness(long, long)
-  nameWithType.vb: PointLight.GetBrightness(Long, Long)
-- uid: Pixie.PointLight.GetBrightness*
-  name: GetBrightness
-  href: api/Pixie.PointLight.html#Pixie_PointLight_GetBrightness_
-  commentId: Overload:Pixie.PointLight.GetBrightness
-  isSpec: "True"
-  fullName: Pixie.PointLight.GetBrightness
-  nameWithType: PointLight.GetBrightness
-- uid: Pixie.PointLight.Radius
-  name: Radius
-  href: api/Pixie.PointLight.html#Pixie_PointLight_Radius
-  commentId: P:Pixie.PointLight.Radius
-  fullName: Pixie.PointLight.Radius
-  nameWithType: PointLight.Radius
-- uid: Pixie.PointLight.Radius*
-  name: Radius
-  href: api/Pixie.PointLight.html#Pixie_PointLight_Radius_
-  commentId: Overload:Pixie.PointLight.Radius
-  isSpec: "True"
-  fullName: Pixie.PointLight.Radius
-  nameWithType: PointLight.Radius
-- uid: Pixie.PointLight.X
-  name: X
-  href: api/Pixie.PointLight.html#Pixie_PointLight_X
-  commentId: P:Pixie.PointLight.X
-  fullName: Pixie.PointLight.X
-  nameWithType: PointLight.X
-- uid: Pixie.PointLight.X*
-  name: X
-  href: api/Pixie.PointLight.html#Pixie_PointLight_X_
-  commentId: Overload:Pixie.PointLight.X
-  isSpec: "True"
-  fullName: Pixie.PointLight.X
-  nameWithType: PointLight.X
-- uid: Pixie.PointLight.Y
-  name: Y
-  href: api/Pixie.PointLight.html#Pixie_PointLight_Y
-  commentId: P:Pixie.PointLight.Y
-  fullName: Pixie.PointLight.Y
-  nameWithType: PointLight.Y
-- uid: Pixie.PointLight.Y*
-  name: Y
-  href: api/Pixie.PointLight.html#Pixie_PointLight_Y_
-  commentId: Overload:Pixie.PointLight.Y
-  isSpec: "True"
-  fullName: Pixie.PointLight.Y
-  nameWithType: PointLight.Y
 - uid: Pixie.Renderer
   name: Renderer
   href: api/Pixie.Renderer.html
   commentId: T:Pixie.Renderer
   fullName: Pixie.Renderer
   nameWithType: Renderer
-- uid: Pixie.Renderer.Brightness
-  name: Brightness
-  href: api/Pixie.Renderer.html#Pixie_Renderer_Brightness
-  commentId: P:Pixie.Renderer.Brightness
-  fullName: Pixie.Renderer.Brightness
-  nameWithType: Renderer.Brightness
-- uid: Pixie.Renderer.Brightness*
-  name: Brightness
-  href: api/Pixie.Renderer.html#Pixie_Renderer_Brightness_
-  commentId: Overload:Pixie.Renderer.Brightness
-  isSpec: "True"
-  fullName: Pixie.Renderer.Brightness
-  nameWithType: Renderer.Brightness
 - uid: Pixie.Renderer.CameraX
   name: CameraX
   href: api/Pixie.Renderer.html#Pixie_Renderer_CameraX
@@ -522,24 +387,24 @@ references:
   isSpec: "True"
   fullName: Pixie.Renderer.CameraY
   nameWithType: Renderer.CameraY
-- uid: Pixie.Renderer.Circle(System.Int64,System.Int64,System.UInt32,Pixie.PixieColor)
-  name: Circle(long, long, uint, PixieColor)
-  href: api/Pixie.Renderer.html#Pixie_Renderer_Circle_System_Int64_System_Int64_System_UInt32_Pixie_PixieColor_
-  commentId: M:Pixie.Renderer.Circle(System.Int64,System.Int64,System.UInt32,Pixie.PixieColor)
-  name.vb: Circle(Long, Long, UInteger, PixieColor)
-  fullName: Pixie.Renderer.Circle(long, long, uint, Pixie.PixieColor)
-  fullName.vb: Pixie.Renderer.Circle(Long, Long, UInteger, Pixie.PixieColor)
-  nameWithType: Renderer.Circle(long, long, uint, PixieColor)
-  nameWithType.vb: Renderer.Circle(Long, Long, UInteger, PixieColor)
-- uid: Pixie.Renderer.Circle(System.Int64,System.Int64,System.UInt32,Pixie.PixieColor,Pixie.Brightness)
-  name: Circle(long, long, uint, PixieColor, Brightness)
-  href: api/Pixie.Renderer.html#Pixie_Renderer_Circle_System_Int64_System_Int64_System_UInt32_Pixie_PixieColor_Pixie_Brightness_
-  commentId: M:Pixie.Renderer.Circle(System.Int64,System.Int64,System.UInt32,Pixie.PixieColor,Pixie.Brightness)
-  name.vb: Circle(Long, Long, UInteger, PixieColor, Brightness)
-  fullName: Pixie.Renderer.Circle(long, long, uint, Pixie.PixieColor, Pixie.Brightness)
-  fullName.vb: Pixie.Renderer.Circle(Long, Long, UInteger, Pixie.PixieColor, Pixie.Brightness)
-  nameWithType: Renderer.Circle(long, long, uint, PixieColor, Brightness)
-  nameWithType.vb: Renderer.Circle(Long, Long, UInteger, PixieColor, Brightness)
+- uid: Pixie.Renderer.Circle(System.Int64,System.Int64,System.UInt32,Pixie.BaseColor)
+  name: Circle(long, long, uint, BaseColor)
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Circle_System_Int64_System_Int64_System_UInt32_Pixie_BaseColor_
+  commentId: M:Pixie.Renderer.Circle(System.Int64,System.Int64,System.UInt32,Pixie.BaseColor)
+  name.vb: Circle(Long, Long, UInteger, BaseColor)
+  fullName: Pixie.Renderer.Circle(long, long, uint, Pixie.BaseColor)
+  fullName.vb: Pixie.Renderer.Circle(Long, Long, UInteger, Pixie.BaseColor)
+  nameWithType: Renderer.Circle(long, long, uint, BaseColor)
+  nameWithType.vb: Renderer.Circle(Long, Long, UInteger, BaseColor)
+- uid: Pixie.Renderer.Circle(System.Int64,System.Int64,System.UInt32,Pixie.BaseColor,Pixie.ColorPalette)
+  name: Circle(long, long, uint, BaseColor, ColorPalette)
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Circle_System_Int64_System_Int64_System_UInt32_Pixie_BaseColor_Pixie_ColorPalette_
+  commentId: M:Pixie.Renderer.Circle(System.Int64,System.Int64,System.UInt32,Pixie.BaseColor,Pixie.ColorPalette)
+  name.vb: Circle(Long, Long, UInteger, BaseColor, ColorPalette)
+  fullName: Pixie.Renderer.Circle(long, long, uint, Pixie.BaseColor, Pixie.ColorPalette)
+  fullName.vb: Pixie.Renderer.Circle(Long, Long, UInteger, Pixie.BaseColor, Pixie.ColorPalette)
+  nameWithType: Renderer.Circle(long, long, uint, BaseColor, ColorPalette)
+  nameWithType.vb: Renderer.Circle(Long, Long, UInteger, BaseColor, ColorPalette)
 - uid: Pixie.Renderer.Circle(System.Int64,System.Int64,System.UInt32,System.Byte)
   name: Circle(long, long, uint, byte)
   href: api/Pixie.Renderer.html#Pixie_Renderer_Circle_System_Int64_System_Int64_System_UInt32_System_Byte_
@@ -556,24 +421,24 @@ references:
   isSpec: "True"
   fullName: Pixie.Renderer.Circle
   nameWithType: Renderer.Circle
-- uid: Pixie.Renderer.CircleFilled(System.Int64,System.Int64,System.UInt32,Pixie.PixieColor)
-  name: CircleFilled(long, long, uint, PixieColor)
-  href: api/Pixie.Renderer.html#Pixie_Renderer_CircleFilled_System_Int64_System_Int64_System_UInt32_Pixie_PixieColor_
-  commentId: M:Pixie.Renderer.CircleFilled(System.Int64,System.Int64,System.UInt32,Pixie.PixieColor)
-  name.vb: CircleFilled(Long, Long, UInteger, PixieColor)
-  fullName: Pixie.Renderer.CircleFilled(long, long, uint, Pixie.PixieColor)
-  fullName.vb: Pixie.Renderer.CircleFilled(Long, Long, UInteger, Pixie.PixieColor)
-  nameWithType: Renderer.CircleFilled(long, long, uint, PixieColor)
-  nameWithType.vb: Renderer.CircleFilled(Long, Long, UInteger, PixieColor)
-- uid: Pixie.Renderer.CircleFilled(System.Int64,System.Int64,System.UInt32,Pixie.PixieColor,Pixie.Brightness)
-  name: CircleFilled(long, long, uint, PixieColor, Brightness)
-  href: api/Pixie.Renderer.html#Pixie_Renderer_CircleFilled_System_Int64_System_Int64_System_UInt32_Pixie_PixieColor_Pixie_Brightness_
-  commentId: M:Pixie.Renderer.CircleFilled(System.Int64,System.Int64,System.UInt32,Pixie.PixieColor,Pixie.Brightness)
-  name.vb: CircleFilled(Long, Long, UInteger, PixieColor, Brightness)
-  fullName: Pixie.Renderer.CircleFilled(long, long, uint, Pixie.PixieColor, Pixie.Brightness)
-  fullName.vb: Pixie.Renderer.CircleFilled(Long, Long, UInteger, Pixie.PixieColor, Pixie.Brightness)
-  nameWithType: Renderer.CircleFilled(long, long, uint, PixieColor, Brightness)
-  nameWithType.vb: Renderer.CircleFilled(Long, Long, UInteger, PixieColor, Brightness)
+- uid: Pixie.Renderer.CircleFilled(System.Int64,System.Int64,System.UInt32,Pixie.BaseColor)
+  name: CircleFilled(long, long, uint, BaseColor)
+  href: api/Pixie.Renderer.html#Pixie_Renderer_CircleFilled_System_Int64_System_Int64_System_UInt32_Pixie_BaseColor_
+  commentId: M:Pixie.Renderer.CircleFilled(System.Int64,System.Int64,System.UInt32,Pixie.BaseColor)
+  name.vb: CircleFilled(Long, Long, UInteger, BaseColor)
+  fullName: Pixie.Renderer.CircleFilled(long, long, uint, Pixie.BaseColor)
+  fullName.vb: Pixie.Renderer.CircleFilled(Long, Long, UInteger, Pixie.BaseColor)
+  nameWithType: Renderer.CircleFilled(long, long, uint, BaseColor)
+  nameWithType.vb: Renderer.CircleFilled(Long, Long, UInteger, BaseColor)
+- uid: Pixie.Renderer.CircleFilled(System.Int64,System.Int64,System.UInt32,Pixie.BaseColor,Pixie.ColorPalette)
+  name: CircleFilled(long, long, uint, BaseColor, ColorPalette)
+  href: api/Pixie.Renderer.html#Pixie_Renderer_CircleFilled_System_Int64_System_Int64_System_UInt32_Pixie_BaseColor_Pixie_ColorPalette_
+  commentId: M:Pixie.Renderer.CircleFilled(System.Int64,System.Int64,System.UInt32,Pixie.BaseColor,Pixie.ColorPalette)
+  name.vb: CircleFilled(Long, Long, UInteger, BaseColor, ColorPalette)
+  fullName: Pixie.Renderer.CircleFilled(long, long, uint, Pixie.BaseColor, Pixie.ColorPalette)
+  fullName.vb: Pixie.Renderer.CircleFilled(Long, Long, UInteger, Pixie.BaseColor, Pixie.ColorPalette)
+  nameWithType: Renderer.CircleFilled(long, long, uint, BaseColor, ColorPalette)
+  nameWithType.vb: Renderer.CircleFilled(Long, Long, UInteger, BaseColor, ColorPalette)
 - uid: Pixie.Renderer.CircleFilled(System.Int64,System.Int64,System.UInt32,System.Byte)
   name: CircleFilled(long, long, uint, byte)
   href: api/Pixie.Renderer.html#Pixie_Renderer_CircleFilled_System_Int64_System_Int64_System_UInt32_System_Byte_
@@ -642,24 +507,24 @@ references:
   isSpec: "True"
   fullName: Pixie.Renderer.GetBackgroundColor
   nameWithType: Renderer.GetBackgroundColor
-- uid: Pixie.Renderer.Line(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.PixieColor)
-  name: Line(long, long, long, long, PixieColor)
-  href: api/Pixie.Renderer.html#Pixie_Renderer_Line_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_PixieColor_
-  commentId: M:Pixie.Renderer.Line(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.PixieColor)
-  name.vb: Line(Long, Long, Long, Long, PixieColor)
-  fullName: Pixie.Renderer.Line(long, long, long, long, Pixie.PixieColor)
-  fullName.vb: Pixie.Renderer.Line(Long, Long, Long, Long, Pixie.PixieColor)
-  nameWithType: Renderer.Line(long, long, long, long, PixieColor)
-  nameWithType.vb: Renderer.Line(Long, Long, Long, Long, PixieColor)
-- uid: Pixie.Renderer.Line(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.PixieColor,Pixie.Brightness)
-  name: Line(long, long, long, long, PixieColor, Brightness)
-  href: api/Pixie.Renderer.html#Pixie_Renderer_Line_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_PixieColor_Pixie_Brightness_
-  commentId: M:Pixie.Renderer.Line(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.PixieColor,Pixie.Brightness)
-  name.vb: Line(Long, Long, Long, Long, PixieColor, Brightness)
-  fullName: Pixie.Renderer.Line(long, long, long, long, Pixie.PixieColor, Pixie.Brightness)
-  fullName.vb: Pixie.Renderer.Line(Long, Long, Long, Long, Pixie.PixieColor, Pixie.Brightness)
-  nameWithType: Renderer.Line(long, long, long, long, PixieColor, Brightness)
-  nameWithType.vb: Renderer.Line(Long, Long, Long, Long, PixieColor, Brightness)
+- uid: Pixie.Renderer.Line(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.BaseColor)
+  name: Line(long, long, long, long, BaseColor)
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Line_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_BaseColor_
+  commentId: M:Pixie.Renderer.Line(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.BaseColor)
+  name.vb: Line(Long, Long, Long, Long, BaseColor)
+  fullName: Pixie.Renderer.Line(long, long, long, long, Pixie.BaseColor)
+  fullName.vb: Pixie.Renderer.Line(Long, Long, Long, Long, Pixie.BaseColor)
+  nameWithType: Renderer.Line(long, long, long, long, BaseColor)
+  nameWithType.vb: Renderer.Line(Long, Long, Long, Long, BaseColor)
+- uid: Pixie.Renderer.Line(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.BaseColor,Pixie.ColorPalette)
+  name: Line(long, long, long, long, BaseColor, ColorPalette)
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Line_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_BaseColor_Pixie_ColorPalette_
+  commentId: M:Pixie.Renderer.Line(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.BaseColor,Pixie.ColorPalette)
+  name.vb: Line(Long, Long, Long, Long, BaseColor, ColorPalette)
+  fullName: Pixie.Renderer.Line(long, long, long, long, Pixie.BaseColor, Pixie.ColorPalette)
+  fullName.vb: Pixie.Renderer.Line(Long, Long, Long, Long, Pixie.BaseColor, Pixie.ColorPalette)
+  nameWithType: Renderer.Line(long, long, long, long, BaseColor, ColorPalette)
+  nameWithType.vb: Renderer.Line(Long, Long, Long, Long, BaseColor, ColorPalette)
 - uid: Pixie.Renderer.Line(System.Int64,System.Int64,System.Int64,System.Int64,System.Byte)
   name: Line(long, long, long, long, byte)
   href: api/Pixie.Renderer.html#Pixie_Renderer_Line_System_Int64_System_Int64_System_Int64_System_Int64_System_Byte_
@@ -676,33 +541,24 @@ references:
   isSpec: "True"
   fullName: Pixie.Renderer.Line
   nameWithType: Renderer.Line
-- uid: Pixie.Renderer.Point(System.Int64,System.Int64,Pixie.PixieColor)
-  name: Point(long, long, PixieColor)
-  href: api/Pixie.Renderer.html#Pixie_Renderer_Point_System_Int64_System_Int64_Pixie_PixieColor_
-  commentId: M:Pixie.Renderer.Point(System.Int64,System.Int64,Pixie.PixieColor)
-  name.vb: Point(Long, Long, PixieColor)
-  fullName: Pixie.Renderer.Point(long, long, Pixie.PixieColor)
-  fullName.vb: Pixie.Renderer.Point(Long, Long, Pixie.PixieColor)
-  nameWithType: Renderer.Point(long, long, PixieColor)
-  nameWithType.vb: Renderer.Point(Long, Long, PixieColor)
-- uid: Pixie.Renderer.Point(System.Int64,System.Int64,Pixie.PixieColor,Pixie.Brightness)
-  name: Point(long, long, PixieColor, Brightness)
-  href: api/Pixie.Renderer.html#Pixie_Renderer_Point_System_Int64_System_Int64_Pixie_PixieColor_Pixie_Brightness_
-  commentId: M:Pixie.Renderer.Point(System.Int64,System.Int64,Pixie.PixieColor,Pixie.Brightness)
-  name.vb: Point(Long, Long, PixieColor, Brightness)
-  fullName: Pixie.Renderer.Point(long, long, Pixie.PixieColor, Pixie.Brightness)
-  fullName.vb: Pixie.Renderer.Point(Long, Long, Pixie.PixieColor, Pixie.Brightness)
-  nameWithType: Renderer.Point(long, long, PixieColor, Brightness)
-  nameWithType.vb: Renderer.Point(Long, Long, PixieColor, Brightness)
-- uid: Pixie.Renderer.Point(System.Int64,System.Int64,Pixie.PixieColor,System.Collections.Generic.IReadOnlyList{Pixie.PointLight})
-  name: Point(long, long, PixieColor, IReadOnlyList<PointLight>)
-  href: api/Pixie.Renderer.html#Pixie_Renderer_Point_System_Int64_System_Int64_Pixie_PixieColor_System_Collections_Generic_IReadOnlyList_Pixie_PointLight__
-  commentId: M:Pixie.Renderer.Point(System.Int64,System.Int64,Pixie.PixieColor,System.Collections.Generic.IReadOnlyList{Pixie.PointLight})
-  name.vb: Point(Long, Long, PixieColor, IReadOnlyList(Of PointLight))
-  fullName: Pixie.Renderer.Point(long, long, Pixie.PixieColor, System.Collections.Generic.IReadOnlyList<Pixie.PointLight>)
-  fullName.vb: Pixie.Renderer.Point(Long, Long, Pixie.PixieColor, System.Collections.Generic.IReadOnlyList(Of Pixie.PointLight))
-  nameWithType: Renderer.Point(long, long, PixieColor, IReadOnlyList<PointLight>)
-  nameWithType.vb: Renderer.Point(Long, Long, PixieColor, IReadOnlyList(Of PointLight))
+- uid: Pixie.Renderer.Point(System.Int64,System.Int64,Pixie.BaseColor)
+  name: Point(long, long, BaseColor)
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Point_System_Int64_System_Int64_Pixie_BaseColor_
+  commentId: M:Pixie.Renderer.Point(System.Int64,System.Int64,Pixie.BaseColor)
+  name.vb: Point(Long, Long, BaseColor)
+  fullName: Pixie.Renderer.Point(long, long, Pixie.BaseColor)
+  fullName.vb: Pixie.Renderer.Point(Long, Long, Pixie.BaseColor)
+  nameWithType: Renderer.Point(long, long, BaseColor)
+  nameWithType.vb: Renderer.Point(Long, Long, BaseColor)
+- uid: Pixie.Renderer.Point(System.Int64,System.Int64,Pixie.BaseColor,Pixie.ColorPalette)
+  name: Point(long, long, BaseColor, ColorPalette)
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Point_System_Int64_System_Int64_Pixie_BaseColor_Pixie_ColorPalette_
+  commentId: M:Pixie.Renderer.Point(System.Int64,System.Int64,Pixie.BaseColor,Pixie.ColorPalette)
+  name.vb: Point(Long, Long, BaseColor, ColorPalette)
+  fullName: Pixie.Renderer.Point(long, long, Pixie.BaseColor, Pixie.ColorPalette)
+  fullName.vb: Pixie.Renderer.Point(Long, Long, Pixie.BaseColor, Pixie.ColorPalette)
+  nameWithType: Renderer.Point(long, long, BaseColor, ColorPalette)
+  nameWithType.vb: Renderer.Point(Long, Long, BaseColor, ColorPalette)
 - uid: Pixie.Renderer.Point(System.Int64,System.Int64,System.Byte)
   name: Point(long, long, byte)
   href: api/Pixie.Renderer.html#Pixie_Renderer_Point_System_Int64_System_Int64_System_Byte_
@@ -719,24 +575,24 @@ references:
   isSpec: "True"
   fullName: Pixie.Renderer.Point
   nameWithType: Renderer.Point
-- uid: Pixie.Renderer.Rectangle(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.PixieColor)
-  name: Rectangle(long, long, long, long, PixieColor)
-  href: api/Pixie.Renderer.html#Pixie_Renderer_Rectangle_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_PixieColor_
-  commentId: M:Pixie.Renderer.Rectangle(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.PixieColor)
-  name.vb: Rectangle(Long, Long, Long, Long, PixieColor)
-  fullName: Pixie.Renderer.Rectangle(long, long, long, long, Pixie.PixieColor)
-  fullName.vb: Pixie.Renderer.Rectangle(Long, Long, Long, Long, Pixie.PixieColor)
-  nameWithType: Renderer.Rectangle(long, long, long, long, PixieColor)
-  nameWithType.vb: Renderer.Rectangle(Long, Long, Long, Long, PixieColor)
-- uid: Pixie.Renderer.Rectangle(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.PixieColor,Pixie.Brightness)
-  name: Rectangle(long, long, long, long, PixieColor, Brightness)
-  href: api/Pixie.Renderer.html#Pixie_Renderer_Rectangle_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_PixieColor_Pixie_Brightness_
-  commentId: M:Pixie.Renderer.Rectangle(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.PixieColor,Pixie.Brightness)
-  name.vb: Rectangle(Long, Long, Long, Long, PixieColor, Brightness)
-  fullName: Pixie.Renderer.Rectangle(long, long, long, long, Pixie.PixieColor, Pixie.Brightness)
-  fullName.vb: Pixie.Renderer.Rectangle(Long, Long, Long, Long, Pixie.PixieColor, Pixie.Brightness)
-  nameWithType: Renderer.Rectangle(long, long, long, long, PixieColor, Brightness)
-  nameWithType.vb: Renderer.Rectangle(Long, Long, Long, Long, PixieColor, Brightness)
+- uid: Pixie.Renderer.Rectangle(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.BaseColor)
+  name: Rectangle(long, long, long, long, BaseColor)
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Rectangle_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_BaseColor_
+  commentId: M:Pixie.Renderer.Rectangle(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.BaseColor)
+  name.vb: Rectangle(Long, Long, Long, Long, BaseColor)
+  fullName: Pixie.Renderer.Rectangle(long, long, long, long, Pixie.BaseColor)
+  fullName.vb: Pixie.Renderer.Rectangle(Long, Long, Long, Long, Pixie.BaseColor)
+  nameWithType: Renderer.Rectangle(long, long, long, long, BaseColor)
+  nameWithType.vb: Renderer.Rectangle(Long, Long, Long, Long, BaseColor)
+- uid: Pixie.Renderer.Rectangle(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.BaseColor,Pixie.ColorPalette)
+  name: Rectangle(long, long, long, long, BaseColor, ColorPalette)
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Rectangle_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_BaseColor_Pixie_ColorPalette_
+  commentId: M:Pixie.Renderer.Rectangle(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.BaseColor,Pixie.ColorPalette)
+  name.vb: Rectangle(Long, Long, Long, Long, BaseColor, ColorPalette)
+  fullName: Pixie.Renderer.Rectangle(long, long, long, long, Pixie.BaseColor, Pixie.ColorPalette)
+  fullName.vb: Pixie.Renderer.Rectangle(Long, Long, Long, Long, Pixie.BaseColor, Pixie.ColorPalette)
+  nameWithType: Renderer.Rectangle(long, long, long, long, BaseColor, ColorPalette)
+  nameWithType.vb: Renderer.Rectangle(Long, Long, Long, Long, BaseColor, ColorPalette)
 - uid: Pixie.Renderer.Rectangle(System.Int64,System.Int64,System.Int64,System.Int64,System.Byte)
   name: Rectangle(long, long, long, long, byte)
   href: api/Pixie.Renderer.html#Pixie_Renderer_Rectangle_System_Int64_System_Int64_System_Int64_System_Int64_System_Byte_
@@ -753,24 +609,24 @@ references:
   isSpec: "True"
   fullName: Pixie.Renderer.Rectangle
   nameWithType: Renderer.Rectangle
-- uid: Pixie.Renderer.RectangleFilled(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.PixieColor)
-  name: RectangleFilled(long, long, long, long, PixieColor)
-  href: api/Pixie.Renderer.html#Pixie_Renderer_RectangleFilled_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_PixieColor_
-  commentId: M:Pixie.Renderer.RectangleFilled(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.PixieColor)
-  name.vb: RectangleFilled(Long, Long, Long, Long, PixieColor)
-  fullName: Pixie.Renderer.RectangleFilled(long, long, long, long, Pixie.PixieColor)
-  fullName.vb: Pixie.Renderer.RectangleFilled(Long, Long, Long, Long, Pixie.PixieColor)
-  nameWithType: Renderer.RectangleFilled(long, long, long, long, PixieColor)
-  nameWithType.vb: Renderer.RectangleFilled(Long, Long, Long, Long, PixieColor)
-- uid: Pixie.Renderer.RectangleFilled(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.PixieColor,Pixie.Brightness)
-  name: RectangleFilled(long, long, long, long, PixieColor, Brightness)
-  href: api/Pixie.Renderer.html#Pixie_Renderer_RectangleFilled_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_PixieColor_Pixie_Brightness_
-  commentId: M:Pixie.Renderer.RectangleFilled(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.PixieColor,Pixie.Brightness)
-  name.vb: RectangleFilled(Long, Long, Long, Long, PixieColor, Brightness)
-  fullName: Pixie.Renderer.RectangleFilled(long, long, long, long, Pixie.PixieColor, Pixie.Brightness)
-  fullName.vb: Pixie.Renderer.RectangleFilled(Long, Long, Long, Long, Pixie.PixieColor, Pixie.Brightness)
-  nameWithType: Renderer.RectangleFilled(long, long, long, long, PixieColor, Brightness)
-  nameWithType.vb: Renderer.RectangleFilled(Long, Long, Long, Long, PixieColor, Brightness)
+- uid: Pixie.Renderer.RectangleFilled(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.BaseColor)
+  name: RectangleFilled(long, long, long, long, BaseColor)
+  href: api/Pixie.Renderer.html#Pixie_Renderer_RectangleFilled_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_BaseColor_
+  commentId: M:Pixie.Renderer.RectangleFilled(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.BaseColor)
+  name.vb: RectangleFilled(Long, Long, Long, Long, BaseColor)
+  fullName: Pixie.Renderer.RectangleFilled(long, long, long, long, Pixie.BaseColor)
+  fullName.vb: Pixie.Renderer.RectangleFilled(Long, Long, Long, Long, Pixie.BaseColor)
+  nameWithType: Renderer.RectangleFilled(long, long, long, long, BaseColor)
+  nameWithType.vb: Renderer.RectangleFilled(Long, Long, Long, Long, BaseColor)
+- uid: Pixie.Renderer.RectangleFilled(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.BaseColor,Pixie.ColorPalette)
+  name: RectangleFilled(long, long, long, long, BaseColor, ColorPalette)
+  href: api/Pixie.Renderer.html#Pixie_Renderer_RectangleFilled_System_Int64_System_Int64_System_Int64_System_Int64_Pixie_BaseColor_Pixie_ColorPalette_
+  commentId: M:Pixie.Renderer.RectangleFilled(System.Int64,System.Int64,System.Int64,System.Int64,Pixie.BaseColor,Pixie.ColorPalette)
+  name.vb: RectangleFilled(Long, Long, Long, Long, BaseColor, ColorPalette)
+  fullName: Pixie.Renderer.RectangleFilled(long, long, long, long, Pixie.BaseColor, Pixie.ColorPalette)
+  fullName.vb: Pixie.Renderer.RectangleFilled(Long, Long, Long, Long, Pixie.BaseColor, Pixie.ColorPalette)
+  nameWithType: Renderer.RectangleFilled(long, long, long, long, BaseColor, ColorPalette)
+  nameWithType.vb: Renderer.RectangleFilled(Long, Long, Long, Long, BaseColor, ColorPalette)
 - uid: Pixie.Renderer.RectangleFilled(System.Int64,System.Int64,System.Int64,System.Int64,System.Byte)
   name: RectangleFilled(long, long, long, long, byte)
   href: api/Pixie.Renderer.html#Pixie_Renderer_RectangleFilled_System_Int64_System_Int64_System_Int64_System_Int64_System_Byte_
@@ -787,18 +643,18 @@ references:
   isSpec: "True"
   fullName: Pixie.Renderer.RectangleFilled
   nameWithType: Renderer.RectangleFilled
-- uid: Pixie.Renderer.SetBackgroundColor(Pixie.PixieColor)
-  name: SetBackgroundColor(PixieColor)
-  href: api/Pixie.Renderer.html#Pixie_Renderer_SetBackgroundColor_Pixie_PixieColor_
-  commentId: M:Pixie.Renderer.SetBackgroundColor(Pixie.PixieColor)
-  fullName: Pixie.Renderer.SetBackgroundColor(Pixie.PixieColor)
-  nameWithType: Renderer.SetBackgroundColor(PixieColor)
-- uid: Pixie.Renderer.SetBackgroundColor(Pixie.PixieColor,Pixie.Brightness)
-  name: SetBackgroundColor(PixieColor, Brightness)
-  href: api/Pixie.Renderer.html#Pixie_Renderer_SetBackgroundColor_Pixie_PixieColor_Pixie_Brightness_
-  commentId: M:Pixie.Renderer.SetBackgroundColor(Pixie.PixieColor,Pixie.Brightness)
-  fullName: Pixie.Renderer.SetBackgroundColor(Pixie.PixieColor, Pixie.Brightness)
-  nameWithType: Renderer.SetBackgroundColor(PixieColor, Brightness)
+- uid: Pixie.Renderer.SetBackgroundColor(Pixie.BaseColor)
+  name: SetBackgroundColor(BaseColor)
+  href: api/Pixie.Renderer.html#Pixie_Renderer_SetBackgroundColor_Pixie_BaseColor_
+  commentId: M:Pixie.Renderer.SetBackgroundColor(Pixie.BaseColor)
+  fullName: Pixie.Renderer.SetBackgroundColor(Pixie.BaseColor)
+  nameWithType: Renderer.SetBackgroundColor(BaseColor)
+- uid: Pixie.Renderer.SetBackgroundColor(Pixie.BaseColor,Pixie.ColorPalette)
+  name: SetBackgroundColor(BaseColor, ColorPalette)
+  href: api/Pixie.Renderer.html#Pixie_Renderer_SetBackgroundColor_Pixie_BaseColor_Pixie_ColorPalette_
+  commentId: M:Pixie.Renderer.SetBackgroundColor(Pixie.BaseColor,Pixie.ColorPalette)
+  fullName: Pixie.Renderer.SetBackgroundColor(Pixie.BaseColor, Pixie.ColorPalette)
+  nameWithType: Renderer.SetBackgroundColor(BaseColor, ColorPalette)
 - uid: Pixie.Renderer.SetBackgroundColor(System.Byte)
   name: SetBackgroundColor(byte)
   href: api/Pixie.Renderer.html#Pixie_Renderer_SetBackgroundColor_System_Byte_
@@ -824,24 +680,24 @@ references:
   fullName.vb: Pixie.Renderer.Sprite(Pixie.IReadOnlySprite, Long, Long, Boolean)
   nameWithType: Renderer.Sprite(in IReadOnlySprite?, long, long, bool)
   nameWithType.vb: Renderer.Sprite(IReadOnlySprite, Long, Long, Boolean)
-- uid: Pixie.Renderer.Sprite(Pixie.IReadOnlySprite@,System.Int64,System.Int64,System.Boolean,Pixie.Brightness)
-  name: Sprite(in IReadOnlySprite?, long, long, bool, Brightness)
-  href: api/Pixie.Renderer.html#Pixie_Renderer_Sprite_Pixie_IReadOnlySprite__System_Int64_System_Int64_System_Boolean_Pixie_Brightness_
-  commentId: M:Pixie.Renderer.Sprite(Pixie.IReadOnlySprite@,System.Int64,System.Int64,System.Boolean,Pixie.Brightness)
-  name.vb: Sprite(IReadOnlySprite, Long, Long, Boolean, Brightness)
-  fullName: Pixie.Renderer.Sprite(in Pixie.IReadOnlySprite?, long, long, bool, Pixie.Brightness)
-  fullName.vb: Pixie.Renderer.Sprite(Pixie.IReadOnlySprite, Long, Long, Boolean, Pixie.Brightness)
-  nameWithType: Renderer.Sprite(in IReadOnlySprite?, long, long, bool, Brightness)
-  nameWithType.vb: Renderer.Sprite(IReadOnlySprite, Long, Long, Boolean, Brightness)
-- uid: Pixie.Renderer.Sprite(Pixie.IReadOnlySprite@,System.Int64,System.Int64,System.Boolean,System.Collections.Generic.IReadOnlyList{Pixie.PointLight})
-  name: Sprite(in IReadOnlySprite?, long, long, bool, IReadOnlyList<PointLight>)
-  href: api/Pixie.Renderer.html#Pixie_Renderer_Sprite_Pixie_IReadOnlySprite__System_Int64_System_Int64_System_Boolean_System_Collections_Generic_IReadOnlyList_Pixie_PointLight__
-  commentId: M:Pixie.Renderer.Sprite(Pixie.IReadOnlySprite@,System.Int64,System.Int64,System.Boolean,System.Collections.Generic.IReadOnlyList{Pixie.PointLight})
-  name.vb: Sprite(IReadOnlySprite, Long, Long, Boolean, IReadOnlyList(Of PointLight))
-  fullName: Pixie.Renderer.Sprite(in Pixie.IReadOnlySprite?, long, long, bool, System.Collections.Generic.IReadOnlyList<Pixie.PointLight>)
-  fullName.vb: Pixie.Renderer.Sprite(Pixie.IReadOnlySprite, Long, Long, Boolean, System.Collections.Generic.IReadOnlyList(Of Pixie.PointLight))
-  nameWithType: Renderer.Sprite(in IReadOnlySprite?, long, long, bool, IReadOnlyList<PointLight>)
-  nameWithType.vb: Renderer.Sprite(IReadOnlySprite, Long, Long, Boolean, IReadOnlyList(Of PointLight))
+- uid: Pixie.Renderer.Sprite(Pixie.IReadOnlySprite@,System.Int64,System.Int64,System.Boolean,Pixie.ColorPalette)
+  name: Sprite(in IReadOnlySprite?, long, long, bool, ColorPalette)
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Sprite_Pixie_IReadOnlySprite__System_Int64_System_Int64_System_Boolean_Pixie_ColorPalette_
+  commentId: M:Pixie.Renderer.Sprite(Pixie.IReadOnlySprite@,System.Int64,System.Int64,System.Boolean,Pixie.ColorPalette)
+  name.vb: Sprite(IReadOnlySprite, Long, Long, Boolean, ColorPalette)
+  fullName: Pixie.Renderer.Sprite(in Pixie.IReadOnlySprite?, long, long, bool, Pixie.ColorPalette)
+  fullName.vb: Pixie.Renderer.Sprite(Pixie.IReadOnlySprite, Long, Long, Boolean, Pixie.ColorPalette)
+  nameWithType: Renderer.Sprite(in IReadOnlySprite?, long, long, bool, ColorPalette)
+  nameWithType.vb: Renderer.Sprite(IReadOnlySprite, Long, Long, Boolean, ColorPalette)
+- uid: Pixie.Renderer.Sprite(Pixie.IReadOnlySprite@,System.Int64,System.Int64,System.Single)
+  name: Sprite(in IReadOnlySprite?, long, long, float)
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Sprite_Pixie_IReadOnlySprite__System_Int64_System_Int64_System_Single_
+  commentId: M:Pixie.Renderer.Sprite(Pixie.IReadOnlySprite@,System.Int64,System.Int64,System.Single)
+  name.vb: Sprite(IReadOnlySprite, Long, Long, Single)
+  fullName: Pixie.Renderer.Sprite(in Pixie.IReadOnlySprite?, long, long, float)
+  fullName.vb: Pixie.Renderer.Sprite(Pixie.IReadOnlySprite, Long, Long, Single)
+  nameWithType: Renderer.Sprite(in IReadOnlySprite?, long, long, float)
+  nameWithType.vb: Renderer.Sprite(IReadOnlySprite, Long, Long, Single)
 - uid: Pixie.Renderer.Sprite*
   name: Sprite
   href: api/Pixie.Renderer.html#Pixie_Renderer_Sprite_
@@ -849,24 +705,24 @@ references:
   isSpec: "True"
   fullName: Pixie.Renderer.Sprite
   nameWithType: Renderer.Sprite
-- uid: Pixie.Renderer.Text(System.String,System.Int64,System.Int64,Pixie.PixieColor)
-  name: Text(string, long, long, PixieColor)
-  href: api/Pixie.Renderer.html#Pixie_Renderer_Text_System_String_System_Int64_System_Int64_Pixie_PixieColor_
-  commentId: M:Pixie.Renderer.Text(System.String,System.Int64,System.Int64,Pixie.PixieColor)
-  name.vb: Text(String, Long, Long, PixieColor)
-  fullName: Pixie.Renderer.Text(string, long, long, Pixie.PixieColor)
-  fullName.vb: Pixie.Renderer.Text(String, Long, Long, Pixie.PixieColor)
-  nameWithType: Renderer.Text(string, long, long, PixieColor)
-  nameWithType.vb: Renderer.Text(String, Long, Long, PixieColor)
-- uid: Pixie.Renderer.Text(System.String,System.Int64,System.Int64,Pixie.PixieColor,Pixie.Brightness)
-  name: Text(string, long, long, PixieColor, Brightness)
-  href: api/Pixie.Renderer.html#Pixie_Renderer_Text_System_String_System_Int64_System_Int64_Pixie_PixieColor_Pixie_Brightness_
-  commentId: M:Pixie.Renderer.Text(System.String,System.Int64,System.Int64,Pixie.PixieColor,Pixie.Brightness)
-  name.vb: Text(String, Long, Long, PixieColor, Brightness)
-  fullName: Pixie.Renderer.Text(string, long, long, Pixie.PixieColor, Pixie.Brightness)
-  fullName.vb: Pixie.Renderer.Text(String, Long, Long, Pixie.PixieColor, Pixie.Brightness)
-  nameWithType: Renderer.Text(string, long, long, PixieColor, Brightness)
-  nameWithType.vb: Renderer.Text(String, Long, Long, PixieColor, Brightness)
+- uid: Pixie.Renderer.Text(System.String,System.Int64,System.Int64,Pixie.BaseColor)
+  name: Text(string, long, long, BaseColor)
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Text_System_String_System_Int64_System_Int64_Pixie_BaseColor_
+  commentId: M:Pixie.Renderer.Text(System.String,System.Int64,System.Int64,Pixie.BaseColor)
+  name.vb: Text(String, Long, Long, BaseColor)
+  fullName: Pixie.Renderer.Text(string, long, long, Pixie.BaseColor)
+  fullName.vb: Pixie.Renderer.Text(String, Long, Long, Pixie.BaseColor)
+  nameWithType: Renderer.Text(string, long, long, BaseColor)
+  nameWithType.vb: Renderer.Text(String, Long, Long, BaseColor)
+- uid: Pixie.Renderer.Text(System.String,System.Int64,System.Int64,Pixie.BaseColor,Pixie.ColorPalette)
+  name: Text(string, long, long, BaseColor, ColorPalette)
+  href: api/Pixie.Renderer.html#Pixie_Renderer_Text_System_String_System_Int64_System_Int64_Pixie_BaseColor_Pixie_ColorPalette_
+  commentId: M:Pixie.Renderer.Text(System.String,System.Int64,System.Int64,Pixie.BaseColor,Pixie.ColorPalette)
+  name.vb: Text(String, Long, Long, BaseColor, ColorPalette)
+  fullName: Pixie.Renderer.Text(string, long, long, Pixie.BaseColor, Pixie.ColorPalette)
+  fullName.vb: Pixie.Renderer.Text(String, Long, Long, Pixie.BaseColor, Pixie.ColorPalette)
+  nameWithType: Renderer.Text(string, long, long, BaseColor, ColorPalette)
+  nameWithType.vb: Renderer.Text(String, Long, Long, BaseColor, ColorPalette)
 - uid: Pixie.Renderer.Text(System.String,System.Int64,System.Int64,System.Byte)
   name: Text(string, long, long, byte)
   href: api/Pixie.Renderer.html#Pixie_Renderer_Text_System_String_System_Int64_System_Int64_System_Byte_
@@ -965,15 +821,15 @@ references:
   fullName.vb: Pixie.Sprite.New(UInteger, UInteger)
   nameWithType: Sprite.Sprite(uint, uint)
   nameWithType.vb: Sprite.New(UInteger, UInteger)
-- uid: Pixie.Sprite.#ctor(System.UInt32,System.UInt32,System.Collections.Generic.List{System.Collections.Generic.List{Pixie.PixieColor}})
-  name: Sprite(uint, uint, List<List<PixieColor>>)
-  href: api/Pixie.Sprite.html#Pixie_Sprite__ctor_System_UInt32_System_UInt32_System_Collections_Generic_List_System_Collections_Generic_List_Pixie_PixieColor___
-  commentId: M:Pixie.Sprite.#ctor(System.UInt32,System.UInt32,System.Collections.Generic.List{System.Collections.Generic.List{Pixie.PixieColor}})
-  name.vb: New(UInteger, UInteger, List(Of List(Of PixieColor)))
-  fullName: Pixie.Sprite.Sprite(uint, uint, System.Collections.Generic.List<System.Collections.Generic.List<Pixie.PixieColor>>)
-  fullName.vb: Pixie.Sprite.New(UInteger, UInteger, System.Collections.Generic.List(Of System.Collections.Generic.List(Of Pixie.PixieColor)))
-  nameWithType: Sprite.Sprite(uint, uint, List<List<PixieColor>>)
-  nameWithType.vb: Sprite.New(UInteger, UInteger, List(Of List(Of PixieColor)))
+- uid: Pixie.Sprite.#ctor(System.UInt32,System.UInt32,System.Collections.Generic.List{System.Collections.Generic.List{System.Byte}})
+  name: Sprite(uint, uint, List<List<byte>>)
+  href: api/Pixie.Sprite.html#Pixie_Sprite__ctor_System_UInt32_System_UInt32_System_Collections_Generic_List_System_Collections_Generic_List_System_Byte___
+  commentId: M:Pixie.Sprite.#ctor(System.UInt32,System.UInt32,System.Collections.Generic.List{System.Collections.Generic.List{System.Byte}})
+  name.vb: New(UInteger, UInteger, List(Of List(Of Byte)))
+  fullName: Pixie.Sprite.Sprite(uint, uint, System.Collections.Generic.List<System.Collections.Generic.List<byte>>)
+  fullName.vb: Pixie.Sprite.New(UInteger, UInteger, System.Collections.Generic.List(Of System.Collections.Generic.List(Of Byte)))
+  nameWithType: Sprite.Sprite(uint, uint, List<List<byte>>)
+  nameWithType.vb: Sprite.New(UInteger, UInteger, List(Of List(Of Byte)))
 - uid: Pixie.Sprite.#ctor*
   name: Sprite
   href: api/Pixie.Sprite.html#Pixie_Sprite__ctor_
@@ -1029,15 +885,24 @@ references:
   isSpec: "True"
   fullName: Pixie.Sprite.Height
   nameWithType: Sprite.Height
-- uid: Pixie.Sprite.SetColorAt(System.UInt32,System.UInt32,Pixie.PixieColor)
-  name: SetColorAt(uint, uint, PixieColor)
-  href: api/Pixie.Sprite.html#Pixie_Sprite_SetColorAt_System_UInt32_System_UInt32_Pixie_PixieColor_
-  commentId: M:Pixie.Sprite.SetColorAt(System.UInt32,System.UInt32,Pixie.PixieColor)
-  name.vb: SetColorAt(UInteger, UInteger, PixieColor)
-  fullName: Pixie.Sprite.SetColorAt(uint, uint, Pixie.PixieColor)
-  fullName.vb: Pixie.Sprite.SetColorAt(UInteger, UInteger, Pixie.PixieColor)
-  nameWithType: Sprite.SetColorAt(uint, uint, PixieColor)
-  nameWithType.vb: Sprite.SetColorAt(UInteger, UInteger, PixieColor)
+- uid: Pixie.Sprite.SetColorAt(System.UInt32,System.UInt32,Pixie.BaseColor)
+  name: SetColorAt(uint, uint, BaseColor)
+  href: api/Pixie.Sprite.html#Pixie_Sprite_SetColorAt_System_UInt32_System_UInt32_Pixie_BaseColor_
+  commentId: M:Pixie.Sprite.SetColorAt(System.UInt32,System.UInt32,Pixie.BaseColor)
+  name.vb: SetColorAt(UInteger, UInteger, BaseColor)
+  fullName: Pixie.Sprite.SetColorAt(uint, uint, Pixie.BaseColor)
+  fullName.vb: Pixie.Sprite.SetColorAt(UInteger, UInteger, Pixie.BaseColor)
+  nameWithType: Sprite.SetColorAt(uint, uint, BaseColor)
+  nameWithType.vb: Sprite.SetColorAt(UInteger, UInteger, BaseColor)
+- uid: Pixie.Sprite.SetColorAt(System.UInt32,System.UInt32,System.Byte)
+  name: SetColorAt(uint, uint, byte)
+  href: api/Pixie.Sprite.html#Pixie_Sprite_SetColorAt_System_UInt32_System_UInt32_System_Byte_
+  commentId: M:Pixie.Sprite.SetColorAt(System.UInt32,System.UInt32,System.Byte)
+  name.vb: SetColorAt(UInteger, UInteger, Byte)
+  fullName: Pixie.Sprite.SetColorAt(uint, uint, byte)
+  fullName.vb: Pixie.Sprite.SetColorAt(UInteger, UInteger, Byte)
+  nameWithType: Sprite.SetColorAt(uint, uint, byte)
+  nameWithType.vb: Sprite.SetColorAt(UInteger, UInteger, Byte)
 - uid: Pixie.Sprite.SetColorAt*
   name: SetColorAt
   href: api/Pixie.Sprite.html#Pixie_Sprite_SetColorAt_
