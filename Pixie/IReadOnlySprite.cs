@@ -25,6 +25,6 @@ namespace Pixie
         public uint Width { get; }
         public uint Height { get; }
 
-        public PixieColor GetColorAt(uint x, uint y);
+        public byte GetColorAt(uint x, uint y);
     }
 }

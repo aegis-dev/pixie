@@ -30,7 +30,6 @@ namespace Pixie
     {
         public long CameraX { get; set; }
         public long CameraY { get; set; }
-        public Brightness Brightness { get; set; }
         public uint FrameBufferWidth
         {
             get { return _frameBuffer.Width; }
@@ -62,7 +61,6 @@ namespace Pixie
 
             CameraX = 0;
             CameraY = 0;
-            Brightness = Brightness.Normal;
             _paletteTexture = LoadPaletteTexture(dataManager);
             _cameraOriginX = frameBuffer.Width / 2;
             _cameraOriginY = frameBuffer.Height / 2;
@@ -71,7 +69,7 @@ namespace Pixie
 
             // Init some uniforms that needs to be set once
             _glRenderer.Begin();
-            _glRenderer.SetUniformInt(UniformPaletteSizeLocation, (int)_paletteTexture.Width);
+            _glRenderer.SetUniformInt(UniformPaletteSizeLocation, Palette.ColorPalette.Count);
             _glRenderer.End();
         }
 
@@ -87,7 +85,18 @@ namespace Pixie
 
         internal Texture LoadPaletteTexture(in DataManager dataManager)
         {
-            IReadOnlyList<Color> palette = Palette.GetPalette();
+            List<Color> palette = new List<Color>(Palette.ColorPalette);
+            if (palette.Count > Palette.MaxColors)
+            {
+                throw new Exception("Palette exceeding color maximum");
+            }
+
+            // Pad palette with transparent colors
+            int padColors = Palette.MaxColors - palette.Count;
+            for (int idx = 0; idx < padColors; ++idx)
+            {
+                palette.Add(Color.FromArgb(0, 0, 0, 0));
+            }
 
             List<byte> paletteTextureData = new List<byte>();
             foreach(Color color in palette)
@@ -105,14 +114,14 @@ namespace Pixie
             _frameBuffer.Clear();
         }
 
-        public void SetBackgroundColor(PixieColor color)
+        public void SetBackgroundColor(BaseColor color)
         {
             _backgroundColorIndex = (byte)color;
         }
 
-        public void SetBackgroundColor(PixieColor color, Brightness brightness)
+        public void SetBackgroundColor(BaseColor color, ColorPalette palette)
         {
-            _backgroundColorIndex = (byte)((byte)color + ((byte)brightness * (byte)PixieColor.Count));
+            _backgroundColorIndex = (byte)((byte)color + ((byte)palette * (byte)BaseColor.Count));
         }
 
         public void SetBackgroundColor(byte colorIndex)
@@ -137,44 +146,24 @@ namespace Pixie
             _frameBuffer.SetPixel((uint)xReal, (uint)yReal, colorIndex);
         }
 
-        public void Point(long x, long y, PixieColor color)
+        public void Point(long x, long y, BaseColor color)
         {
             Point(x, y, (byte)color);
         }
 
-        public void Point(long x, long y, PixieColor color, Brightness brightness)
+        public void Point(long x, long y, BaseColor color, ColorPalette palette)
         {
-            Point(x, y, (byte)((byte)color + ((byte)brightness * (byte)PixieColor.Count)));
+            Point(x, y, (byte)((byte)color + ((byte)palette * (byte)BaseColor.Count)));
         }
 
-        public void Point(long x, long y, PixieColor color, IReadOnlyList<PointLight> lights)
-        {
-            Brightness brightness = Brightness;
-            foreach (PointLight light in lights)
-            {
-                if (brightness == Brightness.Normal)
-                {
-                    Point(x, y, color);
-                    break;
-                }
-                Brightness tempBrightness = light.GetBrightness(x, y);
-                if (BrightnessUtils.IsLighter(tempBrightness, brightness))
-                {
-                    brightness = tempBrightness;
-                }
-            }
-
-            Point(x, y, color, brightness);
-        }
-
-        public void Circle(long originX, long originY, uint radius, PixieColor color)
+        public void Circle(long originX, long originY, uint radius, BaseColor color)
         {
             Circle(originX, originY, radius, (byte)color);
         }
 
-        public void Circle(long originX, long originY, uint radius, PixieColor color, Brightness brightness)
+        public void Circle(long originX, long originY, uint radius, BaseColor color, ColorPalette palette)
         {
-            Circle(originX, originY, radius, (byte)((byte)color + ((byte)brightness * (byte)PixieColor.Count)));
+            Circle(originX, originY, radius, (byte)((byte)color + ((byte)palette * (byte)BaseColor.Count)));
         }
 
         public void Circle(long originX, long originY, uint radius, byte colorIndex)
@@ -226,14 +215,14 @@ namespace Pixie
             }
         }
 
-        public void Line(long x1, long y1, long x2, long y2, PixieColor color)
+        public void Line(long x1, long y1, long x2, long y2, BaseColor color)
         {
             Line(x1, y1, x2, y2, (byte)color);
         }
 
-        public void Line(long x1, long y1, long x2, long y2, PixieColor color, Brightness brightness)
+        public void Line(long x1, long y1, long x2, long y2, BaseColor color, ColorPalette palette)
         {
-            Line(x1, y1, x2, y2, (byte)((byte)color + ((byte)brightness * (byte)PixieColor.Count)));
+            Line(x1, y1, x2, y2, (byte)((byte)color + ((byte)palette * (byte)BaseColor.Count)));
         }
 
         public void Line(long x1, long y1, long x2, long y2, byte colorIndex)
@@ -318,14 +307,14 @@ namespace Pixie
             }
         }
 
-        public void CircleFilled(long originX, long originY, uint radius, PixieColor color)
+        public void CircleFilled(long originX, long originY, uint radius, BaseColor color)
         {
             CircleFilled(originX, originY, radius, (byte)color);
         }
 
-        public void CircleFilled(long originX, long originY, uint radius, PixieColor color, Brightness brightness)
+        public void CircleFilled(long originX, long originY, uint radius, BaseColor color, ColorPalette palette)
         {
-            CircleFilled(originX, originY, radius, (byte)((byte)color + ((byte)brightness * (byte)PixieColor.Count)));
+            CircleFilled(originX, originY, radius, (byte)((byte)color + ((byte)palette * (byte)BaseColor.Count)));
         }
 
         public void CircleFilled(long originX, long originY, uint radius, byte colorIndex)
@@ -373,12 +362,12 @@ namespace Pixie
             }
         }
 
-        public void Rectangle(long x1, long y1, long x2, long y2, PixieColor color, Brightness brightness)
+        public void Rectangle(long x1, long y1, long x2, long y2, BaseColor color, ColorPalette palette)
         {
-            Rectangle(x1, y1, x2, y2, (byte)((byte)color + ((byte)brightness * (byte)PixieColor.Count)));
+            Rectangle(x1, y1, x2, y2, (byte)((byte)color + ((byte)palette * (byte)BaseColor.Count)));
         }
 
-        public void Rectangle(long x1, long y1, long x2, long y2, PixieColor color)
+        public void Rectangle(long x1, long y1, long x2, long y2, BaseColor color)
         {
             Rectangle(x1, y1, x2, y2, (byte)color);
         }
@@ -391,12 +380,12 @@ namespace Pixie
             Line(x2, y1, x2, y2, colorIndex);
         }
 
-        public void RectangleFilled(long x1, long y1, long x2, long y2, PixieColor color, Brightness brightness)
+        public void RectangleFilled(long x1, long y1, long x2, long y2, BaseColor color, ColorPalette palette)
         {
-            RectangleFilled(x1, y1, x2, y2, (byte)((byte)color + ((byte)brightness * (byte)PixieColor.Count)));
+            RectangleFilled(x1, y1, x2, y2, (byte)((byte)color + ((byte)palette * (byte)BaseColor.Count)));
         }
 
-        public void RectangleFilled(long x1, long y1, long x2, long y2, PixieColor color)
+        public void RectangleFilled(long x1, long y1, long x2, long y2, BaseColor color)
         {
             RectangleFilled(x1, y1, x2, y2, (byte)color);
         }
@@ -425,8 +414,8 @@ namespace Pixie
             {
                 for (uint spriteY = 0; spriteY < spriteHeight; ++spriteY)
                 {
-                    PixieColor color = sprite.GetColorAt(spriteX, spriteY);
-                    if (color == PixieColor.None)
+                    byte color = sprite.GetColorAt(spriteX, spriteY);
+                    if (color == (byte)BaseColor.None)
                     {
                         continue;
                     }
@@ -443,7 +432,7 @@ namespace Pixie
             }
         }
 
-        public void Sprite(in IReadOnlySprite? sprite, long x, long y, bool flip, Brightness brightness)
+        public void Sprite(in IReadOnlySprite? sprite, long x, long y, bool flip, ColorPalette palette)
         {
             if (sprite is null)
             {
@@ -456,50 +445,19 @@ namespace Pixie
             {
                 for (uint spriteY = 0; spriteY < spriteHeight; ++spriteY)
                 {
-                    PixieColor color = sprite.GetColorAt(spriteX, spriteY);
-                    if (color == PixieColor.None)
+                    BaseColor color = (BaseColor)(sprite.GetColorAt(spriteX, spriteY) % (byte)(BaseColor.Count + 1));
+                    if (color == (byte)BaseColor.None)
                     {
                         continue;
                     }
 
                     if (flip)
                     {
-                        Point(x + (spriteWidth - 1 - spriteX), y + spriteY, color, brightness);
+                        Point(x + (spriteWidth - 1 - spriteX), y + spriteY, color, palette);
                     }
                     else
                     {
-                        Point(x + spriteX, y + spriteY, color, brightness);
-                    }
-                }
-            }
-        }
-
-        public void Sprite(in IReadOnlySprite? sprite, long x, long y, bool flip, IReadOnlyList<PointLight> lights)
-        {
-            if (sprite is null)
-            {
-                throw new ArgumentNullException(nameof(sprite));
-            }
-
-            uint spriteWidth = sprite.Width;
-            uint spriteHeight = sprite.Height;
-            for (uint spriteX = 0; spriteX < spriteWidth; ++spriteX)
-            {
-                for (uint spriteY = 0; spriteY < spriteHeight; ++spriteY)
-                {
-                    PixieColor color = sprite.GetColorAt(spriteX, spriteY);
-                    if (color == PixieColor.None)
-                    {
-                        continue;
-                    }
-
-                    if (flip)
-                    {
-                        Point(x + (spriteWidth - 1 - spriteX), y + spriteY, color, lights);
-                    }
-                    else
-                    {
-                        Point(x + spriteX, y + spriteY, color, lights);
+                        Point(x + spriteX, y + spriteY, color, palette);
                     }
                 }
             }
@@ -533,8 +491,8 @@ namespace Pixie
                     long sampleX = (long)((spriteX - newWidth / 2) * cosTheta + (spriteY - newHeight / 2) * sinTheta + spriteWidth / 2);
                     long sampleY = (long)((-spriteX + newWidth / 2) * sinTheta + (spriteY - newHeight / 2) * cosTheta + spriteHeight / 2);
 
-                    PixieColor color = sprite.GetColorAt((uint)sampleX, (uint)sampleY);
-                    if (color == PixieColor.None)
+                    byte color = sprite.GetColorAt((uint)sampleX, (uint)sampleY);
+                    if (color == (byte)BaseColor.None)
                     {
                         continue;
                     }
@@ -544,12 +502,12 @@ namespace Pixie
             }
         }
 
-        public void Text(string text, long x, long y, PixieColor color, Brightness brightness)
+        public void Text(string text, long x, long y, BaseColor color, ColorPalette palette)
         {
-            Text(text, x, y, (byte)((byte)color + ((byte)brightness * (byte)PixieColor.Count)));
+            Text(text, x, y, (byte)((byte)color + ((byte)palette * (byte)BaseColor.Count)));
         }
 
-        public void Text(string text, long x, long y, PixieColor color)
+        public void Text(string text, long x, long y, BaseColor color)
         {
             Text(text, x, y, (byte)color);
         }
@@ -582,7 +540,7 @@ namespace Pixie
                 {
                     for (uint glyphY = 0; glyphY < glyphHeight; ++glyphY)
                     {
-                        if (glyph.GetColorAt(glyphX, glyphY) == PixieColor.None)
+                        if (glyph.GetColorAt(glyphX, glyphY) == (byte)BaseColor.None)
                         {
                             continue;
                         }

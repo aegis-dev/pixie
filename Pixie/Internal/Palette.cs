@@ -22,117 +22,142 @@ using System.Drawing;
 
 namespace Pixie.Internal
 {
-    internal static class Palette
+    internal class Palette
     {
-        // Original Pixie-8 palette
-        // https://coolors.co/2b292d-596694-32c9fa-99ff24-ff3f0a-ff8c17-fff124-fff9e8
-        internal static readonly Color Black = Color.FromArgb(0x2B292D);
-        internal static readonly Color Violet = Color.FromArgb(0x596694);
-        internal static readonly Color Blue = Color.FromArgb(0x32C9FA);
-        internal static readonly Color Green = Color.FromArgb(0x99FF24);
-        internal static readonly Color Red = Color.FromArgb(0xFF3F0A);
-        internal static readonly Color Orange = Color.FromArgb(0xFF8C17);
-        internal static readonly Color Yellow = Color.FromArgb(0xFFF124);
-        internal static readonly Color White = Color.FromArgb(0xFFF9E8);
+        public const int MaxColors = 256;
+        public static readonly IReadOnlyList<Color> ColorPalette = GetPalette();
 
-        private static List<Color> GetMainColors()
+        private static List<Color> GetBasePalette()
         {
+            // Original Pixie-8 palette
+            // https://coolors.co/2b292d-596694-32c9fa-99ff24-ff3f0a-ff8c17-fff124-fff9e8
             return new List<Color>()
             {
-                Black,
-                Violet,
-                Blue,
-                Green,
-                Red,
-                Orange,
-                Yellow,
-                White,
+                Color.FromArgb(0x2B292D),
+                Color.FromArgb(0x596694),
+                Color.FromArgb(0x32C9FA),
+                Color.FromArgb(0x99FF24),
+                Color.FromArgb(0xFF3F0A),
+                Color.FromArgb(0xFF8C17),
+                Color.FromArgb(0xFFF124),
+                Color.FromArgb(0xFFF9E8),
             };
         }
 
-        internal static PixieColor ColorFromRgb(Color color)
+        private static List<Color> GetBlackAndWhitePalette()
         {
-            if (color.R == Black.R && color.G == Black.G && color.B == Black.B)
+            // Palette based on 
+            // https://www.pixilart.com/palettes/black-and-white-55971
+            return new List<Color>()
             {
-                return PixieColor.Black;
-            }
-            if (color.R == Violet.R && color.G == Violet.G && color.B == Violet.B)
-            {
-                return PixieColor.Violet;
-            }
-            if (color.R == Blue.R && color.G == Blue.G && color.B == Blue.B)
-            {
-                return PixieColor.Blue;
-            }
-            if (color.R == Green.R && color.G == Green.G && color.B == Green.B)
-            {
-                return PixieColor.Green;
-            }
-            if (color.R == Red.R && color.G == Red.G && color.B == Red.B)
-            {
-                return PixieColor.Red;
-            }
-            if (color.R == Orange.R && color.G == Orange.G && color.B == Orange.B)
-            {
-                return PixieColor.Orange;
-            }
-            if (color.R == Yellow.R && color.G == Yellow.G && color.B == Yellow.B)
-            {
-                return PixieColor.Yellow;
-            }
-            if (color.R == White.R && color.G == White.G && color.B == White.B)
-            {
-                return PixieColor.White;
-            }
-
-            return PixieColor.None;
+                Color.FromArgb(0x1A1A1A),
+                Color.FromArgb(0x242424),
+                Color.FromArgb(0x363636),
+                Color.FromArgb(0x525252),
+                Color.FromArgb(0x787878),
+                Color.FromArgb(0xADADAD),
+                Color.FromArgb(0xE8E8E8),
+                Color.FromArgb(0xFFFFFF),
+            };
         }
 
-        internal static List<Color> GetPalette()
+        private static List<Color> GetCorruptedIcePalette()
+        {
+            // Palette based on 
+            // https://www.pixilart.com/palettes/depths-unfathomed-40789
+            // https://coolors.co/06131b-0f2c35-2b4e50-416d68-507f7a-739f99-96c0bb-cadedb
+            return new List<Color>()
+            {
+                Color.FromArgb(0x06131B),
+                Color.FromArgb(0x0F2C35),
+                Color.FromArgb(0x2B4E50),
+                Color.FromArgb(0x416D68),
+                Color.FromArgb(0x507F7A),
+                Color.FromArgb(0x739F99),
+                Color.FromArgb(0x96C0BB),
+                Color.FromArgb(0xCADEDB),
+            };
+        }
+
+        internal static byte ColorFromRgb(Color color)
+        {
+            for (int colorIdx = 0; colorIdx < ColorPalette.Count; ++colorIdx)
+            {
+                Color paletteColor = ColorPalette[colorIdx];
+                if (color.R == paletteColor.R && color.G == paletteColor.G && color.B == paletteColor.B)
+                {
+                    return (byte)(colorIdx + 1);
+                }
+            }
+
+            return (byte)BaseColor.None;
+        }
+
+        private static List<Color> GetPalette()
         {
             List<Color> palette = new List<Color>();
 
-            List<Color> mainColors = GetMainColors();
+            List<Color> baseColors = GetBasePalette();
 
-            // Normal colors
-            foreach (Color mainColor in mainColors)
+            // Base palette
+            foreach (Color color in baseColors)
             {
                 palette.Add(Color.FromArgb(
-                    (byte)(mainColor.R),
-                    (byte)(mainColor.G),
-                    (byte)(mainColor.B)
+                    color.R,
+                    color.G,
+                    color.B
                 ));
             }
 
-            // Dim colors
-            foreach (Color mainColor in mainColors)
+            // Base dim palette
+            foreach (Color baseColor in baseColors)
             {
                 palette.Add(Color.FromArgb(
-                    (byte)(mainColor.R * 0.7f),
-                    (byte)(mainColor.G * 0.7f),
-                    (byte)(mainColor.B * 0.7f)
+                    (byte)(baseColor.R * 0.5f),
+                    (byte)(baseColor.G * 0.5f),
+                    (byte)(baseColor.B * 0.5f)
                 ));
             }
 
-            // Dark colors
-            foreach (Color mainColor in mainColors)
+            // Base dark palette
+            foreach (Color baseColor in baseColors)
             {
                 palette.Add(Color.FromArgb(
-                    (byte)(mainColor.R * 0.2f),
-                    (byte)(mainColor.G * 0.2f),
-                    (byte)(mainColor.B * 0.2f)
+                    (byte)(baseColor.R * 0.2f),
+                    (byte)(baseColor.G * 0.2f),
+                    (byte)(baseColor.B * 0.2f)
                 ));
             }
 
-            // Black colors
-            foreach (Color mainColor in mainColors)
+            // Black And White palette
+            foreach (Color color in GetBlackAndWhitePalette())
             {
                 palette.Add(Color.FromArgb(
-                 (byte)(mainColor.R * 0.1f),
-                 (byte)(mainColor.G * 0.1f),
-                 (byte)(mainColor.B * 0.1f)
-             ));
+                    color.R,
+                    color.G,
+                    color.B
+                ));
             }
+
+            // Corrupted Ice palette
+            foreach (Color color in GetCorruptedIcePalette())
+            {
+                palette.Add(Color.FromArgb(
+                    color.R,
+                    color.G,
+                    color.B
+                ));
+            }
+
+#if DEBUG
+            // Dump palette png for debugging
+            Bitmap paletteTexture = new Bitmap(palette.Count, 1);
+            for (int idx = 0; idx < palette.Count; ++idx)
+            {
+                paletteTexture.SetPixel(idx, 0, palette[idx]);
+            }
+            paletteTexture.Save("full_palette.png");
+#endif
 
             return palette;
         }

@@ -158,7 +158,7 @@ namespace Pixie
                 }
                 _renderer.CameraX = 0;
                 _renderer.CameraY = 0;
-                _renderer.SetBackgroundColor(PixieColor.Black);
+                _renderer.SetBackgroundColor(BaseColor.Black);
 
                 _scene = scene;
                 _scene.OnStart(_renderer);

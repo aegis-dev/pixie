@@ -70,13 +70,13 @@ namespace Pixie
                     uint spriteOffsetX = (uint)column * spriteWidth;
                     uint spriteOffsetY = (uint)row * spriteHeight;
 
-                    List<List<PixieColor>> pixels = new List<List<PixieColor>>();
+                    List<List<byte>> pixels = new List<List<byte>>();
                     for (uint x = 0; x < spriteWidth; ++x)
                     {
-                        List<PixieColor> pixelColumn = new List<PixieColor>();
+                        List<byte> pixelColumn = new List<byte>();
                         for (uint y = 0; y < spriteHeight; ++y)
                         {
-                            PixieColor pixel = spriteSheetRaw.GetColorAt(spriteOffsetX + x, spriteOffsetY + y);
+                            byte pixel = spriteSheetRaw.GetColorAt(spriteOffsetX + x, spriteOffsetY + y);
                             pixelColumn.Add(pixel);
                         }
                         pixels.Add(pixelColumn);

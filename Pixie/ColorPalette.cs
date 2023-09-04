@@ -20,24 +20,12 @@
 
 namespace Pixie
 {
-    public enum Brightness
+    public enum ColorPalette
     {
-        Normal = 0,
-        Dim,
-        Dark,
-        VeryDark,
-    }
-
-    public static class BrightnessUtils
-    {
-        public static bool IsLighter(Brightness lhs, Brightness rhs)
-        {
-            return lhs < rhs;
-        }
-
-        public static bool IsDarker(Brightness lhs, Brightness rhs)
-        {
-            return !IsLighter(lhs, rhs);
-        }
+        Base = 0,
+        BaseDim,
+        BaseDark,
+        BlackAndWhite,
+        CorruptedIce,
     }
 }

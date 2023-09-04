@@ -20,7 +20,7 @@
 
 namespace Pixie
 {
-    public enum PixieColor
+    public enum BaseColor
     {
         // Original Pixie-8 palette
         // https://coolors.co/2b292d-596694-32c9fa-99ff24-ff3f0a-ff8c17-fff124-fff9e8

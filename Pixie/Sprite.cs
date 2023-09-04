@@ -28,27 +28,27 @@ namespace Pixie
         public uint Width { get; }
         public uint Height { get; }
 
-        private List<List<PixieColor>> _pixels;
+        private List<List<byte>> _pixels;
 
         public Sprite(uint width, uint height)
         {
             this.Width = width;
             this.Height = height;
 
-            List<List<PixieColor>> pixels = new List<List<PixieColor>>();
+            List<List<byte>> pixels = new List<List<byte>>();
             for (long x = 0; x < Width; ++x)
             {
-                List<PixieColor> column = new List<PixieColor>();
+                List<byte> column = new List<byte>();
                 for (long y = Height - 1; y >= 0; --y)
                 {
-                    column.Add(PixieColor.None);
+                    column.Add((byte)BaseColor.None);
                 }
                 pixels.Add(column);
             }
             this._pixels = pixels;
         }
 
-        public Sprite(uint width, uint height, List<List<PixieColor>> pixels) 
+        public Sprite(uint width, uint height, List<List<byte>> pixels) 
         { 
             this.Width = width;
             this.Height = height;
@@ -57,12 +57,12 @@ namespace Pixie
 
         public static Sprite FromBitmapPNG(in Bitmap bitmap)
         {
-            List<List<PixieColor>> pixels = new List<List<PixieColor>>();
+            List<List<byte>> pixels = new List<List<byte>>();
 
 
             for (long x = 0; x < bitmap.Width; ++x)
             {
-                List<PixieColor> column = new List<PixieColor>();
+                List<byte> column = new List<byte>();
                 for (long y = bitmap.Height - 1; y >= 0; --y)
                 {
                     Color rgbColor = bitmap.GetPixel((int)x, (int)y);
@@ -74,16 +74,16 @@ namespace Pixie
             return new Sprite((uint)bitmap.Width, (uint)bitmap.Height, pixels);
         }
 
-        public PixieColor GetColorAt(uint x, uint y)
+        public byte GetColorAt(uint x, uint y)
         {
             if (x >= Width || y >= Height) {
-                return PixieColor.None;
+                return (byte)BaseColor.None;
             }
 
             return _pixels[(int)x][(int)y];
         }
 
-        public void SetColorAt(uint x, uint y, PixieColor color)
+        public void SetColorAt(uint x, uint y, byte color)
         {
             if (x >= Width || y >= Height)
             {
@@ -91,6 +91,11 @@ namespace Pixie
             }
 
             _pixels[(int)x][(int)y] = color;
+        }
+
+        public void SetColorAt(uint x, uint y, BaseColor color)
+        {
+            SetColorAt(x, y, (byte)color);
         }
     }
 }
