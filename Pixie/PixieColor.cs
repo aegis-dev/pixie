@@ -20,12 +20,52 @@
 
 namespace Pixie
 {
-    public enum ColorPalette
+    public enum PixieColor
     {
-        Base = 0,
-        BaseDim,
-        BaseDark,
-        BlackAndWhite,
-        CorruptedIce,
+        // Original Pixie-32 palette
+        // https://www.pixilart.com/palettes/pixie-32-77487
+        None = 0,
+
+        Black,
+        DarkGray,
+        LightGray,
+        White,
+
+        Cherry,
+        DarkRed,
+        Red,
+        LightRed,
+
+        Brown,
+        Orange,
+        LightOrange,
+        Sand,
+
+        Mud,
+        DarkYellow,
+        Yellow,
+        LightYellow,
+
+        DarkGreen,
+        Green,
+        LightGreen,
+        Salad,
+
+        VeryDarkTeal,
+        DarkTeal,
+        Teal,
+        SkyBlue,
+
+        DarkBlue,
+        DeepBlue,
+        Blue,
+        LightBlue,
+
+        DarkPurple,
+        Purple,
+        LightPurple,
+        Violet,
+
+        Count = Violet
     }
 }

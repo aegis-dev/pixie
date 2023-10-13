@@ -18,6 +18,10 @@
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
+#if DEBUG
+//#define DUMP_PALETTES
+#endif
+
 using System.Drawing;
 
 namespace Pixie.Internal
@@ -27,56 +31,53 @@ namespace Pixie.Internal
         public const int MaxColors = 256;
         public static readonly IReadOnlyList<Color> ColorPalette = GetPalette();
 
-        private static List<Color> GetBasePalette()
+        private static List<Color> GetPalette()
         {
-            // Original Pixie-8 palette
-            // https://coolors.co/2b292d-596694-32c9fa-99ff24-ff3f0a-ff8c17-fff124-fff9e8
-            return new List<Color>()
+            // https://www.pixilart.com/palettes/pixie-32-77487
+            List<Color> palette = new List<Color>()
             {
-                Color.FromArgb(0x2B292D),
-                Color.FromArgb(0x596694),
-                Color.FromArgb(0x32C9FA),
-                Color.FromArgb(0x99FF24),
-                Color.FromArgb(0xFF3F0A),
-                Color.FromArgb(0xFF8C17),
-                Color.FromArgb(0xFFF124),
-                Color.FromArgb(0xFFF9E8),
-            };
-        }
+                Color.FromArgb(0x000000),
+                Color.FromArgb(0x5B5B5B),
+                Color.FromArgb(0x989898),
+                Color.FromArgb(0xFEFEFE),
+                Color.FromArgb(0x5B0D0E),
+                Color.FromArgb(0x97151A),
+                Color.FromArgb(0xE43B44),
+                Color.FromArgb(0xE96267),
 
-        private static List<Color> GetBlackAndWhitePalette()
-        {
-            // Palette based on 
-            // https://www.pixilart.com/palettes/black-and-white-55971
-            return new List<Color>()
-            {
-                Color.FromArgb(0x1A1A1A),
-                Color.FromArgb(0x242424),
-                Color.FromArgb(0x363636),
-                Color.FromArgb(0x525252),
-                Color.FromArgb(0x787878),
-                Color.FromArgb(0xADADAD),
-                Color.FromArgb(0xE8E8E8),
-                Color.FromArgb(0xFFFFFF),
-            };
-        }
+                Color.FromArgb(0xA34406),
+                Color.FromArgb(0xF46609),
+                Color.FromArgb(0xF77622),
+                Color.FromArgb(0xF9924E),
+                Color.FromArgb(0xB76F01),
+                Color.FromArgb(0xF49401),
+                Color.FromArgb(0xFEAE34),
+                Color.FromArgb(0xFEBE5D),
 
-        private static List<Color> GetCorruptedIcePalette()
-        {
-            // Palette based on 
-            // https://www.pixilart.com/palettes/depths-unfathomed-40789
-            // https://coolors.co/06131b-0f2c35-2b4e50-416d68-507f7a-739f99-96c0bb-cadedb
-            return new List<Color>()
-            {
-                Color.FromArgb(0x06131B),
-                Color.FromArgb(0x0F2C35),
-                Color.FromArgb(0x2B4E50),
-                Color.FromArgb(0x416D68),
-                Color.FromArgb(0x507F7A),
-                Color.FromArgb(0x739F99),
-                Color.FromArgb(0x96C0BB),
-                Color.FromArgb(0xCADEDB),
+                Color.FromArgb(0x377E28),
+                Color.FromArgb(0x49A835),
+                Color.FromArgb(0x63C74D),
+                Color.FromArgb(0x82D271),
+                Color.FromArgb(0x005B83),
+                Color.FromArgb(0x0079AF),
+                Color.FromArgb(0x0099DB),
+                Color.FromArgb(0x16B7FF),
+
+                Color.FromArgb(0x003283),
+                Color.FromArgb(0x0042AF),
+                Color.FromArgb(0x0055DB),
+                Color.FromArgb(0x166EFF),
+                Color.FromArgb(0x53288A),
+                Color.FromArgb(0x6F36B8),
+                Color.FromArgb(0x8C5BCF),
+                Color.FromArgb(0xA47CD9),
             };
+
+#if DUMP_PALETTES
+            DumpColorPalette(palette, "pixie_palette.png");
+#endif
+
+            return palette;
         }
 
         internal static byte ColorFromRgb(Color color)
@@ -90,76 +91,21 @@ namespace Pixie.Internal
                 }
             }
 
-            return (byte)BaseColor.None;
+            return (byte)PixieColor.None;
         }
 
-        private static List<Color> GetPalette()
+#if DUMP_PALETTES
+        private static void DumpColorPalette(List<Color> palette, string fileName)
         {
-            List<Color> palette = new List<Color>();
-
-            List<Color> baseColors = GetBasePalette();
-
-            // Base palette
-            foreach (Color color in baseColors)
-            {
-                palette.Add(Color.FromArgb(
-                    color.R,
-                    color.G,
-                    color.B
-                ));
-            }
-
-            // Base dim palette
-            foreach (Color baseColor in baseColors)
-            {
-                palette.Add(Color.FromArgb(
-                    (byte)(baseColor.R * 0.5f),
-                    (byte)(baseColor.G * 0.5f),
-                    (byte)(baseColor.B * 0.5f)
-                ));
-            }
-
-            // Base dark palette
-            foreach (Color baseColor in baseColors)
-            {
-                palette.Add(Color.FromArgb(
-                    (byte)(baseColor.R * 0.2f),
-                    (byte)(baseColor.G * 0.2f),
-                    (byte)(baseColor.B * 0.2f)
-                ));
-            }
-
-            // Black And White palette
-            foreach (Color color in GetBlackAndWhitePalette())
-            {
-                palette.Add(Color.FromArgb(
-                    color.R,
-                    color.G,
-                    color.B
-                ));
-            }
-
-            // Corrupted Ice palette
-            foreach (Color color in GetCorruptedIcePalette())
-            {
-                palette.Add(Color.FromArgb(
-                    color.R,
-                    color.G,
-                    color.B
-                ));
-            }
-
-#if DEBUG
-            // Dump palette png for debugging
             Bitmap paletteTexture = new Bitmap(palette.Count, 1);
             for (int idx = 0; idx < palette.Count; ++idx)
             {
-                paletteTexture.SetPixel(idx, 0, palette[idx]);
+                Color colorWithAplha = Color.FromArgb(255, palette[idx]);
+                paletteTexture.SetPixel(idx, 0, colorWithAplha);
             }
-            paletteTexture.Save("full_palette.png");
-#endif
-
-            return palette;
+            paletteTexture.Save(fileName);
         }
+
+#endif
     }
 }

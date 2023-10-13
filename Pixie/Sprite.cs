@@ -41,7 +41,7 @@ namespace Pixie
                 List<byte> column = new List<byte>();
                 for (long y = Height - 1; y >= 0; --y)
                 {
-                    column.Add((byte)BaseColor.None);
+                    column.Add((byte)PixieColor.None);
                 }
                 pixels.Add(column);
             }
@@ -77,7 +77,7 @@ namespace Pixie
         public byte GetColorAt(uint x, uint y)
         {
             if (x >= Width || y >= Height) {
-                return (byte)BaseColor.None;
+                return (byte)PixieColor.None;
             }
 
             return _pixels[(int)x][(int)y];
@@ -93,7 +93,7 @@ namespace Pixie
             _pixels[(int)x][(int)y] = color;
         }
 
-        public void SetColorAt(uint x, uint y, BaseColor color)
+        public void SetColorAt(uint x, uint y, PixieColor color)
         {
             SetColorAt(x, y, (byte)color);
         }
