@@ -30,11 +30,21 @@ namespace Pixie.UI
         public CanvasElement? Parent { get; set; }
         public List<CanvasElement> Children { get; set; }
 
-        public event Action<uint, uint>? OnHover;
-        public event Action<uint, uint>? OnClick;
+        public event Action<int, int>? OnHover;
+        public event Action<int, int>? OnClick;
 
         public abstract void OnUpdate(in Renderer renderer, in Input input, float deltaTime);
         public abstract void OnRender(in Renderer renderer, long x, long y);
+
+        internal void InvokeOnHover(int x, int y)
+        {
+            OnHover?.Invoke(x, y);
+        }
+
+        internal void InvokeOnClick(int x, int y)
+        {
+            OnClick?.Invoke(x, y);
+        }
 
         protected CanvasElement(int positionX, int positionY, uint width, uint height)
         {

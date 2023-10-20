@@ -20,14 +20,14 @@
 
 namespace Pixie
 {
-    public abstract class Scene
+    public interface IScene
     {
-        public abstract void OnStart(in Renderer renderer);
+        public void OnStart(in Renderer renderer);
 
-        public abstract Scene? OnUpdate(in GameState state, in Renderer renderer, in Input input, float deltaTime);
+        public IScene? OnUpdate(in GameState state, in Renderer renderer, in Input input, float deltaTime);
 
-        public abstract void OnRender(in Renderer renderer, in Input input, float deltaTime);
+        public void OnRender(in Renderer renderer, in Input input, float deltaTime);
 
-        public abstract void OnDestroy();
+        public void OnDestroy();
     }
 }

@@ -38,7 +38,7 @@ namespace Pixie
         private DataManager _dataManager;
         private Renderer _renderer;
         private Input _input;
-        private Scene _scene;
+        private IScene _scene;
 
         public GameContext(uint bufferWidth, uint bufferHeight, string title, bool fullscrean)
         {
@@ -70,7 +70,7 @@ namespace Pixie
             _window.Closing += OnUnload;
         }
 
-        public void RunGame(Scene scene)
+        public void RunGame(IScene scene)
         {
             _scene = scene;
             _window.Run();
@@ -141,7 +141,7 @@ namespace Pixie
         private void OnUpdate(double deltaTime)
         {
             GameState state = new GameState();
-            Scene? scene = _scene.OnUpdate(state, _renderer, _input, (float)deltaTime);
+            IScene? scene = _scene.OnUpdate(state, _renderer, _input, (float)deltaTime);
 
             if (state.ShouldShutDown())
             {

@@ -18,6 +18,10 @@
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
+using Silk.NET.Input;
+using System.Xml.Linq;
+using static Pixie.Input;
+
 namespace Pixie.UI
 {
     public class Canvas
@@ -31,6 +35,8 @@ namespace Pixie.UI
         }
 
         private readonly CanvasElement _bounds;
+
+        private CanvasElement _lastClickedElement;
 
         public Canvas(in Renderer renderer)
         {
@@ -57,7 +63,33 @@ namespace Pixie.UI
             {
                 UpdateElement(child, renderer, input, deltaTime);
             }
-            // TODO: onClick onHover events
+
+            // OnHover and OnClick update
+            if (MouseOnElement(element, input, renderer))
+            {
+                element.InvokeOnHover((int)input.MouseX, (int)input.MouseY);
+
+                if (input.ButtonPressed(MouseButton.Left))
+                {
+                    if (_lastClickedElement == null)
+                    {
+                        _lastClickedElement = element;
+                    }
+
+                }
+                else if (input.GetButtonState(MouseButton.Left) == State.Up)
+                {
+                    if (_lastClickedElement != null && _lastClickedElement == element)
+                    {
+                        element.InvokeOnClick((int)input.MouseX, (int)input.MouseY);
+                    }
+                }
+            }
+            else if (_lastClickedElement == element)
+            {
+                // No longer hovering the clicked element
+                _lastClickedElement = null;
+            }
         }
 
         public void Render(in Renderer renderer)
@@ -81,6 +113,20 @@ namespace Pixie.UI
                     RenderElement(child, renderer);
                 }
             }
+        }
+
+        private bool MouseOnElement(in CanvasElement element, in Input input, in Renderer renderer)
+        {
+            int elementPosX = element.GetAbsolutePositionX();
+            int elementPosY = element.GetAbsolutePositionY();
+
+            int mousePosX = (int)input.MouseX + (int)renderer.FrameBufferWidth / 2;
+            int mousePosY = (int)input.MouseY + (int)renderer.FrameBufferHeight / 2;
+
+            return (
+                mousePosX >= elementPosX && mousePosX <= elementPosX + element.Width &&
+                mousePosY >= elementPosY && mousePosY <= elementPosY + element.Height
+            );
         }
     }
 }
