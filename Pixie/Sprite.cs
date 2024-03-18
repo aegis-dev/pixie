@@ -66,7 +66,8 @@ namespace Pixie
                 for (long y = bitmap.Height - 1; y >= 0; --y)
                 {
                     Color rgbColor = bitmap.GetPixel((int)x, (int)y);
-                    column.Add(Palette.ColorFromRgb(rgbColor));
+                    byte colorIdx = Palette.ColorFromRgb(rgbColor);
+                    column.Add(colorIdx);
                 }
                 pixels.Add(column);
             }

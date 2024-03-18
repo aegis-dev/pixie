@@ -82,6 +82,11 @@ namespace Pixie.Internal
 
         internal static byte ColorFromRgb(Color color)
         {
+            if (color.R == 0 && color.G == 0 && color.B == 0 && color.A == 0)
+            {
+                return (byte)PixieColor.None;
+            }
+
             for (int colorIdx = 0; colorIdx < ColorPalette.Count; ++colorIdx)
             {
                 Color paletteColor = ColorPalette[colorIdx];
